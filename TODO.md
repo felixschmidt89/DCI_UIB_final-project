@@ -77,7 +77,7 @@ Remember, this is not a competition! This is all about mutual support, sharing a
 [x] Add Google Fonts to Project
 [x] Add Font Awesome to Project
 [x] Create Favicon and add it
-Add Bootstrap to Project
+
 
 Setup gitignore
 
@@ -103,6 +103,9 @@ Come up with structure and segments
 
 Gather copies
 Translate copies
+
+Major issue:
+Fix navbar
 
 Fine tuning:
 Give proper title in head
