@@ -56,8 +56,6 @@ Remember, this is not a competition! This is all about mutual support, sharing a
 - [A Comprehensive Website Planning Guide](https://www.smashingmagazine.com/2018/02/comprehensive-website-planning-guide-part1/)
 - [Portfolio Tips](https://designmodo.com/dev-portfolio-tips/)
 
-
-
 # Plan:
 
 - Check Links for inspiration
@@ -70,24 +68,21 @@ Remember, this is not a competition! This is all about mutual support, sharing a
 - [A Comprehensive Website Planning Guide](https://www.smashingmagazine.com/2018/02/comprehensive-website-planning-guide-part1/)
 - [Portfolio Tips](https://designmodo.com/dev-portfolio-tips/)
 
-
 [x] Create GitHub Repo
-Clone Repo
-Add images to project
-Add Google Fonts to Project
-Add Font Awesome to Project
-Add SASS to Project
+[x] Clone Repo
+[x] Add images to project
+[x] Add SASS to Project (using Add SASS to Project)
+[x] Setup SASS Partials
+[x] Setup SASS color plate
+[x] Add Google Fonts to Project
+[x] Add Font Awesome to Project
+[x] Create Favicon and add it
 Add Bootstrap to Project
+
 Setup gitignore
 
-
-
-Setup SASS Partials
 Setup SASS Variables
-Setup color pallete
 Be aware of SASS mixes
-
-Check if all is working
 
 Favicon
 Add Foto
@@ -100,6 +95,7 @@ Box shadows
 Text shadows
 
 Come up with structure and segments
+
 - Thats me
 - CV (LinkedIn, Email)
 - Describe project and share link to GitHub repo
@@ -109,25 +105,16 @@ Gather copies
 Translate copies
 
 Fine tuning:
+Give proper title in head
 Aria
 Research and add meta tags
 
-
 Create DE Page
 
-
 Before deployment:
+Change warning-color back to primary color
+Improve boxshadow and border in base scss
 Take down old netlify page
 Gitignore
 Deploy Website on Netlify
 Write Readme
-
-
-
-
-
-
-
-
-
-

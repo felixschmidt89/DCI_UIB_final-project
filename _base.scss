@@ -1,0 +1,17 @@
+$font: 'Gloock', serif;
+
+$background-color: #fcfaf9;
+$primary-color: #2d3047;
+$secondary-color: #388697;
+$signal-color: #03c9a1;
+$warning-color: #e55381;
+
+body {font-family: $font;
+background-color: $background-color;
+color: $warning-color; 
+font-size: 62.5%;
+}
+
+body, main, div {box-shadow: 0 0.5rem 1.5rem rgba(56,134,151,0.1);
+    border: 0.2rem solid rgba(56,134,151,0.1);}
+
