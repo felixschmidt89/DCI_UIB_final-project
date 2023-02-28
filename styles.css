@@ -2,10 +2,5 @@ body {
   font-family: "Gloock", serif;
   background-color: #fcfaf9;
   color: #e55381;
-  font-size: 62.5%;
-}
-
-body, main, div {
-  box-shadow: 0 0.5rem 1.5rem rgba(56, 134, 151, 0.1);
-  border: 0.2rem solid rgba(56, 134, 151, 0.1);
+  font-size: 162.5%;
 }/*# sourceMappingURL=styles.css.map */
