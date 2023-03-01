@@ -77,20 +77,28 @@ Remember, this is not a competition! This is all about mutual support, sharing a
 [x] Add Google Fonts to Project
 [x] Add Font Awesome to Project
 [x] Create Favicon and add it
+[x] Setup SASS Variables
+[X] Setup Sass mixin partial and use at least one mixin
+[x] Create and implement Favicon
+[x] Add picture
+[x] Add copyright Franzi
+[x] Add box shadow (usin mixin)
+
 
 
 Setup gitignore
 
-Setup SASS Variables
-Be aware of SASS mixes
 
-Favicon
-Add Foto
+Improve
+[] Decrease font size copyright Franzi 
+[] Define selection color
+[] Connect anchor tag color and status
+[] Sticky header
+
 Copyright Franzi
 
 Set Focus
 anchor tag status
-:selection
 Box shadows
 Text shadows
 

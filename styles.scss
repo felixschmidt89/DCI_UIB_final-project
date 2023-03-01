@@ -1,5 +1,105 @@
 @use 'base';
+@use 'mixin';
 
-h1,h2,h3,h4,h5,h6 {color: base.$signal-color;}
 
+
+
+// //navbar://
+
+header{display: flex; flex-direction: row; font-size: 1.6rem;color: base.$background-color; align-items: center; justify-content: space-between; flex-grow: 1;
+    a{text-decoration: none; color: base.$background-color;}
+    .navigation{margin-left: auto;}  
+}
+
+.navigation-links{display: flex; list-style: none;
+  a{padding: 0 0.5em;}
+  a:visited{color: base.$secondary-color}
+  a:hover{color: base.$signal-color; transform: scale(1.1);}
+    a:focus{border: 3px solid base.$background-color; color: base.$background-color;}
+    a:active{color: base.$warning-color;}
+}
+
+//big screens, add media
+.navigation label, #hamburger {display: none;}
+
+//small screens, add media
+
+
+
+@media (max-width: 1000px){
+  #logo1{display: none;}
+  #logo2{display: block; margin-left: 0.3em;}
+
+  .navigation-links{display: none;}
+}
+
+@media (min-width: 1001px) {
+  #logo1{display: block; margin-left: 0.3em;}
+  #logo2{display: none;}
+}
+
+
+
+
+// @media screen and (max-width:768px){
+//   #logo {display: none;}
+//   .navigation-links {display: flex; flex-direction: column-reverse; width: 100%; border-top: px solid base.$background-color ;}}
+//   .navigation label {display: block;}
+
+ 
+
+
+// switch-language
+
+.switch-language {
+    display: flex;
+    gap: 0.7rem;
+    margin: 0.7rem;
+  }
+  
+  .switch-language a {font-size: 1.5rem; padding: 0.4rem;
+  border: 1px solid base.$secondary-color;
+  border-radius: 50%; text-decoration: none; color: base.$background-color;}
+  
+  .switch-language :first-child {
+    background-color: base.$secondary-color;
+  }
+  .switch-language :nth-child(2) {
+    background-color: base.$primary-color;
+  }
+
+  .switch-language a:hover {
+    transform: scale(1.2);
+  }
+
+  .switch-language a:focus{border: 3px solid base.$background-color; background-color:base.$background-color; color: base.$primary-color;}
+
+// hero = about.me
+  
+.hero {margin: 2rem; display: flex; flex-direction:row; flex-wrap: wrap; justify-content: center; align-items: center;
+section{@include mixin.box-shadow; margin: 1rem 0; padding: 1rem;
+}}
+
+.picture-container {width:100%; height: 50vh; display: flex; @include mixin.box-shadow;}
+.picture-container p {display: inline-block; position: relative; left: 2%; top: 86%; font-size: 1.5rem; color: base.$secondary-color; background-color: base.$background-color; padding: 0.2rem; border-radius: 10px; box-shadow: 0px 3px 15px 5px rgba(0, 0, 0, 0.4);
+  ;}
+.picture-container div {width: 100%;height: 100%;  background-repeat: no-repeat; background-size: cover; background-position: center top; margin: auto;}
+@media (max-width: 480px){
+  .picture-container div {background-image: url(./images/picture-mobile.jpeg); background-size: cover; background-position: center;
+   p {font-size: 0.8rem;}}
+  }
+@media (min-width: 481px) and (max-width: 1024px) {.picture-container div {background-image: url(./images/picture-tablet.jpeg); background-size: cover; background-position: center;
+  p {font-size: 1.2rem;}
+}}
+@media (min-width: 1025px){
+  .picture-container div {background-image: url(./images/picture-desktop.JPG); background-size: cover; background-position: 50% 30%;
+  p {font-size: 1.6rem;}}
+}
+
+.contact {display: flex; gap: 1em; align-items: center;}
+.contact h2{color: base.$secondary-color;}
+.contact a:hover{transform: scale(1.2);}
+
+
+// project = about.project
 

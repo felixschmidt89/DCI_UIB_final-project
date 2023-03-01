@@ -6,13 +6,25 @@ $secondary-color: #388697;
 $signal-color: #03c9a1;
 $warning-color: #e55381;
 
+*{padding: 0; margin: 0; box-sizing: border-box;}
+
 body {font-family: $font;
 background-color: $background-color;
-color: $warning-color; 
 font-size: 62.5%;
 }
 
-// body, main, div {box-shadow: 0 0.5rem 1.5rem rgba(56,134,151,0.1);
-//     border: 0.2rem solid rgba(56,134,151,0.1);}
+h1,h2,h3,h4,h5,h6 {color: base.$signal-color;}
+h1 {font-size: 3rem;}
+h2 {font-size: 2rem;}
+section {font-size: 1.2rem;}
+
+
+// main a:link{color: base.$primary-color; text-decoration: underline;}
+//     a:visited {color: base.$secondary-color;}
+//     a:hover{}
+//     a:focus{color: base.$signal-color;}
+//     a:active{color: base.$warning-color;}
+//     a:visited:hover{}
+// }
 
 
