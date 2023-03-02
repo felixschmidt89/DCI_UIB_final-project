@@ -99,10 +99,10 @@ Remember, this is not a competition! This is all about mutual support, sharing a
 [x] Give proper title in head
 [x] Make whole copyright button a link
 [x] Define selection color
+[x] Create Impressum
+[x] Add anchor tag
 
-[] Create Impressum
-[] Delete Impressum and related link from navbar in EN page
-
+[] Improve Impressum mark up and style
 [] Add CV with flexbox on smaller screens & grid on bigger ones
 
 
