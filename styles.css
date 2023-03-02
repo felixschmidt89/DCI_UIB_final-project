@@ -45,13 +45,44 @@ header a {
   text-decoration: none;
   color: #fcfaf9;
 }
-header .navigation {
-  margin-left: auto;
-}
 
+@media screen and (max-width: 349px) {
+  #logo-big, #logo-small {
+    display: none;
+  }
+}
+@media screen and (min-width: 350px) {
+  #logo-big, #logo-small {
+    display: none;
+  }
+}
+@media screen and (min-width: 600px) {
+  #logo-big, #logo-small {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  #logo-big, #logo-small {
+    display: none;
+  }
+}
+@media screen and (min-width: 992px) {
+  #logo-big, #logo-small {
+    display: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #logo-big, #logo-small {
+    display: none;
+  }
+}
+@media screen and (min-width: 1600px) {
+  #logo-big, #logo-small {
+    display: none;
+  }
+}
 .navigation-links {
   display: flex;
-  list-style: none;
 }
 .navigation-links a {
   padding: 0 0.5em;
@@ -71,31 +102,6 @@ header .navigation {
   color: #e55381;
 }
 
-.navigation label, #hamburger {
-  display: none;
-}
-
-@media (max-width: 1000px) {
-  #logo1 {
-    display: none;
-  }
-  #logo2 {
-    display: block;
-    margin-left: 0.3em;
-  }
-  .navigation-links {
-    display: none;
-  }
-}
-@media (min-width: 1001px) {
-  #logo1 {
-    display: block;
-    margin-left: 0.3em;
-  }
-  #logo2 {
-    display: none;
-  }
-}
 .switch-language {
   display: flex;
   gap: 0.7rem;

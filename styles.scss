@@ -8,10 +8,20 @@
 
 header{display: flex; flex-direction: row; font-size: 1.6rem; height: 50px; background-color: base.$primary-color; color: base.$background-color; align-items: center; justify-content: space-between; flex-grow: 1;
     a{text-decoration: none; color: base.$background-color;}
-    .navigation{margin-left: auto;}  
+     
 }
 
-.navigation-links{display: flex; list-style: none;
+
+
+@media screen and (max-width: 349px) {#logo-big,#logo-small{display: none;}}
+@media screen and (min-width: 350px) {#logo-big,#logo-small{display: none;}}
+@media screen and (min-width: 600px) {#logo-big,#logo-small{display: none;}}
+@media screen and (min-width: 768px) {#logo-big,#logo-small{display: none;}}
+@media screen and (min-width: 992px) {#logo-big,#logo-small{display: none;}}
+@media screen and (min-width: 1200px) {#logo-big,#logo-small{display: none;}}
+@media screen and (min-width: 1600px) {#logo-big,#logo-small{display: none;}}
+
+.navigation-links{display: flex;
   a{padding: 0 0.5em;}
   a:visited{color: base.$secondary-color}
   a:hover{color: base.$signal-color; transform: scale(1.1);}
@@ -19,34 +29,6 @@ header{display: flex; flex-direction: row; font-size: 1.6rem; height: 50px; back
     a:active{color: base.$warning-color;}
 }
 
-//big screens, add media
-.navigation label, #hamburger {display: none;}
-
-//small screens, add media
-
-
-
-@media (max-width: 1000px){
-  #logo1{display: none;}
-  #logo2{display: block; margin-left: 0.3em;}
-
-  .navigation-links{display: none;}
-}
-
-@media (min-width: 1001px) {
-  #logo1{display: block; margin-left: 0.3em;}
-  #logo2{display: none;}
-}
-
-
-
-
-// @media screen and (max-width:768px){
-//   #logo {display: none;}
-//   .navigation-links {display: flex; flex-direction: column-reverse; width: 100%; border-top: px solid base.$background-color ;}}
-//   .navigation label {display: block;}
-
- 
 
 
 // switch-language
