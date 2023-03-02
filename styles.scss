@@ -106,9 +106,11 @@ section{@include mixin.box-shadow; margin: 1rem 0; padding: 1rem;
 #about-project section {margin-top: 1rem;}
 
 // CV
-#cv{@include mixin.container; @include mixin.box-shadow; padding: 1rem;
+#cv{@include mixin.container; align-items: flex-start; @include mixin.box-shadow; padding: 1rem;
 p{margin-top: 1rem;}
-h3{margin-top: 1.2rem;}}
+h3{margin-top: 1.2rem;}
+h2{align-self: center};}
+
 #cv-head a{text-decoration: none; color: base.$secondary-color;} // maybe change that line, should be standard RE all typical anchor tags
 #cv-education{}
 #cv-experience{}
