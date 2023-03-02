@@ -19,17 +19,17 @@ header{display: flex;
 #logo-big, #logo-small {margin-left: 1rem;}
 
 @media screen and (max-width: 349px) {@include mixin.no-logos}
-header a{font-size: 1rem;}
+header a{font-size: 0.8rem;}
 @media screen and (min-width: 350px) {@include mixin.no-logos}
-header a{font-size: 1.2rem;}
+header a{font-size: 1rem;}
 @media screen and (min-width: 600px) {@include mixin.no-logos}
-header a{font-size: 1.4rem;}
+header a{font-size: 1.2rem;}
 @media screen and (min-width: 768px) {#logo-big{display: none;}
 #logo-small{display: flex;}
-header a{font-size: 1.6rem;}}
+header a{font-size: 1.4rem;}}
 @media screen and (min-width: 992px) {#logo-big{display: flex;}
-#logo-small{display: none;}header a{font-size: 1.8rem;}}
-@media screen and (min-width: 1200px) {@include mixin.big-logo}
+#logo-small{display: none;}header a{font-size: 1.6rem;}}
+@media screen and (min-width: 1200px) {@include mixin.big-logo header a{font-size: 1.8rem;}}
 @media screen and (min-width: 1600px) {@include mixin.big-logo}
 
 .navigation-links{display: flex;
