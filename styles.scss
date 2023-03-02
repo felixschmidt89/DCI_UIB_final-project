@@ -6,7 +6,7 @@
 
 // //navbar://
 
-header{display: flex; flex-direction: row; font-size: 1.6rem;color: base.$background-color; align-items: center; justify-content: space-between; flex-grow: 1;
+header{display: flex; flex-direction: row; font-size: 1.6rem; height: 50px; background-color: base.$primary-color; color: base.$background-color; align-items: center; justify-content: space-between; flex-grow: 1;
     a{text-decoration: none; color: base.$background-color;}
     .navigation{margin-left: auto;}  
 }
@@ -106,7 +106,9 @@ section{@include mixin.box-shadow; margin: 1rem 0; padding: 1rem;
 #about-project section {margin-top: 1rem;}
 
 // CV
-
-#CV{@include mixin.container; @include mixin.box-shadow; padding: 1rem;}
-
+#cv{@include mixin.container; @include mixin.box-shadow; padding: 1rem;}
+#cv-head a{text-decoration: none; color: base.$secondary-color;} // maybe change that line, should be standard RE all typical anchor tags
+#cv-education{}
+#cv-experience{}
+#cv-skills{}
 

@@ -130,5 +130,7 @@ Create DE Page
 Check Links & Roles
 Create Impressum
 
+Check Markup Checker
+
 
 Deploy Website on Netlify

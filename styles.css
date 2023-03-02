@@ -30,6 +30,8 @@ header {
   display: flex;
   flex-direction: row;
   font-size: 1.6rem;
+  height: 50px;
+  background-color: #2d3047;
   color: #fcfaf9;
   align-items: center;
   justify-content: space-between;
@@ -225,7 +227,7 @@ header .navigation {
   margin-top: 1rem;
 }
 
-#CV {
+#cv {
   margin: 1rem;
   display: flex;
   flex-direction: row;
@@ -234,4 +236,9 @@ header .navigation {
   align-items: center;
   box-shadow: 9px 9px 45px -15px rgba(0, 0, 0, 0.75);
   padding: 1rem;
+}
+
+#cv-head a {
+  text-decoration: none;
+  color: #388697;
 }/*# sourceMappingURL=styles.css.map */
