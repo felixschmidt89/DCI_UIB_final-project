@@ -88,8 +88,8 @@ Remember, this is not a competition! This is all about mutual support, sharing a
 [x] Add box shadow (usin mixin)
 [x] Add contact section
 [x] Describe project and provide link to GitHub repo
-[x] Fix line hight CV symbols
-[] Add CV with flexbox on smaller screens & grid on bigger ones
+
+[] Add CV, flexbox on smaller screens, grid on bigger ones
 
 
 
@@ -112,7 +112,6 @@ Improve
 [] Research and add meta tags
 [] Build 2nd about me section like project article
 [] Use logos instead of brand/tool names in CV
-
 
 
 
