@@ -80,9 +80,17 @@ Remember, this is not a competition! This is all about mutual support, sharing a
 [x] Setup SASS Variables
 [X] Setup Sass mixin partial and use at least one mixin
 [x] Create and implement Favicon
+[x] Come up with content & structure 
+[x] Write copies
+[x] Translate copies
 [x] Add picture
 [x] Add copyright Franzi
 [x] Add box shadow (usin mixin)
+[x] Add contact section
+[x] Describe project and provide link to GitHub repo
+
+[] Add CV, flexbox on smaller screens, grid on bigger ones
+
 
 
 
@@ -90,42 +98,37 @@ Setup gitignore
 
 
 Improve
+
+[] Add ALT to img
 [] Decrease font size copyright Franzi 
 [] Define selection color
 [] Connect anchor tag color and status
 [] Sticky header
+[] media font sizes
+[] anchor tag statuses
+[] anchor tag style (secondary & underlined?)
+[] Give proper title in head
+[] Aria
+[] Research and add meta tags
+[] Build 2nd about me section like project article
 
-Copyright Franzi
 
-Set Focus
-anchor tag status
-Box shadows
-Text shadows
 
-Come up with structure and segments
 
-- Thats me
-- CV (LinkedIn, Email)
-- Describe project and share link to GitHub repo
-- Contact
-
-Gather copies
-Translate copies
 
 Major issue:
 Fix navbar
 
-Fine tuning:
-Give proper title in head
-Aria
-Research and add meta tags
-
-Create DE Page
 
 Before deployment:
 Change warning-color back to primary color
-Improve boxshadow and border in base scss
 Take down old netlify page
 Gitignore
-Deploy Website on Netlify
 Write Readme
+
+Create DE Page
+Check Links & Roles
+Create Impressum
+
+
+Deploy Website on Netlify

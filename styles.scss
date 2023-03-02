@@ -76,7 +76,7 @@ header{display: flex; flex-direction: row; font-size: 1.6rem;color: base.$backgr
 
 // hero = about.me
   
-.hero {margin: 2rem; display: flex; flex-direction:row; flex-wrap: wrap; justify-content: center; align-items: center;
+.hero {@include mixin.container;
 section{@include mixin.box-shadow; margin: 1rem 0; padding: 1rem;
 }}
 
@@ -102,4 +102,11 @@ section{@include mixin.box-shadow; margin: 1rem 0; padding: 1rem;
 
 
 // project = about.project
+#about-project{@include mixin.container; @include mixin.box-shadow; padding: 1rem;}
+#about-project section {margin-top: 1rem;}
+
+// CV
+
+#CV{@include mixin.container; @include mixin.box-shadow; padding: 1rem;}
+
 

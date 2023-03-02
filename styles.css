@@ -10,6 +10,10 @@ body {
   font-size: 62.5%;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  color: #03c9a1;
+}
+
 h1 {
   font-size: 3rem;
 }
@@ -20,12 +24,6 @@ h2 {
 
 section {
   font-size: 1.2rem;
-}
-
-header {
-  width: 100%;
-  background-color: #2d3047;
-  height: 4rem;
 }
 
 header {
@@ -92,10 +90,6 @@ header .navigation {
     display: none;
   }
 }
-h1, h2, h3, h4, h5, h6 {
-  color: #03c9a1;
-}
-
 .switch-language {
   display: flex;
   gap: 0.7rem;
@@ -130,7 +124,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hero {
-  margin: 2rem;
+  margin: 1rem;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -214,4 +208,30 @@ h1, h2, h3, h4, h5, h6 {
 
 .contact a:hover {
   transform: scale(1.2);
+}
+
+#about-project {
+  margin: 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 9px 9px 45px -15px rgba(0, 0, 0, 0.75);
+  padding: 1rem;
+}
+
+#about-project section {
+  margin-top: 1rem;
+}
+
+#CV {
+  margin: 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 9px 9px 45px -15px rgba(0, 0, 0, 0.75);
+  padding: 1rem;
 }/*# sourceMappingURL=styles.css.map */
