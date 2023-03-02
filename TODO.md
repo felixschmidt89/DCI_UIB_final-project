@@ -98,6 +98,8 @@ Remember, this is not a competition! This is all about mutual support, sharing a
 [x] Style Connect anchor tag color and status
 [x] Give proper title in head
 [x] Make whole copyright button a link
+[x] Define selection color
+
 [] Create Impressum
 [] Delete Impressum and related link from navbar in EN page
 
@@ -111,8 +113,6 @@ Setup gitignore
 
 Improve
 
-[] Add ALT to img div
-[] Define selection color
 [] anchor tag statuses
 [] anchor tag style (secondary & underlined?)
 

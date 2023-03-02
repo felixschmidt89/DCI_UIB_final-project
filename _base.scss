@@ -21,22 +21,22 @@ h1,h2,h3,h4,h5,h6 {color: $signal-color;}
 h1 {font-size: 2.5rem;}
 h2 {font-size: 2rem;}
 h3 {font-size: 1.6rem;}
-section {font-size: 1.4rem;}
+
+::-moz-selection {
+    color: $background-color;
+    background: $primary-color;
+  }
+  
+  ::selection {
+    color: $background-color;
+    background: $primary-color;
+  }
 
 
-// main a:link{color: base.$primary-color; text-decoration: underline;}
-//     a:visited {color: base.$secondary-color;}
-//     a:hover{}
-//     a:focus{color: base.$signal-color;}
-//     a:active{color: base.$warning-color;}
-//     a:visited:hover{}
-// }
-
-
-@media screen and (max-width: 349px) {h1{font-size: 1.6rem;} h2{font-size: 1.4rem;} h3{font-size: 1.2rem;} p, section, div {font-size: 1rem;}}
-@media screen and (min-width: 350px) {h1{font-size: 1.6rem;} h2{font-size: 1.4rem;} h3{font-size: 1.2rem;}p, section, div {font-size: 1rem;}}
-@media screen and (min-width: 600px) {h1{font-size: 1.8rem;} h2{font-size: 1.6rem;} h3{font-size: 1.4rem;}p, section, div {font-size: 1.2rem;}}
-@media screen and (min-width: 768px) {h1{font-size: 2rem;} h2{font-size: 1.6rem;} h3{font-size: 1.4rem;}p, section, div {font-size: 1.2rem;}}
-@media screen and (min-width: 992px) {h1{font-size: 2.2rem;} h2{font-size: 1.6rem;} h3{font-size: 1.4rem;}p, section, div {font-size: 1.2rem;}}
-@media screen and (min-width: 1200px) {h1{font-size: 2.5rem;} h2{font-size: 1.8rem;}h3{font-size: 1.6rem;} p, section, div {font-size: 1.4rem;}}
-@media screen and (min-width: 1600px) {h1{font-size: 3rem;} h2{font-size: 2rem;}h3{font-size: 1.8rem;} p, section, div {font-size: 1.6rem;}}
+@media screen and (max-width: 349px) {h1, #connect-cta{font-size: 1.6rem;} h2{font-size: 1.4rem;} h3{font-size: 1.2rem;} p, section, div {font-size: 1rem;}}
+@media screen and (min-width: 350px) {h1, #connect-cta{font-size: 1.6rem;} h2{font-size: 1.4rem;} h3{font-size: 1.2rem;}p, section, div {font-size: 1rem;}}
+@media screen and (min-width: 600px) {h1, #connect-cta{font-size: 1.8rem;} h2{font-size: 1.6rem;} h3{font-size: 1.4rem;}p, section, div {font-size: 1.2rem;}}
+@media screen and (min-width: 768px) {h1, #connect-cta{font-size: 2rem;} h2{font-size: 1.6rem;} h3{font-size: 1.4rem;}p, section, div {font-size: 1.2rem;}}
+@media screen and (min-width: 992px) {h1, #connect-cta{font-size: 2.2rem;} h2{font-size: 1.6rem;} h3{font-size: 1.4rem;}p, section, div {font-size: 1.2rem;}}
+@media screen and (min-width: 1200px) {h1, #connect-cta{font-size: 2.5rem;} h2{font-size: 1.8rem;}h3{font-size: 1.6rem;} p, section, div {font-size: 1.4rem;}}
+@media screen and (min-width: 1600px) {h1, #connect-cta{font-size: 3rem;} h2{font-size: 2rem;}h3{font-size: 1.8rem;} p, section, div {font-size: 1.6rem;}}
