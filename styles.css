@@ -39,11 +39,17 @@ header {
   color: #fcfaf9;
   align-items: center;
   justify-content: space-between;
-  flex-grow: 1;
+  position: sticky;
+  top: 0;
+  z-index: 999;
 }
 header a {
   text-decoration: none;
   color: #fcfaf9;
+}
+
+#logo-big, #logo-small {
+  margin-left: 1rem;
 }
 
 @media screen and (max-width: 349px) {
@@ -51,33 +57,63 @@ header a {
     display: none;
   }
 }
+header a {
+  font-size: 1rem;
+}
+
 @media screen and (min-width: 350px) {
   #logo-big, #logo-small {
     display: none;
   }
 }
+header a {
+  font-size: 1.2rem;
+}
+
 @media screen and (min-width: 600px) {
   #logo-big, #logo-small {
     display: none;
   }
 }
+header a {
+  font-size: 1.4rem;
+}
+
 @media screen and (min-width: 768px) {
-  #logo-big, #logo-small {
+  #logo-big {
     display: none;
+  }
+  #logo-small {
+    display: flex;
+  }
+  header a {
+    font-size: 1.6rem;
   }
 }
 @media screen and (min-width: 992px) {
-  #logo-big, #logo-small {
+  #logo-big {
+    display: flex;
+  }
+  #logo-small {
     display: none;
+  }
+  header a {
+    font-size: 1.8rem;
   }
 }
 @media screen and (min-width: 1200px) {
-  #logo-big, #logo-small {
+  #logo-big {
+    display: flex;
+  }
+  #logo-small {
     display: none;
   }
 }
 @media screen and (min-width: 1600px) {
-  #logo-big, #logo-small {
+  #logo-big {
+    display: flex;
+  }
+  #logo-small {
     display: none;
   }
 }

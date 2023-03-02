@@ -5,21 +5,35 @@
 
 
 // //navbar://
+header{display: flex; 
+  flex-direction: row; 
+  font-size: 1.6rem; 
+  height: 50px; 
+  background-color: 
+  base.$primary-color; 
+  color: base.$background-color; 
+  align-items: center; 
+  justify-content: space-between; 
+  position: sticky;
+  top:0;
+  z-index: 999;
+    a{text-decoration: none; color: base.$background-color;}}
 
-header{display: flex; flex-direction: row; font-size: 1.6rem; height: 50px; background-color: base.$primary-color; color: base.$background-color; align-items: center; justify-content: space-between; flex-grow: 1;
-    a{text-decoration: none; color: base.$background-color;}
-     
-}
+#logo-big, #logo-small {margin-left: 1rem;}
 
-
-
-@media screen and (max-width: 349px) {#logo-big,#logo-small{display: none;}}
-@media screen and (min-width: 350px) {#logo-big,#logo-small{display: none;}}
-@media screen and (min-width: 600px) {#logo-big,#logo-small{display: none;}}
-@media screen and (min-width: 768px) {#logo-big,#logo-small{display: none;}}
-@media screen and (min-width: 992px) {#logo-big,#logo-small{display: none;}}
-@media screen and (min-width: 1200px) {#logo-big,#logo-small{display: none;}}
-@media screen and (min-width: 1600px) {#logo-big,#logo-small{display: none;}}
+@media screen and (max-width: 349px) {@include mixin.no-logos}
+header a{font-size: 1rem;}
+@media screen and (min-width: 350px) {@include mixin.no-logos}
+header a{font-size: 1.2rem;}
+@media screen and (min-width: 600px) {@include mixin.no-logos}
+header a{font-size: 1.4rem;}
+@media screen and (min-width: 768px) {#logo-big{display: none;}
+#logo-small{display: flex;}
+header a{font-size: 1.6rem;}}
+@media screen and (min-width: 992px) {#logo-big{display: flex;}
+#logo-small{display: none;}header a{font-size: 1.8rem;}}
+@media screen and (min-width: 1200px) {@include mixin.big-logo}
+@media screen and (min-width: 1600px) {@include mixin.big-logo}
 
 .navigation-links{display: flex;
   a{padding: 0 0.5em;}
@@ -29,9 +43,7 @@ header{display: flex; flex-direction: row; font-size: 1.6rem; height: 50px; back
     a:active{color: base.$warning-color;}
 }
 
-
-
-// switch-language
+// switch language buttons
 
 .switch-language {
     display: flex;

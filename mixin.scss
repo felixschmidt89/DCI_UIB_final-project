@@ -20,3 +20,9 @@ a:focus{color: base.$signal-color;}
 a:active{color: base.$warning-color;}
 a:visited:hover{}}
 
+
+
+//navbar
+@mixin no-logos {#logo-big,#logo-small{display: none;}}
+@mixin big-logo {#logo-big{display: flex;}
+#logo-small{display: none;}}
