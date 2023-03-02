@@ -151,9 +151,10 @@ header .navigation {
 }
 
 .picture-container p {
-  display: inline-block;
   position: relative;
-  left: 2%;
+  height: -moz-min-content;
+  height: min-content;
+  left: 1%;
   top: 86%;
   font-size: 1.5rem;
   color: #388697;
@@ -202,17 +203,15 @@ header .navigation {
     font-size: 1.6rem;
   }
 }
-.contact {
+.connect {
   display: flex;
-  gap: 1em;
+  gap: 1.2em;
   align-items: center;
 }
-
-.contact h2 {
-  color: #388697;
+.connect h2, .connect a {
+  color: #e55381;
 }
-
-.contact a:hover {
+.connect a:hover {
   transform: scale(1.2);
 }
 
@@ -252,9 +251,15 @@ header .navigation {
   align-self: center;
 }
 
-#cv-head a {
+#cv-head a, div {
   text-decoration: none;
   color: #388697;
+  display: flex;
+  gap: 0.4rem;
+}
+
+#cv-head i {
+  transform: translateY(2px);
 }
 
 .cv-description {
