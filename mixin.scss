@@ -12,14 +12,12 @@
 
 @mixin container{margin: 1rem; display: flex; flex-direction: column; flex-wrap: wrap; justify-content: center; align-items: center;}
 
-
 @mixin light-bg-a-status {a:link{color: base.$primary-color; text-decoration: underline;}
 a:visited {color: base.$secondary-color;}
 a:hover{}
 a:focus{color: base.$signal-color;}
 a:active{color: base.$warning-color;}
 a:visited:hover{}}
-
 
 
 //navbar

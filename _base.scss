@@ -15,10 +15,10 @@ font-size: 62.5%;
 }
 
 h1,h2,h3,h4,h5,h6 {color: $signal-color;}
-h1 {font-size: 3rem;}
+h1 {font-size: 2.5rem;}
 h2 {font-size: 2rem;}
 h3 {font-size: 1.6rem;}
-section {font-size: 1.2rem;}
+section {font-size: 1.4rem;}
 
 
 // main a:link{color: base.$primary-color; text-decoration: underline;}
@@ -30,3 +30,10 @@ section {font-size: 1.2rem;}
 // }
 
 
+@media screen and (max-width: 349px) {h1{font-size: 1.6rem;} h2{font-size: 1.4rem;} h3{font-size: 1.2rem;}}
+@media screen and (min-width: 350px) {h1{font-size: 1.6rem;} h2{font-size: 1.4rem;} h3{font-size: 1.2rem;}}
+@media screen and (min-width: 600px) {h1{font-size: 1.8rem;} h2{font-size: 1.6rem;} h3{font-size: 1.4rem;}}
+@media screen and (min-width: 768px) {h1{font-size: 2rem;} h2{font-size: 1.6rem;} h3{font-size: 1.4rem;}}
+@media screen and (min-width: 992px) {h1{font-size: 2.2rem;} h2{font-size: 1.6rem;} h3{font-size: 1.4rem;}}
+@media screen and (min-width: 1200px) {h1{font-size: 2.5rem;} h2{font-size: 1.8rem;}h3{font-size: 1.6rem;}}
+@media screen and (min-width: 1600px) {h1{font-size: 3rem;} h2{font-size: 2rem;}h3{font-size: 1.8rem;}}
