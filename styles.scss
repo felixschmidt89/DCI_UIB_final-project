@@ -34,7 +34,6 @@ header a{font-size: 1.4rem;}}
 
 .navigation-links{display: flex;
   a{padding: 0 0.5em;}
-  a:link{color: base.$background-color}
   a:visited{color: base.$secondary-color}
   a:hover{color: base.$signal-color; transform: scale(1.1);}
     a:focus{border: 3px solid base.$background-color; color: base.$background-color;}
@@ -48,6 +47,7 @@ header a{font-size: 1.4rem;}}
     margin: 0.7rem;
   }
     .switch-language a {font-size: 1.5rem; padding: 0.4rem;
+  border: 1px solid base.$secondary-color;
   border-radius: 50%; text-decoration: none; color: base.$background-color;}
     .switch-language :first-child {
     background-color: base.$secondary-color;

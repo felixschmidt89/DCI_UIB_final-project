@@ -99,10 +99,10 @@ Remember, this is not a competition! This is all about mutual support, sharing a
 [x] Give proper title in head
 [x] Make whole copyright button a link
 [x] Define selection color
-[x] Create Impressum
-[x] Add anchor tag
 
-[] Improve Impressum mark up and style
+[] Create Impressum
+[] Delete Impressum and related link from navbar in EN page
+
 [] Add CV with flexbox on smaller screens & grid on bigger ones
 
 
@@ -112,6 +112,7 @@ Setup gitignore
 
 
 Improve
+[] add link to DCI in project article
 
 [] anchor tag statuses
 [] anchor tag style (secondary & underlined?)
