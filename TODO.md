@@ -89,6 +89,18 @@ Remember, this is not a competition! This is all about mutual support, sharing a
 [x] Add contact section
 [x] Describe project and provide link to GitHub repo
 [x] Fix line hight CV symbols
+[x] Footer added
+[x] Fix Navbar issue
+[x] Make navbar sticky
+[x] Media font sizes added
+[x] Decrease font size copyright Franzi
+[x] Add ALT to img div
+[x] Style Connect anchor tag color and status
+[x] Give proper title in head
+[x] Make whole copyright button a link
+[] Create Impressum
+[] Delete Impressum and related link from navbar in EN page
+
 [] Add CV with flexbox on smaller screens & grid on bigger ones
 
 
@@ -99,31 +111,19 @@ Setup gitignore
 
 Improve
 
-[] Add ALT to img
-[] Decrease font size copyright Franzi 
+[] Add ALT to img div
 [] Define selection color
-[] Connect anchor tag color and status
-[] Sticky header
-[] media font sizes
 [] anchor tag statuses
 [] anchor tag style (secondary & underlined?)
-[] Give proper title in head
+
 [] Aria
 [] Research and add meta tags
-[] Build 2nd about me section like project article
-[] Use logos instead of brand/tool names in CV
 
 
 
-
-
-
-Major issue:
-Fix navbar
 
 
 Before deployment:
-Change warning-color back to primary color
 Take down old netlify page
 Gitignore
 Write Readme
