@@ -111,6 +111,7 @@ Improve
 [] Aria
 [] Research and add meta tags
 [] Build 2nd about me section like project article
+[] Use logos instead of brand/tool names in CV
 
 
 

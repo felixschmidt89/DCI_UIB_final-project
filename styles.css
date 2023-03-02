@@ -22,6 +22,10 @@ h2 {
   font-size: 2rem;
 }
 
+h3 {
+  font-size: 1.6rem;
+}
+
 section {
   font-size: 1.2rem;
 }
@@ -128,7 +132,7 @@ header .navigation {
 .hero {
   margin: 1rem;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
@@ -215,7 +219,7 @@ header .navigation {
 #about-project {
   margin: 1rem;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
@@ -230,15 +234,27 @@ header .navigation {
 #cv {
   margin: 1rem;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   box-shadow: 9px 9px 45px -15px rgba(0, 0, 0, 0.75);
   padding: 1rem;
 }
+#cv p {
+  margin-top: 1rem;
+}
+#cv h3 {
+  margin-top: 1.2rem;
+}
 
 #cv-head a {
   text-decoration: none;
   color: #388697;
+}
+
+.cv-description {
+  margin-left: 1rem;
+  position: relative;
+  color: #50537c;
 }/*# sourceMappingURL=styles.css.map */

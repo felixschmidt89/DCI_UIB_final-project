@@ -10,7 +10,7 @@
     -moz-box-shadow: 9px 9px 45px -15px rgba(0,0,0,0.75);
     box-shadow: 9px 9px 45px -15px rgba(0,0,0,0.75);}
 
-@mixin container{margin: 1rem; display: flex; flex-direction:row; flex-wrap: wrap; justify-content: center; align-items: center;}
+@mixin container{margin: 1rem; display: flex; flex-direction: column; flex-wrap: wrap; justify-content: center; align-items: center;}
 
 
 @mixin light-bg-a-status {a:link{color: base.$primary-color; text-decoration: underline;}

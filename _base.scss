@@ -2,6 +2,7 @@ $font: 'Gloock', serif;
 
 $background-color: #fcfaf9;
 $primary-color: #2d3047;
+$primary-color-light: #50537c;
 $secondary-color: #388697;
 $signal-color: #03c9a1;
 $warning-color: #e55381;
@@ -16,6 +17,7 @@ font-size: 62.5%;
 h1,h2,h3,h4,h5,h6 {color: $signal-color;}
 h1 {font-size: 3rem;}
 h2 {font-size: 2rem;}
+h3 {font-size: 1.6rem;}
 section {font-size: 1.2rem;}
 
 
