@@ -413,4 +413,19 @@ header a {
   margin-left: 1rem;
   position: relative;
   color: #388697;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  height: 60px;
+  background-color: #2d3047;
+  color: #fcfaf9;
+  align-items: center;
+  justify-content: center;
+  bottom: 0;
+}
+footer a {
+  text-decoration: none;
+  color: #fcfaf9;
 }/*# sourceMappingURL=styles.css.map */
