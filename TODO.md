@@ -105,9 +105,14 @@ Remember, this is not a competition! This is all about mutual support, sharing a
 [x] Add selection color and background
 [x] Impressum mark up and design
 [x] Bring connect back and add media for icons so they don't break the layout
+[x] Major issue: fix navbar a sizes
+[x] add link to DCI in project article
+[x] Research and add meta tags
 
 
-Major issues: fix navbar a sizes
+
+
+
 
 Setup gitignore
 
@@ -115,13 +120,11 @@ Setup gitignore
 Improve
 [] Improve media font sizes
 
-[] CV grid design
-[] add link to DCI in project article
+[] CV grid improve design
 [] navbar anchor tag media queries, so that they actually work
-[] Decrease box maring on smaller screens
+[] Decrease box margin on smaller screens
 [] vertically align navbar logo and footer
 [] Aria roles
-[] Research and add meta tags
 [] Reread and improve code im applicable
 [] Row cv header
 [] add time class to make CV look nicer
@@ -135,6 +138,7 @@ Delete TODO.md
 Check Markup Checker
 
 Create DE Page
+Set primary language to DE
 Check Links & Roles
 
 

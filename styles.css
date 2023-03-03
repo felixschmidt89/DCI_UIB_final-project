@@ -22,18 +22,6 @@ h1, h2, h3, h4, h5, h6 {
   color: #03c9a1;
 }
 
-h1 {
-  font-size: 2.5rem;
-}
-
-h2 {
-  font-size: 2rem;
-}
-
-h3 {
-  font-size: 1.6rem;
-}
-
 ::-moz-selection {
   color: #fcfaf9;
   background: #2d3047;
@@ -163,7 +151,7 @@ header a {
     display: none;
   }
   header a {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 }
 @media screen and (min-width: 600px) {
@@ -171,7 +159,7 @@ header a {
     display: none;
   }
   header a {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
 }
 @media screen and (min-width: 768px) {
@@ -182,7 +170,7 @@ header a {
     display: flex;
   }
   header a {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
   }
 }
 @media screen and (min-width: 992px) {
@@ -259,6 +247,10 @@ header a {
   border: 3px solid #fcfaf9;
   background-color: #fcfaf9;
   color: #2d3047;
+}
+
+h1 {
+  text-align: center;
 }
 
 .hero {
@@ -410,6 +402,8 @@ header a {
 
 .cv-head {
   grid-area: head;
+  display: flex;
+  flex-direction: column;
 }
 
 .cv-education {
