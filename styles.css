@@ -422,12 +422,14 @@ h1 {
   .cv-container {
     grid-template-columns: 1f, 1fr;
     grid-template-areas: "head head" "education education" "experience experience" "skills skills";
+    gap: 15px 50px;
   }
 }
 @media (min-width: 1024px) {
   .cv-container {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: "head head head" "education experience experience" "skills experience experience";
+    gap: 20px 100px;
   }
 }
 .cv-description {
