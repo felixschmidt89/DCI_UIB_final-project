@@ -108,6 +108,8 @@ Remember, this is not a competition! This is all about mutual support, sharing a
 [x] Major issue: fix navbar a sizes
 [x] add link to DCI in project article
 [x] Research and add meta tags
+[x] Move copywright a little higher
+
 
 
 
@@ -129,7 +131,6 @@ Improve
 [] Row cv header
 [] add time class to make CV look nicer
 [] Check spelling again
-[] Move copywright a little higher
 
 Before deployment:
 Gitignore
