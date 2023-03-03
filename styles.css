@@ -45,7 +45,7 @@ h3 {
 }
 
 @media screen and (max-width: 349px) {
-  h1, #connect-cta {
+  h1 {
     font-size: 1.8rem;
   }
   h2 {
@@ -59,7 +59,7 @@ h3 {
   }
 }
 @media screen and (min-width: 350px) {
-  h1, #connect-cta {
+  h1 {
     font-size: 1.9rem;
   }
   h2 {
@@ -73,7 +73,7 @@ h3 {
   }
 }
 @media screen and (min-width: 600px) {
-  h1, #connect-cta {
+  h1 {
     font-size: 2.1rem;
   }
   h2 {
@@ -87,7 +87,7 @@ h3 {
   }
 }
 @media screen and (min-width: 768px) {
-  h1, #connect-cta {
+  h1 {
     font-size: 2.3rem;
   }
   h2 {
@@ -101,7 +101,7 @@ h3 {
   }
 }
 @media screen and (min-width: 1024px) {
-  h1, #connect-cta {
+  h1 {
     font-size: 2.5rem;
   }
   h2 {
@@ -115,7 +115,7 @@ h3 {
   }
 }
 @media screen and (min-width: 1600px) {
-  h1, #connect-cta {
+  h1 {
     font-size: 2.7rem;
   }
   h2 {
@@ -352,18 +352,51 @@ header a {
     font-size: 1.2rem;
   }
 }
-.connect {
+.connect-mobile, .connect-tablet, .connect-desktop {
   display: flex;
   gap: 1.2em;
-  align-items: center;
+  justify-content: center;
 }
-.connect h2, .connect a {
+.connect-mobile h2, .connect-mobile a, .connect-tablet h2, .connect-tablet a, .connect-desktop h2, .connect-desktop a {
   color: #e55381;
 }
-.connect a:hover {
+.connect-mobile a:hover, .connect-tablet a:hover, .connect-desktop a:hover {
   transform: scale(1.2);
 }
 
+@media (min-width: 1px) and (max-width: 600px) {
+  .connect-tablet, .connect-desktop {
+    display: none;
+  }
+  .connect-mobile {
+    display: flex;
+  }
+  .connect-mobile h2 {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 601px) and (max-width: 768px) {
+  .connect-mobile, .connect-desktop {
+    display: none;
+  }
+  .connect-tablet {
+    display: flex;
+  }
+  .connect-tablet h2 {
+    font-size: 2.5rem;
+  }
+}
+@media (min-width: 769px) {
+  .connect-mobile, .connect-tablet {
+    display: none;
+  }
+  .connect-desktop {
+    display: flex;
+  }
+  .connect-desktop h2 {
+    font-size: 3.5rem;
+  }
+}
 #about-project {
   margin: 1rem;
   display: flex;

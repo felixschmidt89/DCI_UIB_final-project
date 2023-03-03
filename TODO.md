@@ -104,6 +104,8 @@ Remember, this is not a competition! This is all about mutual support, sharing a
 [x] Anchor tag statuses
 [x] Add selection color and background
 [x] Impressum mark up and design
+[x] Bring connect back and add media for icons so they don't break the layout
+
 
 
 Setup gitignore
@@ -113,9 +115,9 @@ Improve
 [] Improve media font sizes
 
 [] CV grid design
-[] Bring connect back and add media for icons so they don't break the layout
 [] add link to DCI in project article
 [] navbar anchor tag media queries, so that they actually work
+[] Decrease box maring on smaller screens
 [] vertically align navbar logo and footer
 [] Aria roles
 [] Research and add meta tags

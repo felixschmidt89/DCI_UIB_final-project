@@ -33,9 +33,9 @@ h3 {font-size: 1.6rem;}
   }
 
 
-@media screen and (max-width: 349px) {h1, #connect-cta{font-size: 1.8rem;} h2{font-size: 1.6rem;} h3{font-size: 1.4rem;} p, section, div {font-size: 1.2rem;}}
-@media screen and (min-width: 350px) {h1, #connect-cta{font-size: 1.9rem;} h2{font-size: 1.7rem;} h3{font-size: 1.5rem;}p, section, div {font-size: 1.3rem;}}
-@media screen and (min-width: 600px) {h1, #connect-cta{font-size: 2.1rem;} h2{font-size: 1.9rem;} h3{font-size: 1.7rem;}p, section, div {font-size: 1.5rem;}}
-@media screen and (min-width: 768px) {h1, #connect-cta{font-size: 2.3rem;} h2{font-size: 2.1rem;} h3{font-size: 1.9rem;}p, section, div {font-size: 1.7rem;}}
-@media screen and (min-width: 1024px) {h1, #connect-cta{font-size: 2.5rem;} h2{font-size: 2.3rem;} h3{font-size: 2.1rem;}p, section, div {font-size: 1.9rem;}}
-@media screen and (min-width: 1600px) {h1, #connect-cta{font-size: 2.7rem;} h2{font-size: 2.5rem;}h3{font-size: 2.3rem;} p, section, div {font-size: 2.1rem;}}
+@media screen and (max-width: 349px) {h1, {font-size: 1.8rem;} h2{font-size: 1.6rem;} h3{font-size: 1.4rem;} p, section, div {font-size: 1.2rem;}}
+@media screen and (min-width: 350px) {h1, {font-size: 1.9rem;} h2{font-size: 1.7rem;} h3{font-size: 1.5rem;}p, section, div {font-size: 1.3rem;}}
+@media screen and (min-width: 600px) {h1, {font-size: 2.1rem;} h2{font-size: 1.9rem;} h3{font-size: 1.7rem;}p, section, div {font-size: 1.5rem;}}
+@media screen and (min-width: 768px) {h1, {font-size: 2.3rem;} h2{font-size: 2.1rem;} h3{font-size: 1.9rem;}p, section, div {font-size: 1.7rem;}}
+@media screen and (min-width: 1024px) {h1, {font-size: 2.5rem;} h2{font-size: 2.3rem;} h3{font-size: 2.1rem;}p, section, div {font-size: 1.9rem;}}
+@media screen and (min-width: 1600px) {h1, {font-size: 2.7rem;} h2{font-size: 2.5rem;}h3{font-size: 2.3rem;} p, section, div {font-size: 2.1rem;}}
