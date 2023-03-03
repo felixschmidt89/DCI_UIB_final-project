@@ -356,6 +356,7 @@ header a {
   display: flex;
   gap: 1.2em;
   justify-content: center;
+  margin: 1rem;
 }
 .connect-mobile h2, .connect-mobile a, .connect-tablet h2, .connect-tablet a, .connect-desktop h2, .connect-desktop a {
   color: #e55381;

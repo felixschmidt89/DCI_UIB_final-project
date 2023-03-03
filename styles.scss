@@ -83,15 +83,10 @@ p:hover{transform: scale(1.05);}}
 }
 
 // Connect CTA
-.connect-mobile, .connect-tablet, .connect-desktop {display: flex; gap: 1.2em; justify-content: center;
+.connect-mobile, .connect-tablet, .connect-desktop {display: flex; gap: 1.2em; justify-content: center; margin: 1rem;
   h2,a{color: base.$warning-color;}
   a:hover{transform: scale(1.2);}
   }
-
-// .connect-mobile
-//  .fa-at, .fa-linkedin, .fa-github {transform: translateY(8px);}
-
-
 
 @media (min-width:1px) and (max-width: 600px) {.connect-tablet, .connect-desktop {display: none;} .connect-mobile {display: flex;
 h2{font-size: 1.5rem}}}
