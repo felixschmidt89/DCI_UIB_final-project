@@ -151,32 +151,29 @@ header a {
 }
 
 @media screen and (max-width: 349px) {
-  #logo-big, #logo-small {
+  header #logo-big, header #logo-small {
     display: none;
   }
+  header a {
+    font-size: 0.8rem;
+  }
 }
-header a {
-  font-size: 0.8rem;
-}
-
 @media screen and (min-width: 350px) {
-  #logo-big, #logo-small {
+  header #logo-big, header #logo-small {
     display: none;
   }
+  header a {
+    font-size: 1rem;
+  }
 }
-header a {
-  font-size: 1rem;
-}
-
 @media screen and (min-width: 600px) {
-  #logo-big, #logo-small {
+  header #logo-big, header #logo-small {
     display: none;
   }
+  header a {
+    font-size: 1.2rem;
+  }
 }
-header a {
-  font-size: 1.2rem;
-}
-
 @media screen and (min-width: 768px) {
   #logo-big {
     display: none;
@@ -200,23 +197,14 @@ header a {
   }
 }
 @media screen and (min-width: 1200px) {
-  #logo-big {
+  header #logo-big {
     display: flex;
   }
-  #logo-small {
+  header #logo-small {
     display: none;
   }
-}
-header a {
-  font-size: 1.8rem;
-}
-
-@media screen and (min-width: 1600px) {
-  #logo-big {
-    display: flex;
-  }
-  #logo-small {
-    display: none;
+  header a {
+    font-size: 1.8rem;
   }
 }
 .navigation-links {
@@ -356,7 +344,6 @@ header a {
   display: flex;
   gap: 1.2em;
   justify-content: center;
-  margin: 1rem;
 }
 .connect-mobile h2, .connect-mobile a, .connect-tablet h2, .connect-tablet a, .connect-desktop h2, .connect-desktop a {
   color: #e55381;
@@ -501,8 +488,4 @@ footer {
   align-items: center;
   justify-content: center;
   bottom: 0;
-}
-footer a {
-  text-decoration: none;
-  color: #fcfaf9;
 }/*# sourceMappingURL=styles.css.map */

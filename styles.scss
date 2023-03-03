@@ -18,19 +18,18 @@ header{display: flex;
 
 #logo-big, #logo-small {margin-left: 1rem;}
 
-@media screen and (max-width: 349px) {@include mixin.no-logos}
-header a{font-size: 0.8rem;}
-@media screen and (min-width: 350px) {@include mixin.no-logos}
-header a{font-size: 1rem;}
-@media screen and (min-width: 600px) {@include mixin.no-logos}
-header a{font-size: 1.2rem;}
+@media screen and (max-width: 349px) {header {@include mixin.no-logos;
+a{font-size: 0.8rem;}}}
+@media screen and (min-width: 350px) {header {@include mixin.no-logos;
+a{font-size: 1rem;}}}
+@media screen and (min-width: 600px) {header {@include mixin.no-logos;
+a{font-size: 1.2rem;}}}
 @media screen and (min-width: 768px) {#logo-big{display: none;}
-#logo-small{display: flex;}
-header a{font-size: 1.4rem;}}
+#logo-small{display: flex;} header a{font-size: 1.4rem;}}
 @media screen and (min-width: 992px) {#logo-big{display: flex;}
-#logo-small{display: none;}header a{font-size: 1.6rem;}}
-@media screen and (min-width: 1200px) {@include mixin.big-logo} header a{font-size: 1.8rem;}
-@media screen and (min-width: 1600px) {@include mixin.big-logo}
+#logo-small{display: none;} header a{font-size: 1.6rem;}}
+@media screen and (min-width: 1200px) {header {@include mixin.big-logo; a{font-size: 1.8rem;}}}
+
 
 .navigation-links{display: flex;
   a{padding: 0 0.5em;}
@@ -83,7 +82,7 @@ p:hover{transform: scale(1.05);}}
 }
 
 // Connect CTA
-.connect-mobile, .connect-tablet, .connect-desktop {display: flex; gap: 1.2em; justify-content: center; margin: 1rem;
+.connect-mobile, .connect-tablet, .connect-desktop {display: flex; gap: 1.2em; justify-content: center;
   h2,a{color: base.$warning-color;}
   a:hover{transform: scale(1.2);}
   }
@@ -99,9 +98,6 @@ h2{font-size: 3.5rem}}}
 // project = about.project
 #about-project{@include mixin.container; @include mixin.box-shadow; padding: 1rem;}
 #about-project section {margin-top: 1rem;}
-
-
-
 
 // CV
 
@@ -157,7 +153,8 @@ footer{display: flex;
   color: base.$background-color; 
   align-items: center; 
   justify-content: center; 
-  bottom:0;
-    a{text-decoration: none; color: base.$background-color;}}
+  bottom:0;}
+
+ 
 
 

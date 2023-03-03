@@ -107,6 +107,7 @@ Remember, this is not a competition! This is all about mutual support, sharing a
 [x] Bring connect back and add media for icons so they don't break the layout
 
 
+Major issues: fix navbar a sizes
 
 Setup gitignore
 
