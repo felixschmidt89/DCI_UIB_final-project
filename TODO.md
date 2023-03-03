@@ -99,41 +99,34 @@ Remember, this is not a competition! This is all about mutual support, sharing a
 [x] Give proper title in head
 [x] Make whole copyright button a link
 [x] Define selection color
-
-[] Create Impressum
-[] Delete Impressum and related link from navbar in EN page
-
-[] Add CV with flexbox on smaller screens & grid on bigger ones
-
-
+[x] Create Impressum
+[x] Add CV using grid
+[x] Anchor tag statuses
+[x] Add selection color and background
 
 
 Setup gitignore
 
 
 Improve
+[] Improve media font sizes
+[] Impressum mark up and design
+[] CV grid design
 [] add link to DCI in project article
-
-[] anchor tag statuses
-[] anchor tag style (secondary & underlined?)
-
-[] Aria
+[] navbar anchor tag media queries, so that they actually work
+[] vertically align navbar logo
+[] Aria roles
 [] Research and add meta tags
-
-
-
-
+[] Reread and improve code im applicable
 
 Before deployment:
-Take down old netlify page
 Gitignore
 Write Readme
+Delete TODO.md
+Check Markup Checker
 
 Create DE Page
 Check Links & Roles
-Create Impressum
-
-Check Markup Checker
 
 
-Deploy Website on Netlify
+
