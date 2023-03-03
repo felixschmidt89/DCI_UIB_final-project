@@ -103,6 +103,7 @@ Remember, this is not a competition! This is all about mutual support, sharing a
 [x] Add CV using grid
 [x] Anchor tag statuses
 [x] Add selection color and background
+[x] Impressum mark up and design
 
 
 Setup gitignore
@@ -110,14 +111,19 @@ Setup gitignore
 
 Improve
 [] Improve media font sizes
-[] Impressum mark up and design
+
 [] CV grid design
+[] Bring connect back and add media for icons so they don't break the layout
 [] add link to DCI in project article
 [] navbar anchor tag media queries, so that they actually work
-[] vertically align navbar logo
+[] vertically align navbar logo and footer
 [] Aria roles
 [] Research and add meta tags
 [] Reread and improve code im applicable
+[] Row cv header
+[] add time class to make CV look nicer
+[] Check spelling again
+[] Move copywright a little higher
 
 Before deployment:
 Gitignore
