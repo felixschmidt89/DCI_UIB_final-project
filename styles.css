@@ -221,6 +221,10 @@ header a {
     display: none;
   }
 }
+header a {
+  font-size: 1.8rem;
+}
+
 @media screen and (min-width: 1600px) {
   #logo-big {
     display: flex;
@@ -389,24 +393,55 @@ header a {
   margin-top: 1rem;
 }
 
-#cv {
-  margin: 1rem;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  align-items: flex-start;
-  box-shadow: 9px 9px 45px -15px rgba(0, 0, 0, 0.75);
+.cv-container {
+  display: grid;
+  grid-template-areas: "head" "education" "experience" "skills";
   padding: 1rem;
 }
-#cv p {
+
+.cv-head {
+  grid-area: head;
+}
+
+.cv-education {
+  grid-area: education;
+}
+
+.cv-experience {
+  grid-area: experience;
+}
+
+.cv-skills {
+  grid-area: skills;
+}
+
+@media (min-width: 768px) {
+  .cv-container {
+    grid-template-columns: 1f, 1fr;
+    grid-template-areas: "head head" "education education" "experience experience" "skills skills";
+  }
+}
+@media (min-width: 1024px) {
+  .cv-container {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "head head head" "education experience experience" "skills experience experience";
+  }
+}
+.cv-description {
+  margin-left: 1rem;
+  position: relative;
+  color: #388697;
+}
+
+p {
   margin-top: 1rem;
 }
-#cv h3 {
+
+h3 {
   margin-top: 1.2rem;
 }
-#cv h2 {
+
+h2 {
   align-self: center;
 }
 
@@ -419,12 +454,6 @@ header a {
 
 #cv-head i {
   transform: translateY(2px);
-}
-
-.cv-description {
-  margin-left: 1rem;
-  position: relative;
-  color: #388697;
 }
 
 #impressum {
