@@ -92,8 +92,7 @@ p:hover{transform: scale(1.05);}}
 #about-project{@include mixin.container; @include mixin.box-shadow; padding: 1rem;}
 #about-project section {margin-top: 1rem;}
 
-// // CV old
-// #cv{@include mixin.container; align-items: flex-start; @include mixin.box-shadow; padding: 1rem;
+
 
 
 // CV
@@ -103,7 +102,9 @@ grid-template-areas: 'head'
 'education'
 'experience'
 'skills';
-padding: 1rem;}
+padding: 1rem;
+@include mixin.box-shadow; 
+margin: 1rem;}
 
 .cv-head {grid-area: head;}
 .cv-education {grid-area: education;}
@@ -132,6 +133,7 @@ padding: 1rem;}
 
 #cv-head a, div {text-decoration: none; color: base.$secondary-color; display: flex; gap: 0.4rem;}
 #cv-head i {transform: translateY(2px);}
+
 
 // Impressum
 

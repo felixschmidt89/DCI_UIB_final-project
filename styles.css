@@ -383,6 +383,8 @@ header a {
   display: grid;
   grid-template-areas: "head" "education" "experience" "skills";
   padding: 1rem;
+  box-shadow: 9px 9px 45px -15px rgba(0, 0, 0, 0.75);
+  margin: 1rem;
 }
 
 .cv-head {
