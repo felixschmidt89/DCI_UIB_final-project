@@ -17,19 +17,14 @@ header{display: flex;
     a{text-decoration: none; color: base.$background-color;}
   p{margin: 0 0 0 1rem;}}
 
-#logo-big, #logo-small {display: flex; align-items: center;}
 
-@media screen and (max-width: 349px) {header {@include mixin.no-logos;
-a{font-size: 0.8rem;}}}
-@media screen and (min-width: 350px) {header {@include mixin.no-logos;
-a{font-size: 1.2rem;}}}
-@media screen and (min-width: 600px) {header {@include mixin.no-logos;
-a{font-size: 1.4rem;}}}
-@media screen and (min-width: 768px) {#logo-big{display: none;}
-#logo-small{display: flex;} header a{font-size: 1.6rem;}}
-@media screen and (min-width: 992px) {#logo-big{display: flex;}
-#logo-small{display: none;} header a{font-size: 1.6rem;}}
-@media screen and (min-width: 1200px) {header {@include mixin.big-logo; a{font-size: 1.8rem;}}}
+header p {display: none;}
+@media (min-width:350px) and (max-width:767px) {header p:nth-child(1){display: flex;}}
+@media (min-width:768px) and (max-width:1199px) {header p:nth-child(2){display: flex;}}
+@media (min-width:1200px) {header p:nth-child(3){display: flex;}}
+
+
+
 
 
 .navigation-links{display: flex;

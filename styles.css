@@ -137,66 +137,23 @@ header p {
   margin: 0 0 0 1rem;
 }
 
-#logo-big, #logo-small {
-  display: flex;
-  align-items: center;
+header p {
+  display: none;
 }
 
-@media screen and (max-width: 349px) {
-  header #logo-big, header #logo-small {
-    display: none;
-  }
-  header a {
-    font-size: 0.8rem;
-  }
-}
-@media screen and (min-width: 350px) {
-  header #logo-big, header #logo-small {
-    display: none;
-  }
-  header a {
-    font-size: 1.2rem;
-  }
-}
-@media screen and (min-width: 600px) {
-  header #logo-big, header #logo-small {
-    display: none;
-  }
-  header a {
-    font-size: 1.4rem;
-  }
-}
-@media screen and (min-width: 768px) {
-  #logo-big {
-    display: none;
-  }
-  #logo-small {
+@media (min-width: 350px) and (max-width: 767px) {
+  header p:nth-child(1) {
     display: flex;
   }
-  header a {
-    font-size: 1.6rem;
-  }
 }
-@media screen and (min-width: 992px) {
-  #logo-big {
+@media (min-width: 768px) and (max-width: 1199px) {
+  header p:nth-child(2) {
     display: flex;
   }
-  #logo-small {
-    display: none;
-  }
-  header a {
-    font-size: 1.6rem;
-  }
 }
-@media screen and (min-width: 1200px) {
-  header #logo-big {
+@media (min-width: 1200px) {
+  header p:nth-child(3) {
     display: flex;
-  }
-  header #logo-small {
-    display: none;
-  }
-  header a {
-    font-size: 1.8rem;
   }
 }
 .navigation-links {
