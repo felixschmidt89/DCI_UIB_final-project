@@ -14,12 +14,12 @@ header{display: flex;
   position: sticky;
   top:0;
   z-index: 999;
-    a{text-decoration: none; color: base.$background-color;}
+    a{text-decoration: none;}
   p{margin: 0 0 0 1rem;}}
 
 
-header p {display: none;}
-@media (min-width:350px) and (max-width:767px) {header p:nth-child(1){display: flex; padding-right: 1rem; padding-right: 0.3rem; border-right: 2px solid base.$secondary-color;}}
+header p {display: none; color: base.$secondary-color; padding-right: 1rem; padding-right: 0.5rem; border-right: 2px solid base.$secondary-color;}
+@media (min-width:350px) and (max-width:767px) {header p:nth-child(1){display: flex;}}
 @media (min-width:768px) and (max-width:1199px) {header p:nth-child(2){display: flex;}}
 @media (min-width:1200px) {header p:nth-child(3){display: flex;}}
 

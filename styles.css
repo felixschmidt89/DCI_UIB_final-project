@@ -131,7 +131,6 @@ header {
 }
 header a {
   text-decoration: none;
-  color: #fcfaf9;
 }
 header p {
   margin: 0 0 0 1rem;
@@ -139,14 +138,15 @@ header p {
 
 header p {
   display: none;
+  color: #388697;
+  padding-right: 1rem;
+  padding-right: 0.5rem;
+  border-right: 2px solid #388697;
 }
 
 @media (min-width: 350px) and (max-width: 767px) {
   header p:nth-child(1) {
     display: flex;
-    padding-right: 1rem;
-    padding-right: 0.3rem;
-    border-right: 2px solid #388697;
   }
 }
 @media (min-width: 768px) and (max-width: 1199px) {
