@@ -105,12 +105,11 @@ padding: 1rem;
 margin: 1rem;}
 
 .cv-head {grid-area: head;}
-#cv-contact{display: flex; flex-direction: column;}
 .cv-education {grid-area: education;}
 .cv-experience {grid-area: experience;}
 .cv-skills {grid-area: skills;}
 
-@media (min-width:768px) {.cv-container{grid-template-columns: 1f, 1fr;}
+@media (min-width:768px) {.cv-container{grid-template-columns: 1fr 1fr;}
   grid-template-areas: 'head head'
   'education education'
   'experience experience'
@@ -137,6 +136,7 @@ h2{text-align: center};
 
 #cv-head a, div {text-decoration: none; color: base.$secondary-color; display: flex; gap: 0.4rem; font-family: base.$font;}
 #cv-head i {transform: translateY(2px);}
+#cv-head h3{margin-bottom: 1rem;}
 
 
 // Impressum
