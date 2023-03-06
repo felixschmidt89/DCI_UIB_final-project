@@ -20,7 +20,8 @@ a:active {
 
 h1, h2, h3, h4, h5, h6 {
   color: #03c9a1;
-  font-family: "Gloock", serif;
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
 }
 
 ::-moz-selection {
@@ -231,6 +232,7 @@ h1 {
 }
 .hero section p {
   box-shadow: 9px 9px 45px -15px rgba(0, 0, 0, 0.75);
+  border-radius: 25px;
   margin: 1rem 0;
   padding: 1rem;
 }
@@ -240,6 +242,7 @@ h1 {
   height: 50vh;
   display: flex;
   box-shadow: 9px 9px 45px -15px rgba(0, 0, 0, 0.75);
+  border-radius: 25px;
 }
 .picture-container a {
   text-decoration: none;
@@ -357,6 +360,7 @@ h1 {
   align-items: center;
   box-shadow: 9px 9px 45px -15px rgba(0, 0, 0, 0.75);
   padding: 1rem;
+  border-radius: 25px;
 }
 
 #about-project section {
@@ -368,6 +372,7 @@ h1 {
   grid-template-areas: "head" "education" "experience" "skills";
   padding: 1rem;
   box-shadow: 9px 9px 45px -15px rgba(0, 0, 0, 0.75);
+  border-radius: 25px;
   margin: 1rem;
 }
 
@@ -451,6 +456,7 @@ h2 {
 
 #impressum {
   box-shadow: 9px 9px 45px -15px rgba(0, 0, 0, 0.75);
+  border-radius: 25px;
   margin: 1rem;
   padding: 1rem;
   display: flex;
