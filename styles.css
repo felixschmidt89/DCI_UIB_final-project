@@ -10,6 +10,10 @@ body {
   font-size: 62.5%;
 }
 
+main p {
+  font-family: "Urbanist", sans-serif;
+}
+
 a {
   color: #50537c;
 }
@@ -131,6 +135,7 @@ header {
 }
 header a {
   text-decoration: none;
+  color: #fcfaf9;
 }
 header p {
   margin: 0 0 0 1rem;
@@ -225,7 +230,7 @@ h1 {
   justify-content: center;
   align-items: center;
 }
-.hero section {
+.hero section p {
   box-shadow: 9px 9px 45px -15px rgba(0, 0, 0, 0.75);
   margin: 1rem 0;
   padding: 1rem;

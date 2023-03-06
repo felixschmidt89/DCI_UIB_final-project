@@ -133,6 +133,7 @@ Improve
 [] Row cv header
 [] add time class to make CV look nicer
 [] Check spelling again
+[] use different font in paragraphs
 
 Before deployment:
 Gitignore

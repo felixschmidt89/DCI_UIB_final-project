@@ -5,10 +5,3 @@
 @mixin container{margin: 1rem; display: flex; flex-direction: column; flex-wrap: wrap; justify-content: center; align-items: center;}
 
 // //navbar
-// @mixin no-logos {#logo,#logo-small,#logo-tiny{display: none;}}
-// @mixin tiny-logo {#logo-tiny p{display: flex;}
-// #logo-small p, #logo p{display: none;}}
-// @mixin small-logo {#logo-tiny p, #logo p{display: none;}
-// #logo-small p {display: flex;}}
-// @mixin logo {#logo p{display: flex;}
-// #logo-small p, #logo-tiny p{display: none;}}

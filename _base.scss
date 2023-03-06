@@ -1,5 +1,8 @@
+// Fonts
 $font: 'Gloock', serif;
+$font-paragraph: 'Urbanist', sans-serif;
 
+// Colors
 $background-color: #fcfaf9;
 $primary-color: #2d3047;
 $primary-color-light: #50537c;
@@ -7,29 +10,28 @@ $secondary-color: #388697;
 $signal-color: #03c9a1;
 $warning-color: #e55381;
 
+// Defaults
 *{padding: 0; margin: 0; box-sizing: border-box;}
 
+// Default text styles 
 body {font-family: $font;
-background-color: $background-color;
-font-size: 62.5%;
-}
-
+  background-color: $background-color;
+  font-size: 62.5%;
+  }
+main p {font-family: $font-paragraph;}
 a {color: $primary-color-light;}
 a:active {color: $warning-color;}
-
 h1,h2,h3,h4,h5,h6 {color: $signal-color;}
-
 ::-moz-selection {
     color: $background-color;
     background: $primary-color;
   }
-  
   ::selection {
     color: $background-color;
     background: $primary-color;
   }
 
-
+// Default font sizes
 @media screen and (max-width: 349px) {h1 {font-size: 1.8rem;} h2{font-size: 1.6rem;} h3{font-size: 1.4rem;} p, section, div {font-size: 1.2rem;}}
 @media screen and (min-width: 350px) {h1 {font-size: 1.9rem;} h2{font-size: 1.7rem;} h3{font-size: 1.5rem;}p, section, div {font-size: 1.3rem;}}
 @media screen and (min-width: 600px) {h1 {font-size: 2.1rem;} h2{font-size: 1.9rem;} h3{font-size: 1.7rem;}p, section, div {font-size: 1.5rem;}}

@@ -14,7 +14,7 @@ header{display: flex;
   position: sticky;
   top:0;
   z-index: 999;
-    a{text-decoration: none;}
+    a{text-decoration: none; color: base.$background-color;}
   p{margin: 0 0 0 1rem;}}
 
 
@@ -22,9 +22,6 @@ header p {display: none; color: base.$secondary-color; padding-right: 1rem; padd
 @media (min-width:350px) and (max-width:767px) {header p:nth-child(1){display: flex;}}
 @media (min-width:768px) and (max-width:1199px) {header p:nth-child(2){display: flex;}}
 @media (min-width:1200px) {header p:nth-child(3){display: flex;}}
-
-
-
 
 
 .navigation-links{display: flex;
@@ -58,8 +55,7 @@ header p {display: none; color: base.$secondary-color; padding-right: 1rem; padd
 // hero = about.me
 h1{text-align: center}
   .hero {@include mixin.container;
-section{@include mixin.box-shadow; margin: 1rem 0; padding: 1rem;
-}}
+section p{@include mixin.box-shadow; margin: 1rem 0; padding: 1rem;}}
 
 .picture-container {width:100%; height: 50vh; display: flex; @include mixin.box-shadow;
 a{text-decoration: none;}
@@ -153,6 +149,7 @@ footer{display: flex;
   justify-content: center; 
   bottom:0;
 p {margin: 0;}}
+
 
  
 
