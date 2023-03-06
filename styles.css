@@ -374,11 +374,6 @@ h1 {
   grid-area: head;
 }
 
-#cv-contact {
-  display: flex;
-  flex-direction: column;
-}
-
 .cv-education {
   grid-area: education;
 }
@@ -391,18 +386,6 @@ h1 {
   grid-area: skills;
 }
 
-@media (min-width: 768px) {
-  .cv-container {
-    grid-template-columns: 1f, 1fr;
-    grid-template-areas: "head head" "education education" "experience experience" "skills skills";
-    gap: 15px 50px;
-  }
-  #cv-contact {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-}
 @media (min-width: 1024px) {
   .cv-container {
     grid-template-columns: 1fr 1fr 1fr;
@@ -410,8 +393,20 @@ h1 {
     gap: 20px 100px;
   }
 }
-p {
+.cv-container p {
   margin-top: 1rem;
+}
+
+#cv-contact {
+  margin-top: 1rem;
+}
+#cv-contact a, #cv-contact div {
+  text-decoration: none;
+  color: #388697;
+}
+#cv-contact div span {
+  transform: translateY(1px);
+  margin-right: 0.6rem;
 }
 
 h3 {
@@ -420,11 +415,6 @@ h3 {
 
 h2 {
   text-align: center;
-}
-
-#cv-contact div a {
-  text-decoration: none;
-  color: "Urbanist", sans-serif;
 }
 
 .cv-bulletpoint {
@@ -442,18 +432,6 @@ h2 {
   position: relative;
   color: #388697;
   margin-top: 0.5rem;
-}
-
-#cv-head a, div {
-  text-decoration: none;
-  color: #388697;
-  display: flex;
-  gap: 0.4rem;
-  font-family: "Urbanist", sans-serif;
-}
-
-#cv-head i {
-  transform: translateY(2px);
 }
 
 #impressum {
