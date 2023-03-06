@@ -112,6 +112,24 @@ Remember, this is not a competition! This is all about mutual support, sharing a
 [x] vertically align navbar logo and footer
 [x] navbar anchor tag media queries, so that they actually work
 [x] CV grid improve design
+[x] Improve media font sizes
+[x] Reread and improve code im applicable
+[x] Aria roles
+[x] Make CV contact flexrow 
+[x] add time class to make CV look nicer
+[x] Use 2nd font
+[x] Create DE Page
+[x] Set primary language to DE
+[x] Check Links & Roles
+
+
+
+
+
+
+
+
+
 
 
 
@@ -124,29 +142,14 @@ Setup gitignore
 
 
 Improve
-[] Improve media font sizes
 
 
-[]change focus outline color
-
-[] Decrease box margin on smaller screens
-[] Aria roles
-[] Reread and improve code im applicable
-[] Row cv header
-[] add time class to make CV look nicer
-[] Check spelling again
-[] use different font in paragraphs
-[] implement goock font on titles or get rid of it entirely
 
 Before deployment:
 Gitignore
 Write Readme
-Delete TODO.md
 Check Markup Checker
 
-Create DE Page
-Set primary language to DE
-Check Links & Roles
 
 
 
