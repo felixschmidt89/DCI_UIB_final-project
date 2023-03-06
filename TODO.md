@@ -109,6 +109,8 @@ Remember, this is not a competition! This is all about mutual support, sharing a
 [x] add link to DCI in project article
 [x] Research and add meta tags
 [x] Move copywright a little higher
+[x] vertically align navbar logo and footer
+
 
 
 
@@ -125,7 +127,6 @@ Improve
 [] CV grid improve design
 [] navbar anchor tag media queries, so that they actually work
 [] Decrease box margin on smaller screens
-[] vertically align navbar logo and footer
 [] Aria roles
 [] Reread and improve code im applicable
 [] Row cv header

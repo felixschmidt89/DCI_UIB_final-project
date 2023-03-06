@@ -14,9 +14,10 @@ header{display: flex;
   position: sticky;
   top:0;
   z-index: 999;
-    a{text-decoration: none; color: base.$background-color;}}
+    a{text-decoration: none; color: base.$background-color;}
+  p{margin: 0 0 0 1rem;}}
 
-#logo-big, #logo-small {margin-left: 1rem;}
+#logo-big, #logo-small {display: flex; align-items: center;}
 
 @media screen and (max-width: 349px) {header {@include mixin.no-logos;
 a{font-size: 0.8rem;}}}
@@ -155,7 +156,8 @@ footer{display: flex;
   color: base.$background-color; 
   align-items: center; 
   justify-content: center; 
-  bottom:0;}
+  bottom:0;
+p {margin: 0;}}
 
  
 

@@ -133,9 +133,13 @@ header a {
   text-decoration: none;
   color: #fcfaf9;
 }
+header p {
+  margin: 0 0 0 1rem;
+}
 
 #logo-big, #logo-small {
-  margin-left: 1rem;
+  display: flex;
+  align-items: center;
 }
 
 @media screen and (max-width: 349px) {
@@ -484,4 +488,7 @@ footer {
   align-items: center;
   justify-content: center;
   bottom: 0;
+}
+footer p {
+  margin: 0;
 }/*# sourceMappingURL=styles.css.map */
