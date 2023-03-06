@@ -458,6 +458,9 @@ h2 {
   height: 150px;
   overflow: auto;
 }
+#impressum h2 {
+  margin-bottom: 1rem;
+}
 #impressum p, #impressum a {
   font-size: 1.2rem;
   color: #50537c;

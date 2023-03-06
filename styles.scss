@@ -141,7 +141,8 @@ h2{text-align: center};
 
 // Impressum
 
-#impressum {@include mixin.box-shadow; margin:1rem; padding: 1rem; display: flex; flex-direction: column; height: 150px; overflow: auto;
+#impressum {@include mixin.box-shadow; margin: 1rem; padding: 1rem; display: flex; flex-direction: column; height: 150px; overflow: auto;
+  h2{margin-bottom: 1rem;}
 p, a{font-size: 1.2rem; color: base.$primary-color-light;}}
 
 // Footer
