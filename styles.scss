@@ -18,6 +18,7 @@ header{display: flex;
 
 //navbar-logo:
 header p {display: none; color: base.$secondary-color; margin:0 0 0 1rem; padding: 0 0.5rem; border-right: 2px solid base.$secondary-color;}
+@media screen and (max-width:399px) {header .navigation-links {padding-left: 0.5rem;}}
 @media (min-width:400px) and (max-width:767px) {header p:nth-child(1){display: flex;}}
 @media (min-width:768px) and (max-width:1199px) {header p:nth-child(2){display: flex;}}
 @media (min-width:1200px) {header p:nth-child(3){display: flex;}}

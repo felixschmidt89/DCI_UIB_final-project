@@ -138,6 +138,11 @@ header p {
   border-right: 2px solid #388697;
 }
 
+@media screen and (max-width: 399px) {
+  header .navigation-links {
+    padding-left: 0.5rem;
+  }
+}
 @media (min-width: 400px) and (max-width: 767px) {
   header p:nth-child(1) {
     display: flex;
