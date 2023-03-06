@@ -411,10 +411,6 @@ h1 {
     gap: 20px 100px;
   }
 }
-.cv-container p {
-  margin-top: 1rem;
-}
-
 #cv-contact {
   margin-top: 1rem;
 }
@@ -437,6 +433,7 @@ h2 {
 
 .cv-bulletpoint {
   font-weight: 600;
+  margin-top: 1rem;
 }
 
 .cv-period {

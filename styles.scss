@@ -128,14 +128,13 @@ gap: 20px 100px;}
 gap: 20px 100px;}
 }
 
-.cv-container p{margin-top: 1rem;}
 #cv-contact {margin-top: 1rem;
   a, div {text-decoration: none; color: base.$primary-color-light;}
 div span {transform: translateY(1px);margin: 0.5rem;}}
 h3{margin-top: 1.2rem;}
 h2{text-align: center};
 
-.cv-bulletpoint{font-weight: 600;}
+.cv-bulletpoint{font-weight: 600;margin-top: 1rem;}
 .cv-period {font-weight: 300; font-style: italic; margin-top: 0.1rem;}
 .cv-description {margin-left: 1rem; position: relative; color: base.$secondary-color; margin-top: 0.5rem;}
 
