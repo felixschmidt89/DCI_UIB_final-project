@@ -297,9 +297,11 @@ h1 {
   display: flex;
   gap: 1.2em;
   justify-content: center;
+  align-items: center;
 }
 .connect-mobile h2, .connect-mobile a, .connect-tablet h2, .connect-tablet a, .connect-desktop h2, .connect-desktop a {
   color: #e55381;
+  padding-bottom: 0.9rem;
 }
 .connect-mobile a:hover, .connect-tablet a:hover, .connect-desktop a:hover {
   transform: scale(1.2);
