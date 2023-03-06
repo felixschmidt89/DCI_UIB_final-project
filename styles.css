@@ -244,19 +244,20 @@ h1 {
 .picture-container a {
   text-decoration: none;
 }
-.picture-container p:hover {
+.picture-container span:hover {
   transform: scale(1.05);
 }
 
-.picture-container p {
+.picture-container span {
   position: relative;
+  display: flex;
   height: -moz-min-content;
   height: min-content;
+  padding: 0.1rem;
   left: 5%;
-  top: 90%;
+  top: 87%;
   color: #388697;
   background-color: #fcfaf9;
-  padding: 0.2rem;
   border-radius: 10px;
   box-shadow: 0px 3px 15px 5px rgba(0, 0, 0, 0.4);
 }
@@ -271,33 +272,33 @@ h1 {
 }
 
 @media (max-width: 480px) {
-  .picture-container div {
+  .picture-container {
     background-image: url(./images/picture-mobile.jpeg);
     background-size: cover;
     background-position: center;
   }
-  .picture-container div p {
-    font-size: 0.9rem;
+  .picture-container a {
+    font-size: 1rem;
   }
 }
 @media (min-width: 481px) and (max-width: 1024px) {
-  .picture-container div {
+  .picture-container {
     background-image: url(./images/picture-tablet.jpeg);
     background-size: cover;
     background-position: center;
   }
-  .picture-container div p {
-    font-size: 1.1rem;
+  .picture-container a {
+    font-size: 1.2rem;
   }
 }
 @media (min-width: 1025px) {
-  .picture-container div {
+  .picture-container {
     background-image: url(./images/picture-desktop.JPG);
     background-size: cover;
     background-position: 50% 30%;
   }
-  .picture-container div p {
-    font-size: 1.3rem;
+  .picture-container a {
+    font-size: 1.4rem;
   }
 }
 .connect-mobile, .connect-tablet, .connect-desktop {
@@ -386,7 +387,24 @@ h1 {
   grid-area: skills;
 }
 
+@media (min-width: 768px) {
+  #cv-contact {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .cv-container {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "head head" "education experience" "skills experience";
+    gap: 20px 100px;
+  }
+}
 @media (min-width: 1024px) {
+  #cv-contact {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
   .cv-container {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: "head head head" "education experience experience" "skills experience experience";
@@ -402,11 +420,11 @@ h1 {
 }
 #cv-contact a, #cv-contact div {
   text-decoration: none;
-  color: #388697;
+  color: #50537c;
 }
 #cv-contact div span {
   transform: translateY(1px);
-  margin-right: 0.6rem;
+  margin: 0.5rem;
 }
 
 h3 {
