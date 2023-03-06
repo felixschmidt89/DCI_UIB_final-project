@@ -1,31 +1,31 @@
+// Sass partials
+
 @use 'base';
 @use 'mixin';
 
-// //navbar://
+// navbar:
+
 header{display: flex; 
   flex-direction: row; 
-  font-size: 1.6rem; 
   height: 50px; 
-  background-color: 
-  base.$primary-color; 
+  background-color: base.$primary-color; 
   color: base.$background-color; 
   align-items: center; 
   justify-content: space-between; 
   position: sticky;
   top:0;
-  z-index: 999;
-    a{text-decoration: none; color: base.$background-color;}
-  p{margin: 0 0 0 1rem;}}
+  z-index: 999;}
 
-
-header p {display: none; color: base.$secondary-color; padding-right: 1rem; padding-right: 0.5rem; border-right: 2px solid base.$secondary-color;}
+//navbar-logo:
+header p {display: none; color: base.$secondary-color; margin:0 0 0 1rem; padding-right: 0.5rem; border-right: 2px solid base.$secondary-color;}
 @media (min-width:400px) and (max-width:767px) {header p:nth-child(1){display: flex;}}
 @media (min-width:768px) and (max-width:1199px) {header p:nth-child(2){display: flex;}}
 @media (min-width:1200px) {header p:nth-child(3){display: flex;}}
 
 
-.navigation-links{display: flex;
-  a{padding: 0 0.5em;}
+.navigation-links{display: flex; gap: 1rem;
+  a{text-decoration: none; color: base.$background-color;} 
+    a:last-child {padding-right: 1rem;}
   a:visited{color: base.$secondary-color}
   a:hover{color: base.$signal-color; transform: scale(1.1);}
     a:focus{border: 3px solid base.$background-color; color: base.$background-color;}
@@ -64,14 +64,14 @@ p:hover{transform: scale(1.05);}}
 .picture-container div {width: 100%;height: 100%;  background-repeat: no-repeat; background-size: cover; background-position: center top; margin: auto;}
 @media (max-width: 480px){
   .picture-container div {background-image: url(./images/picture-mobile.jpeg); background-size: cover; background-position: center;
-   p {font-size: 0.8rem;}}
+   p {font-size: 0.9rem;}}
   }
 @media (min-width: 481px) and (max-width: 1024px) {.picture-container div {background-image: url(./images/picture-tablet.jpeg); background-size: cover; background-position: center;
-  p {font-size: 1rem;}
+  p {font-size: 1.1rem;}
 }}
 @media (min-width: 1025px){
   .picture-container div {background-image: url(./images/picture-desktop.JPG); background-size: cover; background-position: 50% 30%;
-  p {font-size: 1.2rem;}}
+  p {font-size: 1.3rem;}}
 }
 
 // Connect CTA
@@ -126,12 +126,16 @@ gap: 20px 100px;
 .cv-head {display: flex; flex-direction: row;}}
 }
 
-.cv-description {margin-left: 1rem; position: relative; color: base.$secondary-color;}
- p{margin-top: 1rem;}
- h3{margin-top: 1.2rem;}
- h2{align-self: center};
+p{margin-top: 1rem;}
+h3{margin-top: 1.2rem;}
+h2{align-self: center};
 
-#cv-head a, div {text-decoration: none; color: base.$secondary-color; display: flex; gap: 0.4rem; font-family: base.$font-paragraph ;}
+.cv-bulletpoint{font-weight: 600;}
+.cv-period {font-weight: 300; font-style: italic; margin-top: 0.1rem;}
+.cv-description {margin-left: 1rem; position: relative; color: base.$secondary-color; margin-top: 0.5rem;}
+
+
+#cv-head a, div {text-decoration: none; color: base.$secondary-color; display: flex; gap: 0.4rem; font-family: base.$font;}
 #cv-head i {transform: translateY(2px);}
 
 

@@ -10,10 +10,6 @@ body {
   font-size: 62.5%;
 }
 
-main p {
-  font-family: "Urbanist", sans-serif;
-}
-
 a {
   color: #50537c;
 }
@@ -24,6 +20,7 @@ a:active {
 
 h1, h2, h3, h4, h5, h6 {
   color: #03c9a1;
+  font-family: "Gloock", serif;
 }
 
 ::-moz-selection {
@@ -123,7 +120,6 @@ h1, h2, h3, h4, h5, h6 {
 header {
   display: flex;
   flex-direction: row;
-  font-size: 1.6rem;
   height: 50px;
   background-color: #2d3047;
   color: #fcfaf9;
@@ -133,23 +129,16 @@ header {
   top: 0;
   z-index: 999;
 }
-header a {
-  text-decoration: none;
-  color: #fcfaf9;
-}
-header p {
-  margin: 0 0 0 1rem;
-}
 
 header p {
   display: none;
   color: #388697;
-  padding-right: 1rem;
+  margin: 0 0 0 1rem;
   padding-right: 0.5rem;
   border-right: 2px solid #388697;
 }
 
-@media (min-width: 350px) and (max-width: 767px) {
+@media (min-width: 400px) and (max-width: 767px) {
   header p:nth-child(1) {
     display: flex;
   }
@@ -166,9 +155,14 @@ header p {
 }
 .navigation-links {
   display: flex;
+  gap: 1rem;
 }
 .navigation-links a {
-  padding: 0 0.5em;
+  text-decoration: none;
+  color: #fcfaf9;
+}
+.navigation-links a:last-child {
+  padding-right: 1rem;
 }
 .navigation-links a:visited {
   color: #388697;
@@ -278,7 +272,7 @@ h1 {
     background-position: center;
   }
   .picture-container div p {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
 }
 @media (min-width: 481px) and (max-width: 1024px) {
@@ -288,7 +282,7 @@ h1 {
     background-position: center;
   }
   .picture-container div p {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 }
 @media (min-width: 1025px) {
@@ -298,7 +292,7 @@ h1 {
     background-position: 50% 30%;
   }
   .picture-container div p {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
 }
 .connect-mobile, .connect-tablet, .connect-desktop {
@@ -374,7 +368,6 @@ h1 {
 .cv-head {
   grid-area: head;
   display: flex;
-  flex-direction: column;
 }
 
 .cv-education {
@@ -402,13 +395,11 @@ h1 {
     grid-template-areas: "head head head" "education experience experience" "skills experience experience";
     gap: 20px 100px;
   }
+  .cv-container .cv-head {
+    display: flex;
+    flex-direction: row;
+  }
 }
-.cv-description {
-  margin-left: 1rem;
-  position: relative;
-  color: #388697;
-}
-
 p {
   margin-top: 1rem;
 }
@@ -419,6 +410,23 @@ h3 {
 
 h2 {
   align-self: center;
+}
+
+.cv-bulletpoint {
+  font-weight: 600;
+}
+
+.cv-period {
+  font-weight: 300;
+  font-style: italic;
+  margin-top: 0.1rem;
+}
+
+.cv-description {
+  margin-left: 1rem;
+  position: relative;
+  color: #388697;
+  margin-top: 0.5rem;
 }
 
 #cv-head a, div {
@@ -445,9 +453,6 @@ h2 {
 #impressum p, #impressum a {
   font-size: 1.2rem;
   color: #50537c;
-}
-#impressum p {
-  font-family: "Urbanist", sans-serif;
 }
 
 footer {

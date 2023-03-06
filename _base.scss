@@ -18,9 +18,9 @@ body {font-family: $font;
   background-color: $background-color;
   font-size: 62.5%;
   }
-a {color: $primary-color-light;}
+a{color: $primary-color-light;}
 a:active {color: $warning-color;}
-h1,h2,h3,h4,h5,h6 {color: $signal-color; font-family: $font-title;}
+h1,h2,h3,h4,h5,h6 {color: $signal-color;font-family: $font-title;}
 ::-moz-selection {
     color: $background-color;
     background: $primary-color;

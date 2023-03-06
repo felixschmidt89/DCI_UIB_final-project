@@ -127,6 +127,8 @@ Improve
 [] Improve media font sizes
 
 
+[]change focus outline color
+
 [] Decrease box margin on smaller screens
 [] Aria roles
 [] Reread and improve code im applicable
