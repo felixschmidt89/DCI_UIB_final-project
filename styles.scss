@@ -105,33 +105,31 @@ padding: 1rem;
 margin: 1rem;}
 
 .cv-head {grid-area: head;}
+#cv-contact{display: flex; flex-direction: column;}
 .cv-education {grid-area: education;}
 .cv-experience {grid-area: experience;}
 .cv-skills {grid-area: skills;}
 
-@media (min-width:768px) {
-  .cv-container{grid-template-columns: 1f, 1fr;
+@media (min-width:768px) {.cv-container{grid-template-columns: 1f, 1fr;}
   grid-template-areas: 'head head'
   'education education'
   'experience experience'
   'skills skills';
   gap: 15px 50px;}
-}
 
 @media (min-width:1024px) {
   .cv-container{grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas: 'head head head'
 'education experience experience'
 'skills experience experience';
-gap: 20px 100px;
-.cv-head {display: flex; flex-direction: row;}}
+gap: 20px 100px;}
 }
 
 p{margin-top: 1rem;}
 h3{margin-top: 1.2rem;}
 h2{text-align: center};
 
-#cv-contact div a{text-decoration: none; color: base.$font;}
+#cv-contact div {text-decoration: none; color: base.$font;}
 .cv-bulletpoint{font-weight: 600;}
 .cv-period {font-weight: 300; font-style: italic; margin-top: 0.1rem;}
 .cv-description {margin-left: 1rem; position: relative; color: base.$secondary-color; margin-top: 0.5rem;}
