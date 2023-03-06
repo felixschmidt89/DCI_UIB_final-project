@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "Gloock", serif;
+  font-family: "Urbanist", sans-serif;
   background-color: #fcfaf9;
   font-size: 62.5%;
 }
@@ -426,6 +426,7 @@ h2 {
   color: #388697;
   display: flex;
   gap: 0.4rem;
+  font-family: "Urbanist", sans-serif;
 }
 
 #cv-head i {
@@ -444,6 +445,9 @@ h2 {
 #impressum p, #impressum a {
   font-size: 1.2rem;
   color: #50537c;
+}
+#impressum p {
+  font-family: "Urbanist", sans-serif;
 }
 
 footer {

@@ -111,7 +111,7 @@ Remember, this is not a competition! This is all about mutual support, sharing a
 [x] Move copywright a little higher
 [x] vertically align navbar logo and footer
 [x] navbar anchor tag media queries, so that they actually work
-
+[x] CV grid improve design
 
 
 
@@ -126,7 +126,7 @@ Setup gitignore
 Improve
 [] Improve media font sizes
 
-[] CV grid improve design
+
 [] Decrease box margin on smaller screens
 [] Aria roles
 [] Reread and improve code im applicable
@@ -134,6 +134,7 @@ Improve
 [] add time class to make CV look nicer
 [] Check spelling again
 [] use different font in paragraphs
+[] implement goock font on titles or get rid of it entirely
 
 Before deployment:
 Gitignore
