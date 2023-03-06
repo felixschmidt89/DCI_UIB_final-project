@@ -134,7 +134,7 @@ header p {
   display: none;
   color: #388697;
   margin: 0 0 0 1rem;
-  padding-right: 0.5rem;
+  padding: 0 0.5rem;
   border-right: 2px solid #388697;
 }
 
@@ -367,7 +367,6 @@ h1 {
 
 .cv-head {
   grid-area: head;
-  display: flex;
 }
 
 .cv-education {
@@ -409,7 +408,12 @@ h3 {
 }
 
 h2 {
-  align-self: center;
+  text-align: center;
+}
+
+#cv-contact div a {
+  text-decoration: none;
+  color: "Urbanist", sans-serif;
 }
 
 .cv-bulletpoint {

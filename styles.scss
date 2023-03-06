@@ -17,7 +17,7 @@ header{display: flex;
   z-index: 999;}
 
 //navbar-logo:
-header p {display: none; color: base.$secondary-color; margin:0 0 0 1rem; padding-right: 0.5rem; border-right: 2px solid base.$secondary-color;}
+header p {display: none; color: base.$secondary-color; margin:0 0 0 1rem; padding: 0 0.5rem; border-right: 2px solid base.$secondary-color;}
 @media (min-width:400px) and (max-width:767px) {header p:nth-child(1){display: flex;}}
 @media (min-width:768px) and (max-width:1199px) {header p:nth-child(2){display: flex;}}
 @media (min-width:1200px) {header p:nth-child(3){display: flex;}}
@@ -103,7 +103,7 @@ padding: 1rem;
 @include mixin.box-shadow; 
 margin: 1rem;}
 
-.cv-head {grid-area: head; display: flex;}
+.cv-head {grid-area: head;}
 .cv-education {grid-area: education;}
 .cv-experience {grid-area: experience;}
 .cv-skills {grid-area: skills;}
@@ -128,8 +128,9 @@ gap: 20px 100px;
 
 p{margin-top: 1rem;}
 h3{margin-top: 1.2rem;}
-h2{align-self: center};
+h2{text-align: center};
 
+#cv-contact div a{text-decoration: none; color: base.$font;}
 .cv-bulletpoint{font-weight: 600;}
 .cv-period {font-weight: 300; font-style: italic; margin-top: 0.1rem;}
 .cv-description {margin-left: 1rem; position: relative; color: base.$secondary-color; margin-top: 0.5rem;}
