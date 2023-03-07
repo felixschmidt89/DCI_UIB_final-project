@@ -121,6 +121,9 @@ Remember, this is not a competition! This is all about mutual support, sharing a
 [x] Create DE Page
 [x] Set primary language to DE
 [x] Check Links & Roles
+[x] Setup gitignore
+[x] Write Read Me
+[] W3 validator
 
 
 
@@ -138,14 +141,11 @@ Remember, this is not a competition! This is all about mutual support, sharing a
 
 
 
-Setup gitignore
-
-
-Improve
 
 
 
-Before deployment:
+
+
 Gitignore
 Write Readme
 Check Markup Checker
