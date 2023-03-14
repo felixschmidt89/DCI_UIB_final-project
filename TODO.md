@@ -126,13 +126,6 @@ Remember, this is not a competition! This is all about mutual support, sharing a
 [] W3 validator
 
 
-Add Shadows
-Style Form
-Add Form to DE page
-Add headers
-Add headers to DE page
-Add animation
-
 
 
 

@@ -129,6 +129,7 @@ header {
   position: sticky;
   top: 0;
   z-index: 999;
+  overflow: hidden;
 }
 
 header p {
@@ -168,7 +169,7 @@ header p {
   color: #fcfaf9;
 }
 .navigation-links a:last-child {
-  padding-right: 1rem;
+  padding-right: 1.1rem;
 }
 .navigation-links a:visited {
   color: #388697;
@@ -321,11 +322,13 @@ h3 {
   justify-content: center;
   align-items: center;
 }
-.connect-mobile h2, .connect-mobile a, .connect-tablet h2, .connect-tablet a, .connect-desktop h2, .connect-desktop a {
+.connect-mobile a, .connect-tablet a, .connect-desktop a {
   color: #e55381;
   padding: 0.9rem;
+  font-family: "Urbanist", sans-serif;
 }
-.connect-mobile a:hover, .connect-tablet a:hover, .connect-desktop a:hover {
+
+a:hover {
   transform: scale(1.2);
 }
 
@@ -392,6 +395,13 @@ input[type=submit] {
   color: #fcfaf9;
   font-weight: bold;
   border-radius: 25px;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+input[type=submit]:hover {
+  background-color: #03c9a1;
+  color: #2d3047;
 }
 
 @media (min-width: 1px) and (max-width: 600px) {
@@ -404,6 +414,8 @@ input[type=submit] {
   }
   input[type=text], input[type=email], textarea {
     font-size: 1rem;
+    font-family: "Urbanist", sans-serif;
+    text-align: center;
   }
 }
 @media (min-width: 601px) and (max-width: 767px) {
@@ -416,6 +428,8 @@ input[type=submit] {
   }
   input[type=text], input[type=email], textarea {
     font-size: 1.4rem;
+    font-family: "Urbanist", sans-serif;
+    text-align: center;
   }
 }
 @media (min-width: 768px) {
@@ -428,6 +442,7 @@ input[type=submit] {
   }
   input[type=text], input[type=email], textarea {
     font-size: 1.8rem;
+    font-family: "Urbanist", sans-serif;
     text-align: center;
   }
 }
