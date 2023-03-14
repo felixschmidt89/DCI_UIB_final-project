@@ -260,21 +260,26 @@ h3 {
 .picture-container a {
   text-decoration: none;
 }
-.picture-container span:hover {
-  transform: scale(1.05);
-}
 
 .picture-container span {
   position: relative;
   display: flex;
   height: -moz-min-content;
   height: min-content;
-  padding: 0.1rem;
+  padding: 0.2rem;
   left: 5%;
   top: 87%;
   color: #388697;
   background-color: #fcfaf9;
   border-radius: 10px;
+}
+
+.picture-container span i {
+  transform: translateY(1px);
+}
+
+.picture-container span:hover {
+  transform: scale(1.1);
 }
 
 .picture-container div {
@@ -327,8 +332,7 @@ h3 {
   padding: 0.9rem;
   font-family: "Urbanist", sans-serif;
 }
-
-a:hover {
+.connect-mobile a:hover, .connect-tablet a:hover, .connect-desktop a:hover {
   transform: scale(1.2);
 }
 
