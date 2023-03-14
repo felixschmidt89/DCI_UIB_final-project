@@ -1,6 +1,6 @@
 # DCI-UIB-final_project
 
-This website is my final project of the very first technical module as part of the Web Development Course at [Digital Career Institute](https://digitalcareerinstitute.org/). 
+[This website](https://uib-final-project.netlify.app/) is my final project of the very first technical module as part of the Web Development Course at [Digital Career Institute](https://digitalcareerinstitute.org/). 
 During this module (**'User Interface Basic'**) I've learned how to design & build websites with **HTML** & **CSS** first and then expanded on the basics of **Sass** and **Bootstrap**.
 
 Now, it's time to showcase what I've learned up to this point. 
