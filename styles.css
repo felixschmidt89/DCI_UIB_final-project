@@ -483,6 +483,7 @@ input[type=submit]:hover {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    gap: 1.2rem;
   }
   .cv-container {
     grid-template-columns: 1fr 1fr;

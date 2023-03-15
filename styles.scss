@@ -127,7 +127,7 @@ padding: 1rem; border-radius: 25px; margin: 1rem; @include mixin.border;}
 .cv-skills {grid-area: skills;}
 
 @media (min-width:768px) {
-  #cv-contact{display: flex;flex-direction: row; flex-wrap: wrap;}
+  #cv-contact{display: flex;flex-direction: row; flex-wrap: wrap; gap: 1.2rem;}
   .cv-container{grid-template-columns: 1fr 1fr;
   grid-template-areas: 'head head'
 'education experience'
