@@ -186,6 +186,14 @@ header p {
   color: #e55381;
 }
 
+* {
+  scroll-behavior: smooth;
+}
+
+#cv, #about-project, #me {
+  scroll-margin-top: 50px;
+}
+
 .switch-language {
   display: flex;
   gap: 0.7rem;
