@@ -525,7 +525,7 @@ input[type=submit]:hover {
 
 h2 {
   text-align: center;
-  padding: 0.5rem 0rem 1rem 0rem;
+  padding-bottom: 1rem;
 }
 
 .cv-bulletpoint {
@@ -556,9 +556,6 @@ h2 {
   flex-direction: column;
   height: 300px;
   overflow: auto;
-}
-#impressum h2 {
-  margin-bottom: 1rem;
 }
 #impressum p, #impressum a {
   font-size: 1.2rem;
