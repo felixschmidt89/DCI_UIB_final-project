@@ -15,7 +15,7 @@ header{display: flex;
   position: sticky;
   top:0;
   z-index: 999;
-overflow: hidden;}
+  overflow: hidden;}
 
 //navbar-logo:
 header p {display: none; color: base.$secondary-color; margin:0 0 0 1rem; padding: 0 0.5rem; border-right: 2px solid base.$secondary-color;}
@@ -96,7 +96,7 @@ h2{font-size: 3.5rem;}}}
 
 
 // project = about.project
-#about-project{@include mixin.container; padding: 0rem 1rem; border-radius: 25px; @include mixin.border;}
+#about-project{@include mixin.container; padding: 1rem 1rem; border-radius: 25px; @include mixin.border;}
 #about-project section {margin-top: 1rem;}
 
 // form
