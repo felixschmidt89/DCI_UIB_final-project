@@ -107,11 +107,11 @@ input[type=submit]{background-color: base.$warning-color; color: base.$backgroun
 input[type=submit]:hover{background-color: base.$signal-color; color: base.$primary-color; cursor: pointer; }
 
 
-@media screen and (max-width: 349px) {form {font-size: 1.5rem; margin: 1rem 5vw;} input[type=submit]{font-size: 1.5rem;} input[type="text"], input[type="email"], textarea{font-size: 1.3rem;}}
-@media screen and (min-width: 350px) {form {font-size: 1.5rem; margin: 1rem 5vw;} input[type=submit]{font-size: 1.5rem;} input[type="text"], input[type="email"], textarea{font-size: 1.3rem;}}
-@media screen and (min-width: 767px) {form {font-size: 1.6rem; margin: 1rem 15vw;}input[type=submit]{font-size: 1.6rem;} input[type="text"], input[type="email"], textarea{font-size: 1.4rem;}}
-@media screen and (min-width:1024px) {form {font-size: 1.7rem; margin: 1rem 25vw;}input[type=submit]{font-size: 1.7rem;} input[type="text"], input[type="email"], textarea{font-size: 1.5rem;}}
-@media screen and (min-width:1600px) {form {font-size: 1.9rem; margin: 1rem 25vw;}input[type=submit]{font-size: 1.9rem;} input[type="text"], input[type="email"], textarea{font-size: 1.7rem;}}
+@media screen and (max-width: 349px) {form {font-size: 1.4rem; margin: 1rem 5vw;} input[type=submit]{font-size: 1.3rem;} input[type="text"], input[type="email"], textarea{font-size: 1.3rem;}}
+@media screen and (min-width: 350px) {form {font-size: 1.4rem; margin: 1rem 5vw;} input[type=submit]{font-size: 1.3rem;} input[type="text"], input[type="email"], textarea{font-size: 1.3rem;}}
+@media screen and (min-width: 767px) {form {font-size: 1.5rem; margin: 1rem 15vw;}input[type=submit]{font-size: 1.4rem;} input[type="text"], input[type="email"], textarea{font-size: 1.4rem;}}
+@media screen and (min-width:1024px) {form {font-size: 1.6rem; margin: 1rem 25vw;}input[type=submit]{font-size: 1.5rem;} input[type="text"], input[type="email"], textarea{font-size: 1.5rem;}}
+@media screen and (min-width:1600px) {form {font-size: 1.8rem; margin: 1rem 25vw;}input[type=submit]{font-size: 1.7rem;} input[type="text"], input[type="email"], textarea{font-size: 1.7rem;}}
 
 
 .cv-container{display: grid;
