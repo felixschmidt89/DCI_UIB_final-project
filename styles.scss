@@ -82,7 +82,7 @@ h1{text-align: center; margin: 1rem; animation-name: drop;
 
 
 // about.me
-#intro, #pos-expert, #career-change {@include mixin.container; @include mixin.border; border-radius: 25px; padding: 1rem;}
+#intro, #pos-expert, #career-change {@include mixin.container; @include mixin.border; border-radius: 25px; padding: 0.2rem;}
 h3{margin-bottom: 0.5rem;}
 
 

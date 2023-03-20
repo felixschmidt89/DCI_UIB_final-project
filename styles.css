@@ -41,7 +41,6 @@ h1, h2, h3, h4, h5, h6 {
 @media screen and (max-width: 599px) {
   .text-container p {
     text-align: center;
-    padding: 0;
   }
 }
 @media screen and (min-width: 600px) {
@@ -338,7 +337,7 @@ h1 {
   border: 2px solid rgba(0, 0, 0, 0.15);
   box-shadow: 9px 9px 20px -15px rgba(0, 0, 0, 0.9);
   border-radius: 25px;
-  padding: 1rem;
+  padding: 0.2rem;
 }
 
 h3 {
