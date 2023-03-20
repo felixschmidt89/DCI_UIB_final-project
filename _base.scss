@@ -29,7 +29,9 @@ h1,h2,h3,h4,h5,h6 {color: $signal-color;font-family: $font-title; font-weight: 9
     color: $background-color;
     background: $primary-color;
   }
-.text-container p {text-align: justify; line-height: 125%;}
+.text-container p {line-height: 125%;}
+@media screen and (min-width: 600px) {text-container p{text-align: justify;}}
+
 
 // Default font sizes
 @media screen and (max-width: 349px) {h1 {font-size: 1.8rem;} h2{font-size: 1.4rem;} h3{font-size: 1.3rem;} p, section, div {font-size: 1.2rem;}}
