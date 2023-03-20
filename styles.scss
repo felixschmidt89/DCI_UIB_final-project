@@ -97,7 +97,7 @@ h3{margin-bottom: 0.5rem;}
 
 
 // project = about.project
-#about-project{@include mixin.container; padding: 1rem 1rem; border-radius: 25px; @include mixin.border;}
+#about-project{@include mixin.container; padding: 0.2rem; border-radius: 25px; @include mixin.border;}
 
 // form
 
