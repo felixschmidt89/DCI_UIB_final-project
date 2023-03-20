@@ -43,3 +43,6 @@ h1,h2,h3,h4,h5,h6 {color: $signal-color;font-family: $font-title; font-weight: 9
 @media screen and (min-width: 1600px) {h1 {font-size: 2.3rem;} h2{font-size: 1.9rem;}h3{font-size: 1.8rem;} p, section, div {font-size: 1.7rem;}}
 
 
+
+@media screen and (max-width: 599px) {#impressum, .cv-container, #about-project, #career-change, #pos-expert {padding: 0.5rem 0.2rem;}}
+@media screen and (min-width: 600px) {#impressum, .cv-container, #about-project, #career-change, #pos-expert {padding: 0.5rem 1rem;}}

@@ -132,6 +132,16 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1.7rem;
   }
 }
+@media screen and (max-width: 599px) {
+  #impressum, .cv-container, #about-project, #career-change, #pos-expert {
+    padding: 0.5rem 0.2rem;
+  }
+}
+@media screen and (min-width: 600px) {
+  #impressum, .cv-container, #about-project, #career-change, #pos-expert {
+    padding: 0.5rem 1rem;
+  }
+}
 header {
   display: flex;
   flex-direction: row;
@@ -337,7 +347,6 @@ h1 {
   border: 2px solid rgba(0, 0, 0, 0.15);
   box-shadow: 9px 9px 20px -15px rgba(0, 0, 0, 0.9);
   border-radius: 25px;
-  padding: 0.2rem;
 }
 
 h3 {
@@ -390,7 +399,6 @@ h3 {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding: 0.2rem;
   border-radius: 25px;
   border: 2px solid rgba(0, 0, 0, 0.15);
   box-shadow: 9px 9px 20px -15px rgba(0, 0, 0, 0.9);
@@ -489,7 +497,6 @@ input[type=submit]:hover {
 .cv-container {
   display: grid;
   grid-template-areas: "head" "education" "experience" "skills";
-  padding: 1rem;
   border-radius: 25px;
   margin: 1rem;
   border: 2px solid rgba(0, 0, 0, 0.15);
@@ -581,7 +588,6 @@ h2 {
   box-shadow: 9px 9px 20px -15px rgba(0, 0, 0, 0.9);
   border-radius: 25px;
   margin: 1rem;
-  padding: 1rem;
   display: flex;
   flex-direction: column;
   height: 300px;
