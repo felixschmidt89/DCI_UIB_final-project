@@ -30,7 +30,6 @@ h1,h2,h3,h4,h5,h6 {color: $signal-color;font-family: $font-title; font-weight: 9
     background: $primary-color;
   }
 .text-container p {line-height: 125%;}
-@media screen and (max-width: 599px) {.text-container p{text-align: center;}}
 @media screen and (min-width: 600px) {.text-container p{text-align: justify;}}
 
 
@@ -44,5 +43,5 @@ h1,h2,h3,h4,h5,h6 {color: $signal-color;font-family: $font-title; font-weight: 9
 
 
 
-@media screen and (max-width: 599px) {#impressum, .cv-container, #about-project, #career-change, #pos-expert {padding: 0.5rem 0.2rem;}}
+@media screen and (max-width: 599px) {#impressum, .cv-container, #about-project, #career-change, #pos-expert {padding: 0.5rem 0.25rem;}}
 @media screen and (min-width: 600px) {#impressum, .cv-container, #about-project, #career-change, #pos-expert {padding: 0.5rem 1rem;}}
