@@ -30,7 +30,7 @@ h1,h2,h3,h4,h5,h6 {color: $signal-color;font-family: $font-title; font-weight: 9
     background: $primary-color;
   }
 .text-container p {line-height: 125%;}
-@media screen and (max-width: 599px) {.text-container p{text-align: center;}}
+@media screen and (max-width: 599px) {.text-container p{text-align: center; padding: 0;}}
 @media screen and (min-width: 600px) {.text-container p{text-align: justify;}}
 
 
