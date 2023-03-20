@@ -38,8 +38,13 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 125%;
 }
 
+@media screen and (max-width: 599px) {
+  .text-container p {
+    text-align: center;
+  }
+}
 @media screen and (min-width: 600px) {
-  text-container p {
+  .text-container p {
     text-align: justify;
   }
 }
