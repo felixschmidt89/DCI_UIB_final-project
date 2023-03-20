@@ -39,10 +39,10 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1.8rem;
   }
   h2 {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
   h3 {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
   }
   p, section, div {
     font-size: 1.2rem;
@@ -50,72 +50,72 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media screen and (min-width: 350px) {
   h1 {
+    font-size: 1.8rem;
+  }
+  h2 {
+    font-size: 1.4rem;
+  }
+  h3 {
+    font-size: 1.3rem;
+  }
+  p, section, div {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (min-width: 600px) {
+  h1 {
     font-size: 1.9rem;
   }
   h2 {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
   }
   h3 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
   p, section, div {
     font-size: 1.3rem;
   }
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.6rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  p, section, div {
+    font-size: 1.4rem;
+  }
+}
+@media screen and (min-width: 1024px) {
   h1 {
     font-size: 2.1rem;
   }
   h2 {
-    font-size: 1.9rem;
+    font-size: 1.7rem;
   }
   h3 {
-    font-size: 1.7rem;
+    font-size: 1.6rem;
   }
   p, section, div {
     font-size: 1.5rem;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1600px) {
   h1 {
     font-size: 2.3rem;
   }
   h2 {
-    font-size: 2.1rem;
+    font-size: 1.9rem;
   }
   h3 {
-    font-size: 1.9rem;
+    font-size: 1.8rem;
   }
   p, section, div {
     font-size: 1.7rem;
-  }
-}
-@media screen and (min-width: 1024px) {
-  h1 {
-    font-size: 2.5rem;
-  }
-  h2 {
-    font-size: 2.3rem;
-  }
-  h3 {
-    font-size: 2.1rem;
-  }
-  p, section, div {
-    font-size: 1.9rem;
-  }
-}
-@media screen and (min-width: 1600px) {
-  h1 {
-    font-size: 2.7rem;
-  }
-  h2 {
-    font-size: 2.5rem;
-  }
-  h3 {
-    font-size: 2.3rem;
-  }
-  p, section, div {
-    font-size: 2.1rem;
   }
 }
 header {
@@ -416,42 +416,42 @@ input[type=submit]:hover {
 
 @media (min-width: 1px) and (max-width: 600px) {
   form {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     margin: 1rem 5vw;
   }
   input[type=submit] {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
   input[type=text], input[type=email], textarea {
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-family: "Urbanist", sans-serif;
     text-align: center;
   }
 }
 @media (min-width: 601px) and (max-width: 767px) {
   form {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     margin: 1rem 15vw;
   }
   input[type=submit] {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
   }
   input[type=text], input[type=email], textarea {
-    font-size: 0.9rem;
+    font-size: 1.3rem;
     font-family: "Urbanist", sans-serif;
     text-align: center;
   }
 }
 @media (min-width: 768px) {
   form {
-    font-size: 2rem;
+    font-size: 1.6rem;
     margin: 1rem 25vw;
   }
   input[type=submit] {
-    font-size: 2rem;
+    font-size: 1.6rem;
   }
   input[type=text], input[type=email], textarea {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     font-family: "Urbanist", sans-serif;
     text-align: center;
   }
