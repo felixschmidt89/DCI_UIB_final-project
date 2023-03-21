@@ -437,7 +437,7 @@ h3 {
 
 .connect-mobile, .connect-tablet, .connect-desktop {
   display: flex;
-  gap: 1.2em;
+  gap: 1.2rem;
   justify-content: center;
   align-items: center;
 }
@@ -606,7 +606,7 @@ input[type=submit]:hover {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 1.2rem;
+    gap: 0.1rem 1rem;
   }
   .cv-container {
     grid-template-columns: 1fr 1fr;
@@ -626,25 +626,17 @@ input[type=submit]:hover {
     gap: 20px 100px;
   }
 }
-#cv-contact {
-  margin-top: 1rem;
-}
 #cv-contact a, #cv-contact div {
   text-decoration: none;
   color: #50537c;
 }
 #cv-contact div span {
   transform: translateY(1px);
-  margin: 0.5rem;
-}
-
-.cv-contact h3, .cv-education h3, .cv-experience h3, .cv-skills h3 {
-  margin-top: 1.2rem;
+  margin-right: 0.3rem;
 }
 
 h2 {
   text-align: center;
-  padding-bottom: 1rem;
 }
 
 .cv-bulletpoint {
@@ -662,7 +654,7 @@ h2 {
   margin-left: 1rem;
   position: relative;
   color: #388697;
-  margin-top: 0.5rem;
+  margin-top: 0.6rem;
 }
 
 #impressum {
