@@ -155,19 +155,19 @@ h1, h2, h3, h4, h5, h6 {
 @media screen and (min-width: 768px) {
   .picture-container, #impressum, .cv-container, #about-project, #career-change, #pos-expert {
     margin: 1rem 4vw;
-    padding: 1rem;
+    padding: 0.5rem;
   }
 }
 @media screen and (min-width: 1024px) {
   .picture-container, #impressum, .cv-container, #about-project, #career-change, #pos-expert {
     margin: 1.5rem 8vw;
-    padding: 2rem;
+    padding: 1rem;
   }
 }
 @media screen and (min-width: 1600px) {
   .picture-container, #impressum, .cv-container, #about-project, #career-change, #pos-expert {
     margin: 2rem 10vw;
-    padding: 3rem;
+    padding: 1.5rem;
   }
 }
 header {
@@ -311,7 +311,7 @@ h1 {
   height: min-content;
   padding: 0.2rem;
   left: 5%;
-  top: 87%;
+  top: 85%;
   color: #388697;
   background-color: #fcfaf9;
   border-radius: 10px;
@@ -348,7 +348,7 @@ h1 {
   .picture-container {
     background-image: url(./images/picture-tablet.jpeg);
     background-size: cover;
-    background-position: center 38%;
+    background-position: center 35%;
   }
   .picture-container a {
     font-size: 1rem;
