@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media screen and (max-width: 349px) {
   h1 {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
   h2 {
     font-size: 1.2rem;
@@ -59,7 +59,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media screen and (min-width: 350px) {
   h1 {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
   h2 {
     font-size: 1.25rem;
@@ -73,7 +73,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media screen and (min-width: 600px) {
   h1 {
-    font-size: 1.9rem;
+    font-size: 1.7rem;
   }
   h2 {
     font-size: 1.3rem;
@@ -87,7 +87,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media screen and (min-width: 768px) {
   h1 {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
   h2 {
     font-size: 1.4rem;
@@ -101,7 +101,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media screen and (min-width: 1024px) {
   h1 {
-    font-size: 2.1rem;
+    font-size: 1.9rem;
   }
   h2 {
     font-size: 1.5rem;
@@ -115,7 +115,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media screen and (min-width: 1600px) {
   h1 {
-    font-size: 2.3rem;
+    font-size: 2rem;
   }
   h2 {
     font-size: 1.6rem;
