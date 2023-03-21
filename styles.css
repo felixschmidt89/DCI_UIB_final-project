@@ -316,7 +316,7 @@ h1 {
   .picture-container {
     background-image: url(./images/picture-tablet.jpeg);
     background-size: cover;
-    background-position: center;
+    background-position: center 30%;
   }
   .picture-container a {
     font-size: 1rem;
@@ -507,7 +507,7 @@ input[type=submit]:hover {
   grid-area: skills;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 600px) {
   #cv-contact {
     display: flex;
     flex-direction: row;
@@ -516,8 +516,8 @@ input[type=submit]:hover {
   }
   .cv-container {
     grid-template-columns: 1fr 1fr;
-    grid-template-areas: "head head" "education experience" "skills experience";
-    gap: 20px 100px;
+    grid-template-areas: "head head" "experience education" "experience skills" "experience .";
+    gap: 15px;
   }
 }
 @media (min-width: 1024px) {

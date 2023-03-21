@@ -76,7 +76,7 @@ h1{text-align: center; margin: 1rem; animation-name: drop;
      @media (max-width: 480px){
     .picture-container {background-image: url(./images/picture-mobile.jpeg); background-size: cover; background-position: center;
     a{font-size: 0.8rem;}}}
-    @media (min-width: 481px) and (max-width: 1024px) {.picture-container {background-image: url(./images/picture-tablet.jpeg); background-size: cover; background-position: center; a{font-size: 1rem;}}}
+    @media (min-width: 481px) and (max-width: 1024px) {.picture-container {background-image: url(./images/picture-tablet.jpeg); background-size: cover; background-position: center 30%; a{font-size: 1rem;}}}
     @media (min-width: 1025px){.picture-container {background-image: url(./images/picture-desktop.JPG); background-size: cover; background-position: 50% 30%;
     a{font-size: 1.1rem;}}}
 
@@ -127,13 +127,14 @@ border-radius: 25px; margin: 1rem; @include mixin.border;}
 .cv-experience {grid-area: experience;}
 .cv-skills {grid-area: skills;}
 
-@media (min-width:768px) {
+@media (orientation: landscape; min-width:600px) {
   #cv-contact{display: flex;flex-direction: row; flex-wrap: wrap; gap: 1.2rem;}
   .cv-container{grid-template-columns: 1fr 1fr;
   grid-template-areas: 'head head'
-'education experience'
-'skills experience';
-gap: 20px 100px;}
+'experience education'
+'experience skills'
+'experience .';
+gap: 15px;}
 }
 
 @media (min-width:1024px) {
