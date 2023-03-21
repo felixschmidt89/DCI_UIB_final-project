@@ -330,7 +330,7 @@ h1 {
   .picture-container {
     background-image: url(./images/picture-tablet.jpeg);
     background-size: cover;
-    background-position: 50% 35%;
+    background-position: 50% 30%;
   }
 }
 @media (min-width: 1025px) {
