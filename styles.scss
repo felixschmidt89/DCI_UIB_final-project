@@ -119,8 +119,8 @@ input[type=submit]:hover{background-color: base.$signal-color; color: base.$prim
 
 @media screen and (max-width: 349px) {form {font-size: 1.2rem; margin: 0rem 5vw;} input[type="submit"], input[type="text"], input[type="email"], textarea{font-size: 1rem;}}
 @media screen and (min-width: 350px) {form {font-size: 1.15rem; margin: 0rem 5vw;} input[type="submit"], input[type="text"], input[type="email"], textarea{font-size: 1.05rem;}}
-@media screen and (min-width: 600px) {form {font-size: 1.2rem; margin: 0rem 10vw;}input[type="submit"], input[type="text"], input[type="email"], textarea{font-size: 1.1rem;}}
-@media screen and (min-width: 768px) {form {font-size: 1.3rem; margin: 0rem 15vw;}input[type="submit"], input[type="text"], input[type="email"], textarea{font-size: 1.2rem;}}
+@media screen and (min-width: 600px) {form {font-size: 1.2rem; margin: 0rem 12vw;}input[type="submit"], input[type="text"], input[type="email"], textarea{font-size: 1.1rem;}}
+@media screen and (min-width: 768px) {form {font-size: 1.3rem; margin: 0rem 18vw;}input[type="submit"], input[type="text"], input[type="email"], textarea{font-size: 1.2rem;}}
 @media screen and (min-width:1024px) {form {font-size: 1.4rem; margin: 0rem 20vw;}input[type="submit"], input[type="text"], input[type="email"], textarea{font-size: 1.3rem;}}
 @media screen and (min-width:1600px) {form {font-size: 1.5rem; margin: 0rem 25vw;}input[type="submit"], input[type="text"], input[type="email"], textarea{font-size: 1.4rem;}}
 @media screen and (min-width:2000px) {form {font-size: 1.6rem; margin: 0rem 40vw;}input[type="submit"], input[type="text"], input[type="email"], textarea{font-size: 1.5rem;}}
