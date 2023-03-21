@@ -135,8 +135,8 @@ border-radius: 25px; @include mixin.border;}
 
 
 .cv-head {grid-area: head;}
-.cv-education {grid-area: education;}
-.cv-experience {grid-area: experience;}
+.cv-education {grid-area: education; margin-top: 0.4rem;}
+.cv-experience {grid-area: experience; margin-top: 0.4rem;}
 .cv-skills {grid-area: skills;}
 
 @media (min-width:600px) {

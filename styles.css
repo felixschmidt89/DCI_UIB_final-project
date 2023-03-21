@@ -591,10 +591,12 @@ input[type=submit]:hover {
 
 .cv-education {
   grid-area: education;
+  margin-top: 0.4rem;
 }
 
 .cv-experience {
   grid-area: experience;
+  margin-top: 0.4rem;
 }
 
 .cv-skills {
