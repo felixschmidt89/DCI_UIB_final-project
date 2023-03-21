@@ -82,13 +82,13 @@ h1{text-align: center; margin: 1rem; animation-name: drop;
 #copyright a {text-decoration: none; margin-top: 0.1rem;}
 #copyright a:hover {transform: scale(1.05)}
 
-@media screen and (max-width: 349px) {a{font-size: 0.8rem;}}
-@media screen and (min-width: 350px) {a{font-size: 0.8rem;}}
-@media screen and (min-width: 600px) {a{font-size: 0.9rem;}}
-@media screen and (min-width: 768px) {a{font-size: 1rem;}}
-@media screen and (min-width:1024px) {a{font-size: 1.1rem;}}
-@media screen and (min-width:1600px) {a{font-size: 1.2rem;}}
-@media screen and (min-width:2000px) {a{font-size: 1.3rem;}}
+@media screen and (max-width: 349px) {#copyright a{font-size: 0.8rem;}}
+@media screen and (min-width: 350px) {#copyright a{font-size: 0.8rem;}}
+@media screen and (min-width: 600px) {#copyright a{font-size: 0.9rem;}}
+@media screen and (min-width: 768px) {#copyright a{font-size: 1rem;}}
+@media screen and (min-width:1024px) {#copyright a{font-size: 1.1rem;}}
+@media screen and (min-width:1600px) {#copyright a{font-size: 1.2rem;}}
+@media screen and (min-width:2000px) {#copyright a{font-size: 1.3rem;}}
 
 
 // about.me
