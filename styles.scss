@@ -71,13 +71,13 @@ h1{text-align: center; margin: 1rem; animation-name: drop;
     .picture-container {background-image: url(./images/picture-mobile.jpeg); background-size: cover; background-position: center;
     a{font-size: 0.8rem;}}}
     @media (min-width: 481px) and (max-width: 1024px) {.picture-container {background-image: url(./images/picture-tablet.jpeg); background-size: cover; background-position: 50% 35%; }}
-    @media (min-width: 1025px){.picture-container {background-image: url(./images/picture-desktop.JPG); background-size: cover; background-position: 70% 35%;}}
+    @media (min-width: 1025px){.picture-container {background-image: url(./images/picture-desktop.JPG); background-size: cover; background-position: 70% 30%;}}
 @media screen and (min-width: 650px){.picture-container {width:60%; margin: auto}}
 @media screen and (max-width: 649px){.picture-container {margin: 0 0.25rem;}}
 
 
 #copyright {display: flex; justify-content: center;}
-#copyright a {text-decoration: none; margin-top: 0.1rem;}
+#copyright a {text-decoration: none; margin-top: 0.25rem;}
 #copyright a:hover {transform: scale(1.05)}
 
 @media screen and (max-width: 349px) {#copyright a{font-size: 0.8rem;}}
