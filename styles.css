@@ -419,6 +419,7 @@ input[type=submit] {
   font-weight: bold;
   border-radius: 25px;
   text-transform: uppercase;
+  margin-bottom: 0.5rem;
 }
 
 input[type=submit]:hover {

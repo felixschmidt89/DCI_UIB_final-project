@@ -102,8 +102,8 @@ h3{margin-bottom: 0.5rem;}
 // form
 
 form {display: flex; flex-direction: column; color: base.$warning-color; text-align: center; font-weight: 900; overflow: visible;}
-textarea, input{font-family: base.$font; text-align: center;}
-input[type=submit]{background-color: base.$warning-color; color: base.$background-color; font-weight: bold; border-radius: 25px; text-transform: uppercase;}
+textarea, input{font-family: base.$font; text-align: center; }
+input[type=submit]{background-color: base.$warning-color; color: base.$background-color; font-weight: bold; border-radius: 25px; text-transform: uppercase; margin-bottom: 0.5rem;}
 input[type=submit]:hover{background-color: base.$signal-color; color: base.$primary-color; cursor: pointer; }
 
 
