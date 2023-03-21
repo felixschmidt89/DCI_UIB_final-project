@@ -69,7 +69,7 @@ h1{text-align: center; margin: 1rem; animation-name: drop;
 
   .picture-container {height: 50vh; display: flex; border-radius: 25px;
     a{text-decoration: none}}
-    .picture-container span {position: relative; display: flex;height: min-content; padding: 0.2rem; left: 5%; top: 95%; color: base.$secondary-color; background-color: base.$background-color; border-radius: 10px;}
+    .picture-container span {position: relative; display: flex;height: min-content; padding: 0.2rem; left: 5%; top: 87%; color: base.$secondary-color; background-color: base.$background-color; border-radius: 10px;}
     .picture-container span i {transform: translateY(1px);}
     .picture-container span:hover{transform: scale(1.1);}
     .picture-container div {width: 100%;height: 100%; background-repeat: no-repeat; background-size: cover; background-position: center top; margin: auto;}
