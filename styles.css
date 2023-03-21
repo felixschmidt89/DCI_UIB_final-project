@@ -601,6 +601,7 @@ input[type=submit]:hover {
 
 .cv-skills {
   grid-area: skills;
+  margin-top: 0.4rem;
 }
 
 @media (min-width: 600px) {
