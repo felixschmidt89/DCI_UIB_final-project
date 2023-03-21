@@ -355,9 +355,44 @@ h1 {
   text-decoration: none;
 }
 #copyright a:hover {
-  transform: scale(1.2);
+  transform: scale(1.05);
 }
 
+@media screen and (max-width: 349px) {
+  a {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (min-width: 350px) {
+  a {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (min-width: 600px) {
+  a {
+    font-size: 0.9rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  a {
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  a {
+    font-size: 1.1rem;
+  }
+}
+@media screen and (min-width: 1600px) {
+  a {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (min-width: 2000px) {
+  a {
+    font-size: 1.3rem;
+  }
+}
 #intro, #pos-expert, #career-change {
   display: flex;
   flex-direction: column;
