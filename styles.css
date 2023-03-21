@@ -330,14 +330,14 @@ h1 {
   .picture-container {
     background-image: url(./images/picture-tablet.jpeg);
     background-size: cover;
-    background-position: 50% 30%;
+    background-position: 50% 27%;
   }
 }
 @media (min-width: 1025px) {
   .picture-container {
     background-image: url(./images/picture-desktop.JPG);
     background-size: cover;
-    background-position: 70% 30%;
+    background-position: 50% 31%;
   }
 }
 @media screen and (min-width: 650px) {
