@@ -317,7 +317,7 @@ h1 {
   height: min-content;
   padding: 0.2rem;
   left: 5%;
-  top: 85%;
+  top: 95%;
   color: #388697;
   background-color: #fcfaf9;
   border-radius: 10px;
@@ -368,6 +368,12 @@ h1 {
   }
   .picture-container a {
     font-size: 1.1rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .picture-container {
+    width: 60%;
+    margin: auto;
   }
 }
 #intro, #pos-expert, #career-change {

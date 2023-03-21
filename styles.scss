@@ -69,7 +69,7 @@ h1{text-align: center; margin: 1rem; animation-name: drop;
 
   .picture-container {height: 50vh; display: flex; border-radius: 25px;
     a{text-decoration: none}}
-    .picture-container span {position: relative; display: flex;height: min-content; padding: 0.2rem; left: 5%; top: 85%; color: base.$secondary-color; background-color: base.$background-color; border-radius: 10px;}
+    .picture-container span {position: relative; display: flex;height: min-content; padding: 0.2rem; left: 5%; top: 95%; color: base.$secondary-color; background-color: base.$background-color; border-radius: 10px;}
     .picture-container span i {transform: translateY(1px);}
     .picture-container span:hover{transform: scale(1.1);}
     .picture-container div {width: 100%;height: 100%; background-repeat: no-repeat; background-size: cover; background-position: center top; margin: auto;}
@@ -79,7 +79,8 @@ h1{text-align: center; margin: 1rem; animation-name: drop;
     @media (min-width: 481px) and (max-width: 1024px) {.picture-container {background-image: url(./images/picture-tablet.jpeg); background-size: cover; background-position: center 35%; a{font-size: 1rem;}}}
     @media (min-width: 1025px){.picture-container {background-image: url(./images/picture-desktop.JPG); background-size: cover; background-position: 50% 30%;
     a{font-size: 1.1rem;}}}
-
+  
+@media screen and (min-width: 1024px){.picture-container {width:60%; margin: auto}}
 
 // about.me
 #intro, #pos-expert, #career-change {@include mixin.container; @include mixin.border; border-radius: 25px;}
