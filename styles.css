@@ -340,15 +340,21 @@ h1 {
     background-position: 50% 31%;
   }
 }
+@media screen and (max-width: 649px) {
+  .picture-container {
+    margin: 0 0.25rem;
+  }
+}
 @media screen and (min-width: 650px) {
   .picture-container {
     width: 60%;
     margin: auto;
   }
 }
-@media screen and (max-width: 649px) {
+@media screen and (min-width: 1000px) {
   .picture-container {
-    margin: 0 0.25rem;
+    width: 40%;
+    margin: auto;
   }
 }
 #copyright {
