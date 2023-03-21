@@ -306,30 +306,6 @@ h1 {
   display: flex;
   border-radius: 25px;
 }
-.picture-container a {
-  text-decoration: none;
-}
-
-.picture-container span {
-  position: relative;
-  display: flex;
-  height: -moz-min-content;
-  height: min-content;
-  padding: 0.2rem;
-  left: 5%;
-  top: 87%;
-  color: #388697;
-  background-color: #fcfaf9;
-  border-radius: 10px;
-}
-
-.picture-container span i {
-  transform: translateY(1px);
-}
-
-.picture-container span:hover {
-  transform: scale(1.1);
-}
 
 .picture-container div {
   width: 100%;
@@ -356,18 +332,12 @@ h1 {
     background-size: cover;
     background-position: center 35%;
   }
-  .picture-container a {
-    font-size: 1rem;
-  }
 }
 @media (min-width: 1025px) {
   .picture-container {
     background-image: url(./images/picture-desktop.JPG);
     background-size: cover;
     background-position: 50% 30%;
-  }
-  .picture-container a {
-    font-size: 1.1rem;
   }
 }
 @media screen and (min-width: 650px) {
@@ -376,6 +346,18 @@ h1 {
     margin: auto;
   }
 }
+#copyright {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.3rem;
+}
+#copyright a {
+  text-decoration: none;
+}
+#copyright a:hover {
+  transform: scale(1.2);
+}
+
 #intro, #pos-expert, #career-change {
   display: flex;
   flex-direction: column;
