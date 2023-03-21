@@ -139,17 +139,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media screen and (max-width: 349px) {
   #impressum, .cv-container, #about-project, #career-change, #pos-expert {
-    margin: 1rem 0.3rem;
+    margin: 1rem 0.6rem;
   }
 }
 @media screen and (min-width: 350px) {
   #impressum, .cv-container, #about-project, #career-change, #pos-expert {
-    margin: 1rem 0.4rem;
+    margin: 1rem 0.7rem;
   }
 }
 @media screen and (min-width: 600px) {
   #impressum, .cv-container, #about-project, #career-change, #pos-expert {
-    margin: 1rem 0.7rem;
+    margin: 1rem 0.8rem;
   }
 }
 @media screen and (min-width: 768px) {
@@ -330,14 +330,14 @@ h1 {
   .picture-container {
     background-image: url(./images/picture-tablet.jpeg);
     background-size: cover;
-    background-position: center 35%;
+    background-position: 50% 35%;
   }
 }
 @media (min-width: 1025px) {
   .picture-container {
     background-image: url(./images/picture-desktop.JPG);
     background-size: cover;
-    background-position: 50% 30%;
+    background-position: 70% 35%;
   }
 }
 @media screen and (min-width: 650px) {
