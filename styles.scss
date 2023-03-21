@@ -76,9 +76,9 @@ h1{text-align: center; margin: 1rem; animation-name: drop;
     @media (min-width: 1025px){.picture-container {background-image: url(./images/picture-desktop.JPG); background-size: cover; background-position: 50% 30%;}}
 @media screen and (min-width: 650px){.picture-container {width:60%; margin: auto}}
 
-#copyright {display: flex; justify-content: center; margin-top: 0.3rem;
-a {text-decoration: none}
-a:hover {transform: scale(1.05)}}
+#copyright {display: flex; justify-content: center;}
+#copyright a {text-decoration: none; margin-top: 0.3rem;}
+#copyright a:hover {transform: scale(1.05)}
 
 @media screen and (max-width: 349px) {a{font-size: 0.8rem;}}
 @media screen and (min-width: 350px) {a{font-size: 0.8rem;}}
