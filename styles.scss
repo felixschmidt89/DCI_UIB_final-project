@@ -76,7 +76,7 @@ h1{text-align: center; margin: 1rem; animation-name: drop;
      @media (max-width: 480px){
     .picture-container {background-image: url(./images/picture-mobile.jpeg); background-size: cover; background-position: center;
     a{font-size: 0.8rem;}}}
-    @media (min-width: 481px) and (max-width: 1024px) {.picture-container {background-image: url(./images/picture-tablet.jpeg); background-size: cover; background-position: center 30%; a{font-size: 1rem;}}}
+    @media (min-width: 481px) and (max-width: 1024px) {.picture-container {background-image: url(./images/picture-tablet.jpeg); background-size: cover; background-position: center 33%; a{font-size: 1rem;}}}
     @media (min-width: 1025px){.picture-container {background-image: url(./images/picture-desktop.JPG); background-size: cover; background-position: 50% 30%;
     a{font-size: 1.1rem;}}}
 
