@@ -127,6 +127,20 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1.4rem;
   }
 }
+@media screen and (min-width: 2000px) {
+  h1 {
+    font-size: 2.2rem;
+  }
+  h2 {
+    font-size: 1.8rem;
+  }
+  h3 {
+    font-size: 1.7rem;
+  }
+  p, section, div {
+    font-size: 1.6rem;
+  }
+}
 @media screen and (max-width: 599px) {
   #impressum, .cv-container, #about-project, #career-change, #pos-expert {
     padding: 0.5rem 0.35rem;
@@ -172,7 +186,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media screen and (min-width: 2000px) {
   #impressum, .cv-container, #about-project, #career-change, #pos-expert {
-    margin: 2.5rem 12vw;
+    margin: 2.5rem 20vw;
     padding: 1rem 2rem;
   }
 }
@@ -521,7 +535,7 @@ input[type=submit]:hover {
 @media screen and (min-width: 600px) {
   form {
     font-size: 1.2rem;
-    margin: 0rem 15vw;
+    margin: 0rem 10vw;
   }
   input[type=submit], input[type=text], input[type=email], textarea {
     font-size: 1.1rem;
@@ -539,7 +553,7 @@ input[type=submit]:hover {
 @media screen and (min-width: 1024px) {
   form {
     font-size: 1.4rem;
-    margin: 0rem 25vw;
+    margin: 0rem 20vw;
   }
   input[type=submit], input[type=text], input[type=email], textarea {
     font-size: 1.3rem;
@@ -557,7 +571,7 @@ input[type=submit]:hover {
 @media screen and (min-width: 2000px) {
   form {
     font-size: 1.6rem;
-    margin: 0rem 30vw;
+    margin: 0rem 40vw;
   }
   input[type=submit], input[type=text], input[type=email], textarea {
     font-size: 1.5rem;
