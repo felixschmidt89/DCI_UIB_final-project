@@ -24,6 +24,10 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 900;
 }
 
+h2 {
+  margin-bottom: 0.4rem;
+}
+
 ::-moz-selection {
   color: #fcfaf9;
   background: #2d3047;
@@ -356,7 +360,7 @@ h1 {
 }
 @media screen and (max-width: 649px) {
   .picture-container {
-    margin: 0 0.25rem;
+    margin: 0 0.5rem;
   }
 }
 @media screen and (min-width: 650px) {
@@ -591,17 +595,17 @@ input[type=submit]:hover {
 
 .cv-education {
   grid-area: education;
-  margin-top: 0.4rem;
+  margin-top: 0.5rem;
 }
 
 .cv-experience {
   grid-area: experience;
-  margin-top: 0.4rem;
+  margin-top: 0.5rem;
 }
 
 .cv-skills {
   grid-area: skills;
-  margin-top: 0.4rem;
+  margin-top: 0.5rem;
 }
 
 @media (min-width: 600px) {
