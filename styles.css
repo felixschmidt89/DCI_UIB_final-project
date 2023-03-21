@@ -139,17 +139,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media screen and (max-width: 349px) {
   .picture-container, #impressum, .cv-container, #about-project, #career-change, #pos-expert {
-    margin: 0.3rem;
+    margin: 1rem 0.3rem;
   }
 }
 @media screen and (min-width: 350px) {
   .picture-container, #impressum, .cv-container, #about-project, #career-change, #pos-expert {
-    margin: 0.4rem;
+    margin: 1rem 0.4rem;
   }
 }
 @media screen and (min-width: 600px) {
   .picture-container, #impressum, .cv-container, #about-project, #career-change, #pos-expert {
-    margin: 0.7rem;
+    margin: 1rem 0.7rem;
   }
 }
 @media screen and (min-width: 768px) {
