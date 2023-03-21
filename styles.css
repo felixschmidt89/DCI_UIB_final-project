@@ -139,7 +139,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media screen and (max-width: 349px) {
   .picture-container, #impressum, .cv-container, #about-project, #career-change, #pos-expert {
-    margin: 1rem 0.3rem;
+    margin: 1em 0.3rem;
   }
 }
 @media screen and (min-width: 350px) {
