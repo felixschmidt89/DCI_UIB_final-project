@@ -75,10 +75,10 @@ h1{text-align: center; margin: 1rem; animation-name: drop;
     .picture-container div {width: 100%;height: 100%; background-repeat: no-repeat; background-size: cover; background-position: center top; margin: auto;}
      @media (max-width: 480px){
     .picture-container {background-image: url(./images/picture-mobile.jpeg); background-size: cover; background-position: center;
-    a{font-size: 1rem;}}}
-    @media (min-width: 481px) and (max-width: 1024px) {.picture-container {background-image: url(./images/picture-tablet.jpeg); background-size: cover; background-position: center; a{font-size: 1.2rem;}}}
+    a{font-size: 0.8rem;}}}
+    @media (min-width: 481px) and (max-width: 1024px) {.picture-container {background-image: url(./images/picture-tablet.jpeg); background-size: cover; background-position: center; a{font-size: 1rem;}}}
     @media (min-width: 1025px){.picture-container {background-image: url(./images/picture-desktop.JPG); background-size: cover; background-position: 50% 30%;
-    a{font-size: 1.4rem;}}}
+    a{font-size: 1.1rem;}}}
 
 
 // about.me
@@ -101,18 +101,18 @@ h3{margin-bottom: 0.5rem;}
 
 // form
 
-form {display: flex; flex-direction: column; color: base.$warning-color; text-align: center; font-weight: 900; overflow: visible; margin: 1rem;;}
+form {display: flex; flex-direction: column; color: base.$warning-color; text-align: center; font-weight: 900; overflow: visible;}
 textarea, input{font-family: base.$font; text-align: center;}
-input[type=submit]{background-color: base.$warning-color; color: base.$background-color; font-weight: bold; border-radius: 25px; margin-bottom: 1rem; text-transform: uppercase;}
+input[type=submit]{background-color: base.$warning-color; color: base.$background-color; font-weight: bold; border-radius: 25px; text-transform: uppercase;}
 input[type=submit]:hover{background-color: base.$signal-color; color: base.$primary-color; cursor: pointer; }
 
 
-@media screen and (max-width: 349px) {form {font-size: 1.3rem; margin: 1rem 5vw;} input[type="submit"], input[type="text"], input[type="email"], textarea{font-size: 1.3rem;}}
-@media screen and (min-width: 350px) {form {font-size: 1.3rem; margin: 1rem 5vw;} input[type="submit"], input[type="text"], input[type="email"], textarea{font-size: 1.3rem;}}
-@media screen and (min-width: 767px) {form {font-size: 1.5rem; margin: 1rem 15vw;}input[type="submit"], input[type="text"], input[type="email"], textarea{font-size: 1.4rem;}}
-@media screen and (min-width:1024px) {form {font-size: 1.5rem; margin: 1rem 25vw;}input[type="submit"], input[type="text"], input[type="email"], textarea{font-size: 1.5rem;}}
-@media screen and (min-width:1600px) {form {font-size: 1.7rem; margin: 1rem 25vw;}input[type="submit"], input[type="text"], input[type="email"], textarea{font-size: 1.7rem;}}
-
+@media screen and (max-width: 349px) {form {font-size: 1.2rem; margin: 0rem 5vw;} input[type="submit"], input[type="text"], input[type="email"], textarea{font-size: 1rem;}}
+@media screen and (min-width: 350px) {form {font-size: 1.2rem; margin: 0rem 5vw;} input[type="submit"], input[type="text"], input[type="email"], textarea{font-size: 1.1rem;}}
+@media screen and (min-width: 600px) {form {font-size: 1.3rem; margin: 0rem 15vw;}input[type="submit"], input[type="text"], input[type="email"], textarea{font-size: 1.2rem;}}
+@media screen and (min-width: 768px) {form {font-size: 1.4rem; margin: 0rem 15vw;}input[type="submit"], input[type="text"], input[type="email"], textarea{font-size: 1.3rem;}}
+@media screen and (min-width:1024px) {form {font-size: 1.5rem; margin: 0rem 25vw;}input[type="submit"], input[type="text"], input[type="email"], textarea{font-size: 1.4rem;}}
+@media screen and (min-width:1600px) {form {font-size: 1.6rem; margin: 0rem 25vw;}input[type="submit"], input[type="text"], input[type="email"], textarea{font-size: 1.5rem;}}
 
 .cv-container{display: grid;
 grid-template-areas: 'head'

@@ -34,12 +34,12 @@ h1,h2,h3,h4,h5,h6 {color: $signal-color;font-family: $font-title; font-weight: 9
 
 
 // Default font sizes
-@media screen and (max-width: 349px) {h1 {font-size: 1.8rem;} h2{font-size: 1.4rem;} h3{font-size: 1.3rem;} p, section, div {font-size: 1.2rem;}}
-@media screen and (min-width: 350px) {h1 {font-size: 1.8rem;} h2{font-size: 1.4rem;} h3{font-size: 1.3rem;}p, section, div {font-size: 1.2rem;}}
-@media screen and (min-width: 600px) {h1 {font-size: 1.9rem;} h2{font-size: 1.5rem;} h3{font-size: 1.4rem;}p, section, div {font-size: 1.3rem;}}
-@media screen and (min-width: 768px) {h1 {font-size: 2rem;} h2{font-size: 1.6rem;} h3{font-size: 1.5rem;}p, section, div {font-size: 1.4rem;}}
-@media screen and (min-width: 1024px) {h1 {font-size: 2.1rem;} h2{font-size: 1.7rem;} h3{font-size: 1.6rem;}p, section, div {font-size: 1.5rem;}}
-@media screen and (min-width: 1600px) {h1 {font-size: 2.3rem;} h2{font-size: 1.9rem;}h3{font-size: 1.8rem;} p, section, div {font-size: 1.7rem;}}
+@media screen and (max-width: 349px) {h1 {font-size: 1.8rem;} h2{font-size: 1.3rem;} h3{font-size: 1.2rem;} p, section, div {font-size: 1rem;}}
+@media screen and (min-width: 350px) {h1 {font-size: 1.8rem;} h2{font-size: 1.3rem;} h3{font-size: 1.2rem;}p, section, div {font-size: 1.1rem;}}
+@media screen and (min-width: 600px) {h1 {font-size: 1.9rem;} h2{font-size: 1.4rem;} h3{font-size: 1.3rem;}p, section, div {font-size: 1.2rem;}}
+@media screen and (min-width: 768px) {h1 {font-size: 2rem;} h2{font-size: 1.5rem;} h3{font-size: 1.4rem;}p, section, div {font-size: 1.3rem;}}
+@media screen and (min-width: 1024px) {h1 {font-size: 2.1rem;} h2{font-size: 1.6rem;} h3{font-size: 1.5rem;}p, section, div {font-size: 1.4rem;}}
+@media screen and (min-width: 1600px) {h1 {font-size: 2.3rem;} h2{font-size: 1.7rem;}h3{font-size: 1.6rem;} p, section, div {font-size: 1.5rem;}}
 
 
 
