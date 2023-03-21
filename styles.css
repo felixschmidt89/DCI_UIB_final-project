@@ -170,6 +170,12 @@ h1, h2, h3, h4, h5, h6 {
     padding: 1.5rem;
   }
 }
+@media screen and (min-width: 2000px) {
+  .picture-container, #impressum, .cv-container, #about-project, #career-change, #pos-expert {
+    margin: 2.5rem 12vw;
+    padding: 2rem;
+  }
+}
 header {
   display: flex;
   flex-direction: row;
@@ -510,6 +516,15 @@ input[type=submit]:hover {
   }
   input[type=submit], input[type=text], input[type=email], textarea {
     font-size: 1.4rem;
+  }
+}
+@media screen and (min-width: 2000px) {
+  form {
+    font-size: 1.6rem;
+    margin: 0rem 30vw;
+  }
+  input[type=submit], input[type=text], input[type=email], textarea {
+    font-size: 1.5rem;
   }
 }
 .cv-container {
