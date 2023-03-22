@@ -32,7 +32,15 @@ header p {display: none; color: base.$secondary-color; margin:0 0 0 1rem; paddin
   a:hover{color: base.$signal-color; transform: scale(1.1);}
     a:focus{border: 3px solid base.$background-color; color: base.$background-color;}
     a:active{color: base.$warning-color;}
-}
+  }
+
+@media screen and (max-width: 349px) {header p, .navigation-links a {font-size: 1.1rem;}}
+@media screen and (min-width: 350px) {header p, .navigation-links a {font-size: 1.1rem;}}
+@media screen and (min-width: 600px) {header p, .navigation-links a {font-size: 1.15rem;}}
+@media screen and (min-width: 768px) {header p, .navigation-links a {font-size: 1.2rem;}}
+@media screen and (min-width: 1024px) {header p, .navigation-links a {font-size: 1.25rem;}}
+@media screen and (min-width: 1600px) {header p, .navigation-links a {font-size: 1.3rem;}}
+@media screen and (min-width: 1600px) {header p, .navigation-links a {font-size: 1.35rem;}}
 
 * {scroll-behavior: smooth;}
 #cv, #about-project, #me{scroll-margin-top: 50px;}
@@ -41,9 +49,9 @@ header p {display: none; color: base.$secondary-color; margin:0 0 0 1rem; paddin
 .switch-language {
     display: flex;
     gap: 0.7rem;
-    margin: 0.7rem;
+    margin: 0.5rem 1rem;
   }
-    .switch-language a {font-size: 1rem; padding: 0.4rem;
+    .switch-language a {padding: 0.5rem;
   border: 1px solid base.$secondary-color;
   border-radius: 50%; text-decoration: none; color: base.$background-color;}
     .switch-language :first-child {
@@ -83,12 +91,12 @@ h1{text-align: center; margin: 1rem; animation-name: drop;
 #copyright a:hover {transform: scale(1.05)}
 
 @media screen and (max-width: 349px) {#copyright a{font-size: 0.8rem;}}
-@media screen and (min-width: 350px) {#copyright a{font-size: 0.8rem;}}
+@media screen and (min-width: 350px) {#copyright a{font-size: 0.85rem;}}
 @media screen and (min-width: 600px) {#copyright a{font-size: 0.9rem;}}
-@media screen and (min-width: 768px) {#copyright a{font-size: 1rem;}}
-@media screen and (min-width:1024px) {#copyright a{font-size: 1.1rem;}}
-@media screen and (min-width:1600px) {#copyright a{font-size: 1.2rem;}}
-@media screen and (min-width:2000px) {#copyright a{font-size: 1.3rem;}}
+@media screen and (min-width: 768px) {#copyright a{font-size: 0.95rem;}}
+@media screen and (min-width:1024px) {#copyright a{font-size: 1rem;}}
+@media screen and (min-width:1600px) {#copyright a{font-size: 1.05rem;}}
+@media screen and (min-width:2000px) {#copyright a{font-size: 1.1rem;}}
 
 
 // about.me
@@ -117,13 +125,13 @@ input[type=submit]{background-color: base.$warning-color; color: base.$backgroun
 input[type=submit]:hover{background-color: base.$signal-color; color: base.$primary-color; cursor: pointer; }
 
 
-@media screen and (max-width: 349px) {form {font-size: 1.2rem; margin: 0rem 5vw;} input[type="submit"], input[type="text"], input[type="email"], textarea{font-size: 1rem;}}
+@media screen and (max-width: 349px) {form {font-size: 1.1rem; margin: 0rem 5vw;} input[type="submit"], input[type="text"], input[type="email"], textarea{font-size: 1rem;}}
 @media screen and (min-width: 350px) {form {font-size: 1.15rem; margin: 0rem 5vw;} input[type="submit"], input[type="text"], input[type="email"], textarea{font-size: 1.05rem;}}
 @media screen and (min-width: 600px) {form {font-size: 1.2rem; margin: 0rem 20vw;}input[type="submit"], input[type="text"], input[type="email"], textarea{font-size: 1.1rem;}}
-@media screen and (min-width: 768px) {form {font-size: 1.3rem; margin: 0rem 25vw;}input[type="submit"], input[type="text"], input[type="email"], textarea{font-size: 1.2rem;}}
-@media screen and (min-width:1024px) {form {font-size: 1.4rem; margin: 0rem 30vw;}input[type="submit"], input[type="text"], input[type="email"], textarea{font-size: 1.3rem;}}
-@media screen and (min-width:1600px) {form {font-size: 1.5rem; margin: 0rem 35vw;}input[type="submit"], input[type="text"], input[type="email"], textarea{font-size: 1.4rem;}}
-@media screen and (min-width:2000px) {form {font-size: 1.6rem; margin: 0rem 39vw;}input[type="submit"], input[type="text"], input[type="email"], textarea{font-size: 1.5rem;}}
+@media screen and (min-width: 768px) {form {font-size: 1.25rem; margin: 0rem 25vw;}input[type="submit"], input[type="text"], input[type="email"], textarea{font-size: 1.15rem;}}
+@media screen and (min-width:1024px) {form {font-size: 1.3rem; margin: 0rem 30vw;}input[type="submit"], input[type="text"], input[type="email"], textarea{font-size: 1.2rem;}}
+@media screen and (min-width:1600px) {form {font-size: 1.3.5rem; margin: 0rem 35vw;}input[type="submit"], input[type="text"], input[type="email"], textarea{font-size: 1.25rem;}}
+@media screen and (min-width:2000px) {form {font-size: 1.5rem; margin: 0rem 39vw;}input[type="submit"], input[type="text"], input[type="email"], textarea{font-size: 1.4rem;}}
 
 
 .cv-container{display: grid;
