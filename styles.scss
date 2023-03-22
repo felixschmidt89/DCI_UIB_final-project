@@ -139,8 +139,10 @@ border-radius: 25px; @include mixin.border;}
 .cv-experience {grid-area: experience; margin-top: 0.5rem;}
 .cv-skills {grid-area: skills; margin-top: 0.5rem;}
 
-@media (min-width:600px) {
+@media screen and (min-width:600px) {
   #cv-contact{display: flex;flex-direction: row; flex-wrap: wrap; gap: 0.1rem 1rem;}
+  :first-child {transform: translateX(-1px);}
+  :nth-child(2){transform: translateX(-1px);}
   .cv-container{grid-template-columns: 1fr 1fr;
   grid-template-areas: 'head head'
 'experience education'
@@ -149,8 +151,9 @@ border-radius: 25px; @include mixin.border;}
 gap: 15px;}
 }
 
-@media (min-width:1024px) {
+@media screen and (min-width:1024px) {
   #cv-contact{display: flex;flex-direction: row; flex-wrap: wrap;}
+  :first-child {transform: translateX(-1px);}
   .cv-container{grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas: 'head head head'
 'education experience experience'
@@ -165,6 +168,7 @@ h2{text-align: center;};
 .cv-bulletpoint{font-weight: 600;margin-top: 1rem;}
 .cv-period {font-weight: 300; font-style: italic; margin-top: 0.1rem;}
 .cv-description {margin-left: 1rem; position: relative; color: base.$secondary-color; margin-top: 0.6rem;}
+
 
 
 // Impressum

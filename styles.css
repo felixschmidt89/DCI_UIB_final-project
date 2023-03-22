@@ -608,12 +608,18 @@ input[type=submit]:hover {
   margin-top: 0.5rem;
 }
 
-@media (min-width: 600px) {
+@media screen and (min-width: 600px) {
   #cv-contact {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 0.1rem 1rem;
+  }
+  :first-child {
+    transform: translateX(-1px);
+  }
+  :nth-child(2) {
+    transform: translateX(-1px);
   }
   .cv-container {
     grid-template-columns: 1fr 1fr;
@@ -621,11 +627,14 @@ input[type=submit]:hover {
     gap: 15px;
   }
 }
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   #cv-contact {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+  }
+  :first-child {
+    transform: translateX(-1px);
   }
   .cv-container {
     grid-template-columns: 1fr 1fr 1fr;
