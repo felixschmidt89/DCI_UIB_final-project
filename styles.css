@@ -194,6 +194,41 @@ h2 {
     padding: 1rem 2rem;
   }
 }
+@media screen and (max-width: 349px) {
+  header p, footer p, .navigation-links a {
+    font-size: 1.1rem;
+  }
+}
+@media screen and (min-width: 350px) {
+  header p, footer p, .navigation-links a {
+    font-size: 1.1rem;
+  }
+}
+@media screen and (min-width: 600px) {
+  header p, footer p, .navigation-links a {
+    font-size: 1.15rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  header p, footer p, .navigation-links a {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  header p, footer p, .navigation-links a {
+    font-size: 1.25rem;
+  }
+}
+@media screen and (min-width: 1600px) {
+  header p, footer p, .navigation-links a {
+    font-size: 1.3rem;
+  }
+}
+@media screen and (min-width: 1600px) {
+  header p, footer p, .navigation-links a {
+    font-size: 1.35rem;
+  }
+}
 header {
   display: flex;
   flex-direction: row;
@@ -205,7 +240,6 @@ header {
   position: sticky;
   top: 0;
   z-index: 999;
-  width: 100%;
   overflow: hidden;
 }
 
@@ -263,41 +297,6 @@ header p {
   color: #e55381;
 }
 
-@media screen and (max-width: 349px) {
-  header p, .navigation-links a {
-    font-size: 1.1rem;
-  }
-}
-@media screen and (min-width: 350px) {
-  header p, .navigation-links a {
-    font-size: 1.1rem;
-  }
-}
-@media screen and (min-width: 600px) {
-  header p, .navigation-links a {
-    font-size: 1.15rem;
-  }
-}
-@media screen and (min-width: 768px) {
-  header p, .navigation-links a {
-    font-size: 1.2rem;
-  }
-}
-@media screen and (min-width: 1024px) {
-  header p, .navigation-links a {
-    font-size: 1.25rem;
-  }
-}
-@media screen and (min-width: 1600px) {
-  header p, .navigation-links a {
-    font-size: 1.3rem;
-  }
-}
-@media screen and (min-width: 1600px) {
-  header p, .navigation-links a {
-    font-size: 1.35rem;
-  }
-}
 * {
   scroll-behavior: smooth;
 }
@@ -725,15 +724,60 @@ h2 {
 footer {
   display: flex;
   flex-direction: row;
-  height: 60px;
+  height: 50px;
   background-color: #2d3047;
   color: #fcfaf9;
   align-items: center;
   justify-content: center;
   bottom: 0;
-  width: 100%;
   overflow: hidden;
 }
 footer p {
   margin: 0;
+}
+
+@media screen and (max-width: 500px) {
+  header, footer {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 600px) {
+  header, footer {
+    width: 100.6%;
+  }
+}
+@media screen and (min-width: 650px) {
+  header, footer {
+    width: 100.6%;
+  }
+}
+@media screen and (min-width: 750px) {
+  header, footer {
+    width: 100.5%;
+  }
+}
+@media screen and (min-width: 800px) {
+  header, footer {
+    width: 100.4%;
+  }
+}
+@media screen and (min-width: 1000px) {
+  header, footer {
+    width: 100.25%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  header, footer {
+    width: 100.2%;
+  }
+}
+@media screen and (min-width: 1600px) {
+  header, footer {
+    width: 100.1%;
+  }
+}
+@media screen and (min-width: 2000px) {
+  header, footer {
+    width: 100.05%;
+  }
 }/*# sourceMappingURL=styles.css.map */

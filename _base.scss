@@ -56,3 +56,12 @@ h2 {margin-bottom: 0.5rem;}
 @media screen and (min-width: 1600px) {#impressum, .cv-container, #about-project, #career-change, #pos-expert {margin: 2rem 10vw; padding: 1rem 2rem;}}
 @media screen and (min-width: 2000px) {#impressum, .cv-container, #about-project, #career-change, #pos-expert {margin: 2.5rem 20vw; padding: 1rem 2rem;}}
 
+// header, footer, navbar fonts
+@media screen and (max-width: 349px) {header p, footer p, .navigation-links a {font-size: 1.1rem;}}
+@media screen and (min-width: 350px) {header p, footer p, .navigation-links a {font-size: 1.1rem;}}
+@media screen and (min-width: 600px) {header p, footer p, .navigation-links a {font-size: 1.15rem;}}
+@media screen and (min-width: 768px) {header p, footer p, .navigation-links a {font-size: 1.2rem;}}
+@media screen and (min-width: 1024px) {header p, footer p, .navigation-links a {font-size: 1.25rem;}}
+@media screen and (min-width: 1600px) {header p, footer p, .navigation-links a {font-size: 1.3rem;}}
+@media screen and (min-width: 1600px) {header p, footer p, .navigation-links a {font-size: 1.35rem;}}
+

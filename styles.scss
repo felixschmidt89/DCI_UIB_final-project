@@ -15,7 +15,6 @@ header{display: flex;
   position: sticky;
   top:0;
   z-index: 999;
-  width: 100%;
   overflow: hidden;}
 
 //navbar-logo:
@@ -35,13 +34,6 @@ header p {display: none; color: base.$secondary-color; margin:0 0 0 1rem; paddin
     a:active{color: base.$warning-color;}
   }
 
-@media screen and (max-width: 349px) {header p, .navigation-links a {font-size: 1.1rem;}}
-@media screen and (min-width: 350px) {header p, .navigation-links a {font-size: 1.1rem;}}
-@media screen and (min-width: 600px) {header p, .navigation-links a {font-size: 1.15rem;}}
-@media screen and (min-width: 768px) {header p, .navigation-links a {font-size: 1.2rem;}}
-@media screen and (min-width: 1024px) {header p, .navigation-links a {font-size: 1.25rem;}}
-@media screen and (min-width: 1600px) {header p, .navigation-links a {font-size: 1.3rem;}}
-@media screen and (min-width: 1600px) {header p, .navigation-links a {font-size: 1.35rem;}}
 
 * {scroll-behavior: smooth;}
 #cv, #about-project, #me{scroll-margin-top: 50px;}
@@ -188,14 +180,27 @@ p, a{font-size: 0.9rem; color: base.$primary-color-light;}}
 // Footer
 footer{display: flex; 
   flex-direction: row; 
-  height: 60px; 
+  height: 50px; 
   background-color:base.$primary-color; 
   color: base.$background-color; 
   align-items: center; 
   justify-content: center; 
-  bottom:0;
-  width: 100%;
+  bottom: 0;
   overflow: hidden;
+  
 p {margin: 0;}}
+
+
+
+// header footer hack to *actually* fit full screen with
+@media screen and (max-width: 500px) {header, footer {width: 100%}}
+@media screen and (min-width: 600px) {header, footer {width: 100.6%;}}
+@media screen and (min-width: 650px) {header, footer {width: 100.6%;}}
+@media screen and (min-width: 750px) {header, footer {width: 100.5%;}}
+@media screen and (min-width: 800px) {header, footer {width: 100.4%;}}
+@media screen and (min-width: 1000px) {header, footer {width: 100.25%;}}
+@media screen and (min-width: 1200px) {header, footer {width: 100.2%;}}
+@media screen and (min-width: 1600px) {header, footer {width: 100.1%;}}
+@media screen and (min-width: 2000px) {header, footer {width: 100.05%;}}
 
 
