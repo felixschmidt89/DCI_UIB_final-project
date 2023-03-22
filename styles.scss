@@ -141,8 +141,8 @@ border-radius: 25px; @include mixin.border;}
 
 @media screen and (min-width:600px) {
   #cv-contact{display: flex;flex-direction: row; flex-wrap: wrap; gap: 0.1rem 1rem;}
-  :first-child {transform: translateX(-1px);}
-  :nth-child(2){transform: translateX(-1px);}
+  :first-child {transform: translateX(-2px);}
+  :nth-child(2){transform: translateX(-2px);}
   .cv-container{grid-template-columns: 1fr 1fr;
   grid-template-areas: 'head head'
 'experience education'
