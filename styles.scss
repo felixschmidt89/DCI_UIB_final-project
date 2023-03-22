@@ -8,7 +8,6 @@
 header{display: flex; 
   flex-direction: row; 
   height: 50px;
-  width: 100vw; 
   background-color: base.$primary-color; 
   color: base.$background-color; 
   align-items: center; 
@@ -16,6 +15,7 @@ header{display: flex;
   position: sticky;
   top:0;
   z-index: 999;
+  width: 100%;
   overflow: hidden;}
 
 //navbar-logo:
@@ -194,6 +194,8 @@ footer{display: flex;
   align-items: center; 
   justify-content: center; 
   bottom:0;
+  width: 100%;
+  overflow: hidden;
 p {margin: 0;}}
 
 
