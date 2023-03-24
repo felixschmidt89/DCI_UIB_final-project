@@ -395,13 +395,11 @@ h1 {
 @media screen and (max-width: 500px) {
   .picture-container {
     width: 80%;
-    overflow: scroll;
   }
 }
 @media screen and (min-width: 650px) {
   .picture-container {
     width: 70%;
-    overflow: scroll;
   }
 }
 @media screen and (min-width: 1000px) {
