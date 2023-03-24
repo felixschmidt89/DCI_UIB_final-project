@@ -399,7 +399,7 @@ h1 {
 }
 @media screen and (min-width: 650px) {
   .picture-container {
-    width: 85%;
+    width: 75%;
   }
 }
 @media screen and (min-width: 1000px) {
