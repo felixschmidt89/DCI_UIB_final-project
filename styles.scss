@@ -73,8 +73,8 @@ h1{text-align: center; margin: 1rem; animation-name: drop;
     a{font-size: 0.8rem;}}}
     @media (min-width: 481px) and (max-width: 1024px) {.picture-container {background-image: url(./images/picture-tablet.jpeg); background-size: cover; background-position: 50% 27%; }}
     @media (min-width: 1025px){.picture-container {background-image: url(./images/picture-desktop.JPG); background-size: cover; background-position: 50% 31%;}}
-@media screen and (max-width: 600px){.picture-container {margin: 0 0.5rem;}}
-@media screen and (min-width: 650px){.picture-container {width:50%; margin: auto}}
+@media screen and (max-width: 500px){.picture-container {width: 90%; margin: 0 0.5rem;}}
+@media screen and (min-width: 650px){.picture-container {width:70%; margin: auto}}
 @media screen and (min-width: 1000px){.picture-container {width:40%; margin: auto}}
 
 

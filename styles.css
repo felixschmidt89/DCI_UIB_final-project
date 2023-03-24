@@ -392,14 +392,15 @@ h1 {
     background-position: 50% 31%;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
   .picture-container {
+    width: 90%;
     margin: 0 0.5rem;
   }
 }
 @media screen and (min-width: 650px) {
   .picture-container {
-    width: 50%;
+    width: 70%;
     margin: auto;
   }
 }
