@@ -403,7 +403,7 @@ h1 {
     margin: auto;
   }
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 850px) {
   .picture-container {
     width: 40%;
     margin: auto;
