@@ -392,18 +392,18 @@ h1 {
     background-position: 50% 31%;
   }
 }
-@media screen and (max-width: 649px) {
+@media screen and (max-width: 600px) {
   .picture-container {
     margin: 0 0.5rem;
   }
 }
 @media screen and (min-width: 650px) {
   .picture-container {
-    width: 60%;
+    width: 50%;
     margin: auto;
   }
 }
-@media screen and (min-width: 850px) {
+@media screen and (min-width: 1000px) {
   .picture-container {
     width: 40%;
     margin: auto;
