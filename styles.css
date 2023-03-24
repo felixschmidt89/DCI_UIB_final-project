@@ -394,22 +394,22 @@ h1 {
 }
 @media screen and (max-width: 500px) {
   .picture-container {
-    width: 80%;
+    width: 80vw;
   }
 }
 @media screen and (min-width: 650px) {
   .picture-container {
-    width: 70%;
+    width: 70vw;
   }
 }
 @media screen and (min-width: 1000px) {
   .picture-container {
-    width: 50%;
+    width: 50vw;
   }
 }
 @media screen and (min-width: 1400px) {
   .picture-container {
-    width: 40%;
+    width: 40vw;
   }
 }
 #copyright {
