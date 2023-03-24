@@ -395,13 +395,11 @@ h1 {
 @media screen and (max-width: 649px) {
   .picture-container {
     width: 80vw;
-    margin: 0 0.3rem;
   }
 }
 @media screen and (min-width: 650px) {
   .picture-container {
     width: 70vw;
-    margin: 0 1rem;
   }
 }
 @media screen and (min-width: 1000px) {
