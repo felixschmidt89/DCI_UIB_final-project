@@ -652,12 +652,6 @@ input[type=submit]:hover {
     flex-wrap: wrap;
     gap: 0.1rem 1rem;
   }
-  :first-child {
-    transform: translateX(-2px);
-  }
-  :nth-child(2) {
-    transform: translateX(-2px);
-  }
   .cv-container {
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "head head" "experience education" "experience skills" "experience .";
@@ -670,9 +664,6 @@ input[type=submit]:hover {
     flex-direction: row;
     flex-wrap: wrap;
   }
-  :first-child {
-    transform: translateX(-1px);
-  }
   .cv-container {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: "head head head" "education experience experience" "skills experience experience";
@@ -684,8 +675,10 @@ input[type=submit]:hover {
   color: #50537c;
 }
 #cv-contact div span {
-  transform: translateY(1px);
   margin-right: 0.3rem;
+}
+#cv-contact :first-child, #cv-contact :nth-child(2) {
+  transform: translateX(-1px);
 }
 
 h2 {
