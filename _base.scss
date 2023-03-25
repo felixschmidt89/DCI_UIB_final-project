@@ -35,13 +35,13 @@ h2 {margin-bottom: 0.5rem;}
 
 
 // Default font sizes
-@media screen and (max-width: 349px) {h1 {font-size: 1.6rem;} h2{font-size: 1.2rem;} h3{font-size: 1.1rem;} p, section, div {font-size: 1rem;}}
-@media screen and (min-width: 350px) {h1 {font-size: 1.6rem;} h2{font-size: 1.25rem;} h3{font-size: 1.15rem;}p, section, div {font-size: 1.05rem;}}
-@media screen and (min-width: 600px) {h1 {font-size: 1.7rem;} h2{font-size: 1.3rem;} h3{font-size: 1.2rem;}p, section, div {font-size: 1.1rem;}}
-@media screen and (min-width: 768px) {h1 {font-size: 1.85rem;} h2{font-size: 1.35rem;} h3{font-size: 1.25rem;}p, section, div {font-size: 1.15rem;}}
-@media screen and (min-width: 1024px) {h1 {font-size: 1.9rem;} h2{font-size: 1.5rem;} h3{font-size: 1.4rem;}p, section, div {font-size: 1.2rem;}}
-@media screen and (min-width: 1600px) {h1 {font-size: 1.95rem;} h2{font-size: 1.55rem;}h3{font-size: 1.45rem;} p, section, div {font-size: 1.25rem;}}
-@media screen and (min-width: 2000px) {h1 {font-size: 2.1rem;} h2{font-size: 1.7rem;}h3{font-size: 1.6rem;} p, section, div {font-size: 1.4rem;}}
+@media screen and (max-width: 349px) {h1 {font-size: 1.45rem;} h2{font-size: 1.15rem;} h3{font-size: 1.1rem;} p, section, div {font-size: 1rem;}}
+@media screen and (min-width: 350px) {h1 {font-size: 1.5rem;} h2{font-size: 1.20rem;} h3{font-size: 1.15rem;}p, section, div {font-size: 1.05rem;}}
+@media screen and (min-width: 600px) {h1 {font-size: 1.55rem;} h2{font-size: 1.25rem;} h3{font-size: 1.2rem;}p, section, div {font-size: 1.1rem;}}
+@media screen and (min-width: 768px) {h1 {font-size: 1.65rem;} h2{font-size: 1.3rem;} h3{font-size: 1.25rem;}p, section, div {font-size: 1.15rem;}}
+@media screen and (min-width: 1024px) {h1 {font-size: 1.7rem;} h2{font-size: 1.4rem;} h3{font-size: 1.3rem;}p, section, div {font-size: 1.2rem;}}
+@media screen and (min-width: 1600px) {h1 {font-size: 1.75rem;} h2{font-size: 1.45rem;}h3{font-size: 1.35rem;} p, section, div {font-size: 1.25rem;}}
+@media screen and (min-width: 2000px) {h1 {font-size: 1.9rem;} h2{font-size: 1.6rem;}h3{font-size: 1.5rem;} p, section, div {font-size: 1.4rem;}}
 
 
 @media screen and (max-width: 599px) {#impressum, .cv-container, #about-project, #career-change, #pos-expert {padding: 0.5rem 0.35rem;}}
