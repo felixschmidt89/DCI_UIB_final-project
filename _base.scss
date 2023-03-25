@@ -20,7 +20,9 @@ body {font-family: $font;
   }
 a{color: $primary-color-light;}
 a:active {color: $warning-color;}
-h1,h2,h3,h4,h5,h6 {color: $signal-color;font-family: $font-title; font-weight: 900;}
+h1,h2,h3,h4,h5,h6 {color: $signal-color;font-family: $font-title;}
+h1 {font-weight: 900;}
+h2,h3,h4,h5,h6 {font-weight: 600;}
 h2 {margin-bottom: 0.5rem;}
 ::-moz-selection {
     color: $background-color;
@@ -44,17 +46,15 @@ h2 {margin-bottom: 0.5rem;}
 @media screen and (min-width: 2000px) {h1 {font-size: 1.9rem;} h2{font-size: 1.6rem;}h3{font-size: 1.5rem;} p, section, div {font-size: 1.4rem;}}
 
 
-@media screen and (max-width: 599px) {#impressum, .cv-container, #about-project, #career-change, #pos-expert {padding: 0.5rem 0.35rem;}}
-@media screen and (min-width: 600px) {#impressum, .cv-container, #about-project, #career-change, #pos-expert {padding: 0.5rem 1rem;}}
 
 // Default container margin and padding
-@media screen and (max-width: 349px) {#impressum, .cv-container, #about-project, #career-change, #pos-expert {margin: 1rem 0.6rem;}}
-@media screen and (min-width: 350px) {#impressum, .cv-container, #about-project, #career-change, #pos-expert {margin: 1rem 0.7rem;}}
-@media screen and (min-width: 600px) {#impressum, .cv-container, #about-project, #career-change, #pos-expert {margin: 1rem 0.8rem;}}
-@media screen and (min-width: 768px) {#impressum, .cv-container, #about-project, #career-change, #pos-expert {margin: 1rem 4vw; padding: 0.5rem;}}
-@media screen and (min-width: 1024px) {#impressum, .cv-container, #about-project, #career-change, #pos-expert {margin: 1.5rem 8vw; padding: 1rem;}}
-@media screen and (min-width: 1600px) {#impressum, .cv-container, #about-project, #career-change, #pos-expert {margin: 2rem 10vw; padding: 1rem 2rem;}}
-@media screen and (min-width: 2000px) {#impressum, .cv-container, #about-project, #career-change, #pos-expert {margin: 2.5rem 20vw; padding: 1rem 2rem;}}
+@media screen and (max-width: 349px) {#impressum, .cv-container, #about-project, #career-change, #pos-expert {margin: 1rem 0.6rem;padding: 0.2rem 0.5rem 0.3rem 0.5rem;}}
+@media screen and (min-width: 350px) {#impressum, .cv-container, #about-project, #career-change, #pos-expert {margin: 1rem 0.7rem;padding: 0.2rem 0.5rem 0.3rem 0.5rem;}}
+@media screen and (min-width: 600px) {#impressum, .cv-container, #about-project, #career-change, #pos-expert {margin: 1rem 0.8rem; padding: 0.2rem 0.5rem 0.3rem 0.5rem;};}
+@media screen and (min-width: 768px) {#impressum, .cv-container, #about-project, #career-change, #pos-expert {margin: 1rem 4vw; padding: 0.2rem 0.5rem 0.3rem 0.5rem;}}
+@media screen and (min-width: 1024px) {#impressum, .cv-container, #about-project, #career-change, #pos-expert {margin: 1.5rem 8vw; padding: 0.3rem 1rem 0.5rem 1rem;}}
+@media screen and (min-width: 1600px) {#impressum, .cv-container, #about-project, #career-change, #pos-expert {margin: 2rem 10vw; padding: 0.3rem 2rem 1rem 2rem;}}
+@media screen and (min-width: 2000px) {#impressum, .cv-container, #about-project, #career-change, #pos-expert {margin: 2.5rem 20vw; padding: 0.3rem 2rem 1rem 2rem;}}
 
 // header, footer, navbar fonts
 @media screen and (max-width: 349px) {header p, footer p, .navigation-links a {font-size: 1.1rem;}}
