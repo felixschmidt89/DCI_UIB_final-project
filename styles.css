@@ -243,7 +243,7 @@ header {
   overflow: hidden;
 }
 
-header p {
+header div {
   display: none;
   color: #388697;
   margin: 0 0 0 1rem;
@@ -257,17 +257,17 @@ header p {
   }
 }
 @media (min-width: 350px) and (max-width: 499px) {
-  header p:nth-child(1) {
+  header div:nth-child(1) {
     display: flex;
   }
 }
 @media (min-width: 500px) and (max-width: 750px) {
-  header p:nth-child(2) {
+  header div:nth-child(2) {
     display: flex;
   }
 }
 @media (min-width: 751px) {
-  header p:nth-child(3) {
+  header div:nth-child(3) {
     display: flex;
   }
 }
@@ -370,7 +370,7 @@ h1 {
 
 @media (max-width: 480px) {
   .picture-container {
-    background-image: url(./images/picture-mobile.jpeg);
+    background-image: url(./images/picture-mobile.webp);
     background-size: cover;
     background-position: center;
   }
@@ -380,14 +380,14 @@ h1 {
 }
 @media (min-width: 481px) and (max-width: 1024px) {
   .picture-container {
-    background-image: url(./images/picture-tablet.jpeg);
+    background-image: url(./images/picture-tablet.webp);
     background-size: cover;
     background-position: 50% 27%;
   }
 }
 @media (min-width: 1025px) {
   .picture-container {
-    background-image: url(./images/picture-desktop.JPG);
+    background-image: url(./images/picture-desktop.webp);
     background-size: cover;
     background-position: 50% 31%;
   }
