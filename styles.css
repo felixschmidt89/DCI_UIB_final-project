@@ -243,17 +243,17 @@ header {
   overflow: hidden;
 }
 
-header div {
+#brand-tiny, #brand-small, #brand-mobile {
   display: none;
 }
 
 @media screen and (max-width: 349px) {
-  header .navigation-links {
-    padding-left: 0.5rem;
+  .navigation-links {
+    padding: 0 0.5rem;
   }
 }
-@media (min-width: 500px) and (max-width: 750px) {
-  header div:nth-child(2) {
+@media (min-width: 350px) and (max-width: 499px) {
+  #brand-tiny {
     display: flex;
     color: #388697;
     margin: 0 0 0 1rem;
@@ -261,8 +261,17 @@ header div {
     border-right: 2px solid #388697;
   }
 }
-@media (min-width: 751px) {
-  header div:nth-child(3) {
+@media (min-width: 500px) and (max-width: 750px) {
+  #brand-small {
+    display: flex;
+    color: #388697;
+    margin: 0 0 0 1rem;
+    padding: 0 0.5rem;
+    border-right: 2px solid #388697;
+  }
+}
+@media screen and (min-width: 751px) {
+  #brand-mobile {
     display: flex;
     color: #388697;
     margin: 0 0 0 1rem;

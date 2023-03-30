@@ -1,5 +1,5 @@
+@use 'base';
 
 @mixin brand {display: flex; color: base.$secondary-color; margin:0 0 0 1rem; padding: 0 0.5rem; border-right: 2px solid base.$secondary-color;}
 @mixin container{display: flex; flex-direction: column; flex-wrap: wrap; justify-content: center; align-items: center;}
-
 @mixin border {border: 2px solid rgba(0,0,0,0.15); box-shadow: 9px 9px 20px -15px rgba(0,0,0,0.9);}

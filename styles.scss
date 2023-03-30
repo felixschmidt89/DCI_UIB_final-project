@@ -18,13 +18,11 @@ header{display: flex;
   overflow: hidden;}
 
 //navbar-logo:
-header div {display: none;}
-.brand {}
-@media screen and (max-width:349px) {header .navigation-links {padding-left: 0.5rem;}}
-@media (min-width:350px) and (max-width:499px) {header div:nth-child(1){@include mixin.brand;}}
-@media (min-width: 500px) and (max-width:750px) {header div:nth-child(2){@include mixin.brand;}}
-@media (min-width:751px) {header div:nth-child(3){@include mixin.brand;}}
-
+#brand-tiny, #brand-small, #brand-mobile {display: none;}
+@media screen and (max-width: 349px) {.navigation-links {padding: 0 0.5rem;}}
+@media (min-width:350px) and (max-width:499px) {#brand-tiny{@include mixin.brand;}}
+@media (min-width: 500px) and (max-width:750px){#brand-small{@include mixin.brand;}}
+@media screen and (min-width:751px){#brand-mobile{@include mixin.brand;}}
 
 .navigation-links{display: flex; gap: 1rem;
   a{text-decoration: none; color: base.$background-color;} 
