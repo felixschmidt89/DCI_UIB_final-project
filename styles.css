@@ -723,6 +723,8 @@ h2 {
 }
 #impressum a {
   color: #50537c;
+  width: -moz-max-content;
+  width: max-content;
 }
 
 footer {
