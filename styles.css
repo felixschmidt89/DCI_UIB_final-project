@@ -712,6 +712,7 @@ h2 {
 }
 
 #impressum {
+  font-size: 0.9rem;
   border: 2px solid rgba(0, 0, 0, 0.15);
   box-shadow: 9px 9px 20px -15px rgba(0, 0, 0, 0.9);
   border-radius: 25px;
@@ -720,8 +721,7 @@ h2 {
   height: 300px;
   overflow: auto;
 }
-#impressum p, #impressum a {
-  font-size: 0.9rem;
+#impressum a {
   color: #50537c;
 }
 
