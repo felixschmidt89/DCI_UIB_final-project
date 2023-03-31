@@ -172,7 +172,7 @@ h2{text-align: center;};
 
 // Impressum
 
-#impressum {font-size: 0.9rem; @include mixin.border; border-radius: 25px; display: flex; flex-direction: column; height: 300px; overflow: auto;
+#impressum {font-size: 0.9rem; @include mixin.border; border-radius: 25px; height: 300px; overflow: auto;
 a{color: base.$primary-color-light; width: max-content;}}
 
 // Footer
