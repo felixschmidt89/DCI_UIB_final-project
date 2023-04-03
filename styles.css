@@ -695,20 +695,29 @@ h2 {
 
 .cv-bulletpoint {
   font-weight: 600;
-  margin-top: 1rem;
+  margin-top: 0.25rem;
 }
 
 .cv-period {
   font-weight: 300;
   font-style: italic;
-  margin-top: 0.1rem;
+  margin-top: 0.2rem;
 }
 
 .cv-description {
   margin-left: 1rem;
   position: relative;
   color: #388697;
-  margin-top: 0.6rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.cv h3 {
+  margin-top: 1.5rem;
+}
+
+.cv-head {
+  margin-bottom: 0.5rem;
 }
 
 #impressum {
