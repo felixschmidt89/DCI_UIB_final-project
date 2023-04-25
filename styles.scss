@@ -1,194 +1,544 @@
 // Sass partials
 
-@use 'base';
-@use 'mixin';
+@use "base";
+@use "mixin";
 
 // navbar:
 
-header{display: flex; 
-  flex-direction: row; 
+header {
+  display: flex;
+  flex-direction: row;
   height: 50px;
-  background-color: base.$primary-color; 
-  color: base.$background-color; 
-  align-items: center; 
-  justify-content: space-between; 
+  background-color: base.$primary-color;
+  color: base.$background-color;
+  align-items: center;
+  justify-content: space-between;
   position: sticky;
-  top:0;
+  top: 0;
   z-index: 999;
-  overflow: hidden;}
+  overflow: hidden;
+}
 
 //navbar-logo:
-#brand-tiny, #brand-small, #brand-mobile {display: none;}
-@media screen and (max-width: 349px) {.navigation-links {padding: 0 0.5rem;}}
-@media (min-width:350px) and (max-width:499px) {#brand-tiny{@include mixin.brand;}}
-@media (min-width: 500px) and (max-width:750px){#brand-small{@include mixin.brand;}}
-@media screen and (min-width:751px){#brand-mobile{@include mixin.brand;}}
-
-.navigation-links{display: flex; gap: 1rem;
-  a{text-decoration: none; color: base.$background-color;} 
-    a:last-child {padding-right: 1.1rem;}
-  a:visited{color: base.$secondary-color}
-  a:hover{color: base.$signal-color; transform: scale(1.1);}
-    a:focus{border: 3px solid base.$background-color; color: base.$background-color;}
-    a:active{color: base.$warning-color;}
+#brand-tiny,
+#brand-small,
+#brand-mobile {
+  display: none;
+}
+@media screen and (max-width: 349px) {
+  .navigation-links {
+    padding: 0 0.5rem;
   }
+}
+@media (min-width: 350px) and (max-width: 499px) {
+  #brand-tiny {
+    @include mixin.brand;
+  }
+}
+@media (min-width: 500px) and (max-width: 750px) {
+  #brand-small {
+    @include mixin.brand;
+  }
+}
+@media screen and (min-width: 751px) {
+  #brand-mobile {
+    @include mixin.brand;
+  }
+}
 
+.navigation-links {
+  display: flex;
+  gap: 1rem;
+  a {
+    text-decoration: none;
+    color: base.$background-color;
+  }
+  a:last-child {
+    padding-right: 1.1rem;
+  }
+  a:visited {
+    color: base.$secondary-color;
+  }
+  a:hover {
+    color: base.$signal-color;
+    transform: scale(1.1);
+  }
+  a:focus {
+    border: 3px solid base.$background-color;
+    color: base.$background-color;
+  }
+  a:active {
+    color: base.$warning-color;
+  }
+}
 
-* {scroll-behavior: smooth;}
-#cv, #about-project, #me{scroll-margin-top: 50px;}
+* {
+  scroll-behavior: smooth;
+}
+#cv,
+#about-project,
+#me {
+  scroll-margin-top: 50px;
+}
 
 // switch language buttons
 .switch-language {
-    display: flex;
-    gap: 0.7rem;
-    margin: 0.5rem 1rem;
-  }
-    .switch-language a {padding: 0.5rem;
+  display: flex;
+  gap: 0.7rem;
+  margin: 0.5rem 1rem;
+}
+.switch-language a {
+  padding: 0.5rem;
   border: 1px solid base.$secondary-color;
-  border-radius: 50%; text-decoration: none; color: base.$background-color;}
-    .switch-language :first-child {
-    background-color: base.$secondary-color;
-  }
-  .switch-language :nth-child(2) {
-    background-color: base.$primary-color;
-  }
-  .switch-language a:hover {
-    transform: scale(1.2);
-  }
-  .switch-language a:focus{border: 3px solid base.$background-color; background-color:base.$background-color; color: base.$primary-color;}
+  border-radius: 50%;
+  text-decoration: none;
+  color: base.$background-color;
+}
+.switch-language :first-child {
+  background-color: base.$secondary-color;
+}
+.switch-language :nth-child(2) {
+  background-color: base.$primary-color;
+}
+.switch-language a:hover {
+  transform: scale(1.2);
+}
+.switch-language a:focus {
+  border: 3px solid base.$background-color;
+  background-color: base.$background-color;
+  color: base.$primary-color;
+}
 
 // hero
-h1{text-align: center; margin: 1rem; animation-name: drop;
-  animation-delay: 0.2s; animation-duration: 2.5s;}
-  @keyframes drop {
-    from {transform: translateY(-300px)}
-    to {transform: translateY(0px)}
+h1 {
+  text-align: center;
+  margin: 1rem;
+  animation-name: drop;
+  animation-delay: 0.2s;
+  animation-duration: 2.5s;
+}
+@keyframes drop {
+  from {
+    transform: translateY(-300px);
   }
+  to {
+    transform: translateY(0px);
+  }
+}
 
-  .picture-container {height: 50vh; display: flex; border-radius: 25px; margin: 0.1rem auto;}
-    .picture-container div {; width: 100%;height: 100%; background-repeat: no-repeat; background-size: cover; background-position: center top;}
-     @media (max-width: 480px){
-    .picture-container {background-image: url(./images/picture-mobile.webp); background-size: cover; background-position: center;
-    a{font-size: 0.8rem;}}}
-    @media (min-width: 481px) and (max-width: 1024px) {.picture-container {background-image: url(./images/picture-tablet.webp); background-size: cover; background-position: 50% 27%; }}
-    @media (min-width: 1025px){.picture-container {background-image: url(./images/picture-desktop.webp); background-size: cover; background-position: 50% 31%;}}
-@media screen and (max-width: 649px){.picture-container {width:80vw;}}
-@media screen and (min-width: 650px){.picture-container {width:70vw;}}
-@media screen and (min-width: 1000px){.picture-container {width:50vw;}}
-@media screen and (min-width: 1400px){.picture-container {width:40vw;}}
+.picture-container {
+  height: 50vh;
+  display: flex;
+  border-radius: 25px;
+  margin: 0.1rem auto;
+}
+.picture-container div {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+}
+@media (max-width: 480px) {
+  .picture-container {
+    background-image: url(./images/picture-mobile.webp);
+    background-size: cover;
+    background-position: center;
+    a {
+      font-size: 0.8rem;
+    }
+  }
+}
+@media (min-width: 481px) and (max-width: 1024px) {
+  .picture-container {
+    background-image: url(./images/picture-tablet.webp);
+    background-size: cover;
+    background-position: 50% 27%;
+  }
+}
+@media (min-width: 1025px) {
+  .picture-container {
+    background-image: url(./images/picture-desktop.webp);
+    background-size: cover;
+    background-position: 50% 31%;
+  }
+}
+@media screen and (max-width: 649px) {
+  .picture-container {
+    width: 80vw;
+  }
+}
+@media screen and (min-width: 650px) {
+  .picture-container {
+    width: 70vw;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .picture-container {
+    width: 50vw;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .picture-container {
+    width: 40vw;
+  }
+}
 
+#copyright {
+  display: flex;
+  justify-content: center;
+}
+#copyright a {
+  text-decoration: none;
+  margin-top: 0.25rem;
+}
+#copyright a:hover {
+  transform: scale(1.05);
+}
 
-
-#copyright {display: flex; justify-content: center;}
-#copyright a {text-decoration: none; margin-top: 0.25rem;}
-#copyright a:hover {transform: scale(1.05)}
-
-@media screen and (max-width: 349px) {#copyright a{font-size: 0.8rem;}}
-@media screen and (min-width: 350px) {#copyright a{font-size: 0.85rem;}}
-@media screen and (min-width: 600px) {#copyright a{font-size: 0.9rem;}}
-@media screen and (min-width: 768px) {#copyright a{font-size: 0.95rem;}}
-@media screen and (min-width:1024px) {#copyright a{font-size: 1rem;}}
-@media screen and (min-width:1600px) {#copyright a{font-size: 1.05rem;}}
-@media screen and (min-width:2000px) {#copyright a{font-size: 1.1rem;}}
-
+@media screen and (max-width: 349px) {
+  #copyright a {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (min-width: 350px) {
+  #copyright a {
+    font-size: 0.85rem;
+  }
+}
+@media screen and (min-width: 600px) {
+  #copyright a {
+    font-size: 0.9rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  #copyright a {
+    font-size: 0.95rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #copyright a {
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 1600px) {
+  #copyright a {
+    font-size: 1.05rem;
+  }
+}
+@media screen and (min-width: 2000px) {
+  #copyright a {
+    font-size: 1.1rem;
+  }
+}
 
 // about.me
-#intro, #pos-expert, #career-change {@include mixin.container; @include mixin.border; border-radius: 25px;}
-h3{margin-bottom: 0.5rem;}
-
+#intro,
+#pos-expert,
+#career-change {
+  @include mixin.container;
+  @include mixin.border;
+  border-radius: 25px;
+}
+h3 {
+  margin-bottom: 0.5rem;
+}
 
 // Connect CTA
-.connect-mobile, .connect-tablet, .connect-desktop {display: flex; gap: 1.2rem; justify-content: center; align-items: center;
-  a{color: base.$warning-color; padding: 0.9rem;font-family: base.$font}
-  a:hover{transform: scale(1.2);}}
+.connect-mobile,
+.connect-tablet,
+.connect-desktop {
+  display: flex;
+  gap: 1.2rem;
+  justify-content: center;
+  align-items: center;
+  a {
+    color: base.$warning-color;
+    padding: 0.9rem;
+    font-family: base.$font;
+  }
+  a:hover {
+    transform: scale(1.2);
+  }
+}
 
-@media (min-width:1px) and (max-width: 349px) {.connect-tablet, .connect-desktop {display: none;} .connect-mobile {display: flex;}}
-@media (min-width:350px) and (max-width: 767px) {.connect-mobile, .connect-desktop {display: none;} .connect-tablet {display: flex;}}
-@media (min-width:768px) {.connect-mobile,.connect-tablet{display: none;} .connect-desktop {display: flex;}}
-
+@media (min-width: 1px) and (max-width: 349px) {
+  .connect-tablet,
+  .connect-desktop {
+    display: none;
+  }
+  .connect-mobile {
+    display: flex;
+  }
+}
+@media (min-width: 350px) and (max-width: 767px) {
+  .connect-mobile,
+  .connect-desktop {
+    display: none;
+  }
+  .connect-tablet {
+    display: flex;
+  }
+}
+@media (min-width: 768px) {
+  .connect-mobile,
+  .connect-tablet {
+    display: none;
+  }
+  .connect-desktop {
+    display: flex;
+  }
+}
 
 // project = about.project
-#about-project{@include mixin.container; border-radius: 25px; @include mixin.border;}
+#about-project {
+  @include mixin.container;
+  border-radius: 25px;
+  @include mixin.border;
+}
 
 // form
 
-form {display: flex; flex-direction: column; color: base.$warning-color; text-align: center; font-weight: 900; overflow: visible;}
-textarea, input{font-family: base.$font; text-align: center; }
-input[type=submit]{background-color: base.$warning-color; color: base.$background-color; font-weight: bold; border-radius: 25px; text-transform: uppercase; margin-bottom: 0.5rem;}
-input[type=submit]:hover{background-color: base.$signal-color; color: base.$primary-color; cursor: pointer; }
-
-
-@media screen and (max-width: 349px) {form {font-size: 1.1rem; margin: 0rem 5vw;} input[type="submit"], input[type="text"], input[type="email"], textarea{font-size: 1rem;}}
-@media screen and (min-width: 350px) {form {font-size: 1.05rem; margin: 0rem 5vw;} input[type="submit"], input[type="text"], input[type="email"], textarea{font-size: 1.05rem;}}
-@media screen and (min-width: 600px) {form {font-size: 1.1rem; margin: 0rem 20vw;}input[type="submit"], input[type="text"], input[type="email"], textarea{font-size: 1.1rem;}}
-@media screen and (min-width: 768px) {form {font-size: 1.15rem; margin: 0rem 25vw;}input[type="submit"], input[type="text"], input[type="email"], textarea{font-size: 1.15rem;}}
-@media screen and (min-width:1024px) {form {font-size: 1.2rem; margin: 0rem 30vw;}input[type="submit"], input[type="text"], input[type="email"], textarea{font-size: 1.2rem;}}
-@media screen and (min-width:1600px) {form {font-size: 1.2.5rem; margin: 0rem 35vw;}input[type="submit"], input[type="text"], input[type="email"], textarea{font-size: 1.25rem;}}
-@media screen and (min-width:2000px) {form {font-size: 1.4rem; margin: 0rem 39vw;}input[type="submit"], input[type="text"], input[type="email"], textarea{font-size: 1.4rem;}}
-
-
-.cv-container{display: grid;
-grid-template-areas: 'head'
-'education'
-'experience'
-'skills';
-border-radius: 25px; @include mixin.border;}
-
-
-.cv-head {grid-area: head;}
-.cv-education {grid-area: education; margin-top: 0.5rem;}
-.cv-experience {grid-area: experience; margin-top: 0.5rem;}
-.cv-skills {grid-area: skills; margin-top: 0.5rem;}
-
-@media screen and (min-width:600px) {
-  #cv-contact{display: flex;flex-direction: row; flex-wrap: wrap; gap: 0.1rem 1rem;}
-  .cv-container{grid-template-columns: 1fr 1fr;
-  grid-template-areas: 'head head'
-'experience education'
-'experience skills'
-'experience .';
-gap: 15px;}
+form {
+  display: flex;
+  flex-direction: column;
+  color: base.$warning-color;
+  text-align: center;
+  font-weight: 900;
+  overflow: visible;
+}
+textarea,
+input {
+  font-family: base.$font;
+  text-align: center;
+}
+input[type="submit"] {
+  background-color: base.$warning-color;
+  color: base.$background-color;
+  font-weight: bold;
+  border-radius: 25px;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+input[type="submit"]:hover {
+  background-color: base.$signal-color;
+  color: base.$primary-color;
+  cursor: pointer;
 }
 
-@media screen and (min-width:1024px) {
-  #cv-contact{display: flex;flex-direction: row; flex-wrap: wrap;}
-  .cv-container{grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas: 'head head head'
-'education experience experience'
-'skills experience experience';
-gap: 20px 100px;}
+@media screen and (max-width: 349px) {
+  form {
+    font-size: 1.1rem;
+    margin: 0rem 5vw;
+  }
+  input[type="submit"],
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 350px) {
+  form {
+    font-size: 1.05rem;
+    margin: 0rem 5vw;
+  }
+  input[type="submit"],
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    font-size: 1.05rem;
+  }
+}
+@media screen and (min-width: 600px) {
+  form {
+    font-size: 1.1rem;
+    margin: 0rem 20vw;
+  }
+  input[type="submit"],
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    font-size: 1.1rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  form {
+    font-size: 1.15rem;
+    margin: 0rem 25vw;
+  }
+  input[type="submit"],
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    font-size: 1.15rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  form {
+    font-size: 1.2rem;
+    margin: 0rem 30vw;
+  }
+  input[type="submit"],
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (min-width: 1600px) {
+  form {
+    font-size: 1.2.5rem;
+    margin: 0rem 35vw;
+  }
+  input[type="submit"],
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    font-size: 1.25rem;
+  }
+}
+@media screen and (min-width: 2000px) {
+  form {
+    font-size: 1.4rem;
+    margin: 0rem 39vw;
+  }
+  input[type="submit"],
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    font-size: 1.4rem;
+  }
+}
+
+.cv-container {
+  display: grid;
+  grid-template-areas:
+    "head"
+    "education"
+    "experience"
+    "skills";
+  border-radius: 25px;
+  @include mixin.border;
+}
+
+.cv-head {
+  grid-area: head;
+}
+.cv-education {
+  grid-area: education;
+  margin-top: 0.5rem;
+}
+.cv-experience {
+  grid-area: experience;
+  margin-top: 0.5rem;
+}
+.cv-skills {
+  grid-area: skills;
+  margin-top: 0.5rem;
+}
+
+@media screen and (min-width: 600px) {
+  #cv-contact {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.1rem 1rem;
+  }
+  .cv-container {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "head head"
+      "experience education"
+      "experience skills"
+      "experience .";
+    gap: 15px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #cv-contact {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .cv-container {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+      "head head head"
+      "education experience experience"
+      "skills experience experience";
+    gap: 20px 100px;
+  }
 }
 
 #cv-contact {
-  a, div, {text-decoration: none; color: base.$primary-color-light;}
-div span {margin-right: 0.3rem;}
-:first-child, :nth-child(2) {transform: translateX(-1px);} }
-h2{text-align: center;};
-.cv-bulletpoint{font-weight: 600;margin-top: 0.25rem;}
-.cv-period {font-weight: 300; font-style: italic; margin-top: 0.2rem;}
-.cv-description {margin-left: 1rem; position: relative; color: base.$secondary-color; margin-top: 0.3rem; margin-bottom: 0.5rem;}
-.cv h3{margin-top: 1.5rem;}
-.cv-head {margin-bottom: 1rem;}
-
-
+  a,
+  div {
+    text-decoration: none;
+    color: base.$primary-color-light;
+  }
+  div span {
+    margin-right: 0.3rem;
+  }
+  :first-child,
+  :nth-child(2) {
+    transform: translateX(-1px);
+  }
+}
+h2 {
+  text-align: center;
+}
+.cv-bulletpoint {
+  font-weight: 600;
+  margin-top: 0.25rem;
+}
+.cv-period {
+  font-weight: 300;
+  font-style: italic;
+  margin-top: 0.2rem;
+}
+.cv-description {
+  margin-left: 1rem;
+  position: relative;
+  color: base.$secondary-color;
+  margin-top: 0.3rem;
+  margin-bottom: 0.5rem;
+}
+.cv h3 {
+  margin-top: 1.5rem;
+}
+.cv-head {
+  margin-bottom: 1rem;
+}
 
 // Impressum
 
-#impressum {font-size: 0.9rem; @include mixin.border; border-radius: 25px; height: 300px; overflow: auto;
-a{color: base.$primary-color-light; width: max-content;}}
+#impressum {
+  font-size: 0.9rem;
+  @include mixin.border;
+  border-radius: 25px;
+  height: 300px;
+  overflow: auto;
+  a {
+    color: base.$primary-color-light;
+    width: max-content;
+  }
+}
 
 // Footer
-footer{display: flex; 
-  flex-direction: row; 
-  height: 50px; 
-  background-color:base.$primary-color; 
-  color: base.$background-color; 
-  align-items: center; 
-  justify-content: center; 
+footer {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  background-color: base.$primary-color;
+  color: base.$background-color;
+  align-items: center;
+  justify-content: center;
   bottom: 0;
   overflow: hidden;
-  
-p {margin: 0;}}
 
-
-
+  p {
+    margin: 0;
+  }
+}

@@ -18,7 +18,12 @@ a:active {
   color: #e55381;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: #03c9a1;
   font-family: "Inter", sans-serif;
 }
@@ -27,7 +32,11 @@ h1 {
   font-weight: 900;
 }
 
-h2, h3, h4, h5, h6 {
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: 600;
 }
 
@@ -64,7 +73,9 @@ h2 {
   h3 {
     font-size: 1.1rem;
   }
-  p, section, div {
+  p,
+  section,
+  div {
     font-size: 1rem;
   }
 }
@@ -78,7 +89,9 @@ h2 {
   h3 {
     font-size: 1.15rem;
   }
-  p, section, div {
+  p,
+  section,
+  div {
     font-size: 1.05rem;
   }
 }
@@ -92,7 +105,9 @@ h2 {
   h3 {
     font-size: 1.2rem;
   }
-  p, section, div {
+  p,
+  section,
+  div {
     font-size: 1.1rem;
   }
 }
@@ -106,7 +121,9 @@ h2 {
   h3 {
     font-size: 1.25rem;
   }
-  p, section, div {
+  p,
+  section,
+  div {
     font-size: 1.15rem;
   }
 }
@@ -120,7 +137,9 @@ h2 {
   h3 {
     font-size: 1.3rem;
   }
-  p, section, div {
+  p,
+  section,
+  div {
     font-size: 1.2rem;
   }
 }
@@ -134,7 +153,9 @@ h2 {
   h3 {
     font-size: 1.35rem;
   }
-  p, section, div {
+  p,
+  section,
+  div {
     font-size: 1.25rem;
   }
 }
@@ -148,84 +169,128 @@ h2 {
   h3 {
     font-size: 1.5rem;
   }
-  p, section, div {
+  p,
+  section,
+  div {
     font-size: 1.4rem;
   }
 }
 @media screen and (max-width: 349px) {
-  #impressum, .cv-container, #about-project, #career-change, #pos-expert {
+  #impressum,
+  .cv-container,
+  #about-project,
+  #career-change,
+  #pos-expert {
     margin: 1rem 0.6rem;
     padding: 0.2rem 0.5rem 0.5rem 0.5rem;
   }
 }
 @media screen and (min-width: 350px) {
-  #impressum, .cv-container, #about-project, #career-change, #pos-expert {
+  #impressum,
+  .cv-container,
+  #about-project,
+  #career-change,
+  #pos-expert {
     margin: 1rem 0.7rem;
     padding: 0.2rem 0.5rem 0.5rem 0.5rem;
   }
 }
 @media screen and (min-width: 600px) {
-  #impressum, .cv-container, #about-project, #career-change, #pos-expert {
+  #impressum,
+  .cv-container,
+  #about-project,
+  #career-change,
+  #pos-expert {
     margin: 1rem 0.8rem;
     padding: 0.2rem 0.5rem 0.5rem 0.5rem;
   }
 }
 @media screen and (min-width: 768px) {
-  #impressum, .cv-container, #about-project, #career-change, #pos-expert {
+  #impressum,
+  .cv-container,
+  #about-project,
+  #career-change,
+  #pos-expert {
     margin: 1rem 4vw;
     padding: 0.2rem 0.5rem 0.3rem 0.5rem;
   }
 }
 @media screen and (min-width: 1024px) {
-  #impressum, .cv-container, #about-project, #career-change, #pos-expert {
+  #impressum,
+  .cv-container,
+  #about-project,
+  #career-change,
+  #pos-expert {
     margin: 1.5rem 8vw;
     padding: 0.3rem 1rem 0.5rem 1rem;
   }
 }
 @media screen and (min-width: 1600px) {
-  #impressum, .cv-container, #about-project, #career-change, #pos-expert {
+  #impressum,
+  .cv-container,
+  #about-project,
+  #career-change,
+  #pos-expert {
     margin: 2rem 10vw;
     padding: 0.3rem 2rem 1rem 2rem;
   }
 }
 @media screen and (min-width: 2000px) {
-  #impressum, .cv-container, #about-project, #career-change, #pos-expert {
+  #impressum,
+  .cv-container,
+  #about-project,
+  #career-change,
+  #pos-expert {
     margin: 2.5rem 20vw;
     padding: 0.3rem 2rem 1rem 2rem;
   }
 }
 @media screen and (max-width: 349px) {
-  header p, footer p, .navigation-links a {
+  header p,
+  footer p,
+  .navigation-links a {
     font-size: 1.1rem;
   }
 }
 @media screen and (min-width: 350px) {
-  header p, footer p, .navigation-links a {
+  header p,
+  footer p,
+  .navigation-links a {
     font-size: 1.1rem;
   }
 }
 @media screen and (min-width: 600px) {
-  header p, footer p, .navigation-links a {
+  header p,
+  footer p,
+  .navigation-links a {
     font-size: 1.15rem;
   }
 }
 @media screen and (min-width: 768px) {
-  header p, footer p, .navigation-links a {
+  header p,
+  footer p,
+  .navigation-links a {
     font-size: 1.2rem;
   }
 }
 @media screen and (min-width: 1024px) {
-  header p, footer p, .navigation-links a {
+  header p,
+  footer p,
+  .navigation-links a {
     font-size: 1.25rem;
   }
 }
 @media screen and (min-width: 1600px) {
-  header p, footer p, .navigation-links a {
+  header p,
+  footer p,
+  .navigation-links a {
     font-size: 1.3rem;
   }
 }
 @media screen and (min-width: 1600px) {
-  header p, footer p, .navigation-links a {
+  header p,
+  footer p,
+  .navigation-links a {
     font-size: 1.35rem;
   }
 }
