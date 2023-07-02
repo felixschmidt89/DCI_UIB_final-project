@@ -294,6 +294,34 @@ h2 {
     font-size: 1.35rem;
   }
 }
+/** @format */
+#disclaimer-popup {
+  position: fixed;
+  top: 25vh;
+  left: 0;
+  width: 100%;
+  background-color: #e55381;
+  padding: 20px;
+  z-index: 999;
+  color: #fcfaf9;
+}
+
+.disclaimer-content {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#disclaimer-accept {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #2d3047;
+  color: #fff;
+  text-decoration: none;
+  margin: 8px;
+  cursor: pointer;
+}
+
 header {
   display: flex;
   flex-direction: row;

@@ -1,7 +1,38 @@
+/** @format */
+
 // Sass partials
 
 @use "base";
 @use "mixin";
+
+// disclaimer
+
+#disclaimer-popup {
+  position: fixed;
+  top: 25vh;
+  left: 0;
+  width: 100%;
+  background-color: base.$warning-color;
+  padding: 20px;
+  z-index: 999;
+  color: base.$background-color;
+}
+
+.disclaimer-content {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#disclaimer-accept {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: base.$primary-color;
+  color: #fff;
+  text-decoration: none;
+  margin: 8px;
+  cursor: pointer;
+}
 
 // navbar:
 

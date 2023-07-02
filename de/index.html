@@ -1,53 +1,27 @@
+<!-- @format -->
+
 <!DOCTYPE html>
 <html lang="de">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      http-equiv="X-UA-Compatible"
-      content="IE=edge"
-    />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    />
-    <meta
-      name="author"
-      content="Felix Schmidt"
-    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Felix Schmidt" />
     <meta
       name="description"
-      content="Web-Dev-Student Felix Schmidts Portfolio-Webpage: Das Abschlussprojekt des ersten Moduls (User Interface Basics) im Rahmen seiner Aus- und Weiterbildung zum Web- und Softwareentwickler am DCI."
-    />
-    <meta
-      name="robots"
-      content="follow"
-    />
-    <link
-      rel="shortcut icon"
-      href="/images/favicon.ico"
-      type="image/x-icon"
-    />
-    <link
-      rel="preconnect"
-      href="https://fonts.googleapis.com"
-    />
-    <link
-      rel="preconnect"
-      href="https://fonts.gstatic.com"
-      crossorigin
-    />
+      content="Web-Dev-Student Felix Schmidts Portfolio-Webpage: Das Abschlussprojekt des ersten Moduls (User Interface Basics) im Rahmen seiner Aus- und Weiterbildung zum Web- und Softwareentwickler am DCI." />
+    <meta name="robots" content="follow" />
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@900family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="../styles.css"
-    />
+      rel="stylesheet" />
+    <link rel="stylesheet" href="../styles.css" />
     <script
       src="https://kit.fontawesome.com/ec0c52dba5.js"
-      crossorigin="anonymous"
-    ></script>
+      crossorigin="anonymous"></script>
+    <script defer src="../script.js"></script>
     <title>
       Felix Schmidt - DCI Web-Dev-Student DCI - Abschlussprojekt des 'User
       Interface Basic'-Moduls
@@ -72,28 +46,35 @@
       <a href="https://uib-final-project.netlify.app/index.html">EN</a>
     </div>
     <main>
+      <div id="disclaimer-popup">
+        <div class="disclaimer-content">
+          <p>
+            Hi, ich habe diese Homepage im Rahmen meiner Ausbildung zum
+            Web-Developer als allererstes PortfolioßProjekt erstellt. Sie wird
+            nicht weiter aktualisiert, entsprechend ist der enthaltene
+            Lebenslauf nach März 2023 nicht mehr aktuell. Danke, Felix.
+          </p>
+          <a id="disclaimer-accept" href="#">Got it!</a>
+        </div>
+      </div>
+
       <h1>
         Hi, ich bin Felix, Web-Dev-Student am
         <span title="Digital Career Instute">DCI</span>.
       </h1>
       <div
         class="picture-container"
-        alt="Web-Dev-Student Felix Schmidt steht neben dem Bode-Museum Berlin, hinter ihm sieht man den Fernsehturm."
-      ></div>
+        alt="Web-Dev-Student Felix Schmidt steht neben dem Bode-Museum Berlin, hinter ihm sieht man den Fernsehturm."></div>
       <span id="copyright">
         <a
           href="https://www.instagram.com/franzi.martini/?igshid=YmMyMTA2M2Y%3D"
-          target="_blank"
-        >
+          target="_blank">
           <i class="fa-regular fa-copyright"></i> Franziska Martini
           <i class="fa-brands fa-instagram"></i>
         </a>
       </span>
       <section>
-        <div
-          id="pos-expert"
-          class="text-container"
-        >
+        <div id="pos-expert" class="text-container">
           <h2>Beruflicher Werdegang</h2>
           <p>
             Mein gesamtes bisheriges Berufsleben (7 Jahre) kreiste um
@@ -101,10 +82,7 @@
             verändernden Tech-Startups. In meiner letzten Rolle als
             <span title="Point of Sale"><b>POS-Experte</b></span> (4.5 Jahre)
             als Teil des Produktteams von
-            <a
-              href="https://treatwell.com/"
-              target="_blank"
-              ><b>Treatwell</b></a
+            <a href="https://treatwell.com/" target="_blank"><b>Treatwell</b></a
             >war ich mit der
             <i
               >Erlangung und dem Erhalt der legalen Marktreife eines
@@ -127,10 +105,7 @@
             uninspirierendes Thema gebunden zu sein.
           </p>
         </div>
-        <div
-          id="career-change"
-          class="text-container"
-        >
+        <div id="career-change" class="text-container">
           <h2>Berufliche Veränderung</h2>
           <p>
             Da ich schnell lerne, mich als Problemlöser erwiesen habe, gut in
@@ -206,10 +181,7 @@
           ><span class="fa-brands fa-github fa-3x"></span
         ></a>
       </div>
-      <form
-        action="https://formspree.io/f/meqwepkb"
-        method="post"
-      >
+      <form action="https://formspree.io/f/meqwepkb" method="post">
         <label for="name">Name</label>
         <input
           type="text"
@@ -217,44 +189,32 @@
           minlength="1"
           required
           placeholder="Enter full name."
-          name="name"
-        /><br />
+          name="name" /><br />
         <label for="email">Email</label>
         <input
           type="email"
           minlength="5"
           placeholder="Enter email address."
           id="email"
-          name="email"
-        /><br />
+          name="email" /><br />
         <label for="message">Message</label>
         <textarea
           id="message"
           name="message"
           rows="4"
           cols="50"
-          placeholder="Drop me a line."
-        ></textarea
+          placeholder="Drop me a line."></textarea
         ><br />
-        <input
-          type="submit"
-          value="Submit"
-          class="submit-btn"
-        />
+        <input type="submit" value="Submit" class="submit-btn" />
       </form>
-      <article
-        id="about-project"
-        class="text-container"
-      >
+      <article id="about-project" class="text-container">
         <h2>Projekt</h2>
         <section>
           <p>
             Diese Website ist das Abschlussprojekt des ersten technischen Moduls
             ('<b>User Interface Basic</b>') im Rahmen des
             <b>Web-Development-Kurs</b> am
-            <a
-              href="https://digitalcareerinstitute.org/de/"
-              target="_blank"
+            <a href="https://digitalcareerinstitute.org/de/" target="_blank"
               ><b>Digital Care Institute (DCI)</b></a
             >. Im Zuge dessen habe ich zunächst gelernt, Webseiten mit
             <b>HTML</b> und <b>CSS</b> zu erstellen und danach die Grundlagen
@@ -301,17 +261,13 @@
             </div>
             <div>
               <span class="fa-solid fa-envelope"></span
-              ><a
-                href="mailto:felix.schmidt@protonmail.com"
-                target="_blank"
+              ><a href="mailto:felix.schmidt@protonmail.com" target="_blank"
                 >felix.schmidt@protonmail.com</a
               >
             </div>
             <div>
               <span class="fa-brands fa-github"></span
-              ><a
-                href="https://github.com/felixschmidt89"
-                target="_blank"
+              ><a href="https://github.com/felixschmidt89" target="_blank"
                 >github.com/felixschmidt89</a
               >
             </div>
@@ -460,9 +416,7 @@
       ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von
       Werbeinformationen, etwa durch Spam-Mails, vor.<br />
       Erstellt mit dem
-      <a
-        href="https://www.impressum-generator.de"
-        target="_blank"
+      <a href="https://www.impressum-generator.de" target="_blank"
         >Impressum-Generator</a
       >
       der
