@@ -297,9 +297,10 @@ h2 {
 /** @format */
 #disclaimer-popup {
   position: fixed;
-  top: 25vh;
+  top: 0;
   left: 0;
   width: 100%;
+  height: 20vh;
   background-color: #e55381;
   padding: 20px;
   z-index: 999;
