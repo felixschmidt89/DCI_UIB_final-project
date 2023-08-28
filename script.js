@@ -2,16 +2,11 @@
 
 "use strict";
 
-const hasDisclaimerAccepted = localStorage.getItem("disclaimerAccepted");
+// Show the pop-up when the page loads
+document.getElementById("disclaimer-popup").style.display = "block";
 
-// If the user has not accepted the timeliness disclaimer, show the pop-up
-if (!hasDisclaimerAccepted) {
-  document.getElementById("disclaimer-popup").style.display = "block";
-}
-
-// Function to handle timeliness disclaimer acceptance
+// Function to hide timeliness disclaimer upon acceptance
 function acceptDisclaimer() {
-  localStorage.setItem("disclaimerAccepted", true);
   document.getElementById("disclaimer-popup").style.display = "none";
 }
 
